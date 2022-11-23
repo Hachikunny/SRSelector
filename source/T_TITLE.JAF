@@ -1,0 +1,357 @@
+void タイトル_更新()
+{
+	if (g_rfTitle !== NULL)
+	{
+		g_rfTitle.update();
+	}
+}
+
+tagTitle::tagTitle()
+{
+	this.m_bEffect = false;
+	this.m_nEffectCount = 0;
+	this.m_nWaitTime = 0;
+}
+
+tagTitle::~tagTitle()
+{
+	this.delete();
+}
+
+int tagTitle::run()
+{
+	int nEnable = msgSkipStop(0);
+	int nID = 0;
+	音楽(204, 0, false);
+	this.create();
+	EFFECT(1, 100, 0);
+	this.start();
+	while (true)
+	{
+		nID = this.checkSelect();
+		if (nID > 0)
+		{
+			break;
+		}
+	}
+	this.end();
+	this.delete();
+	音楽(0, 0, false);
+	msgSkipSetEnable(nEnable);
+	return nID;
+}
+
+void tagTitle::update()
+{
+	int i = 0;
+	for (i = 0; i < 2; ++i)
+	{
+		this.m_sBack[i].update();
+	}
+	this.m_sParticle.update();
+	if (this.m_bEffect)
+	{
+		int idx = this.m_sEffect.update(false);
+		if (idx < 0 || idx > this.m_nEffectCount)
+		{
+			this.endEffect();
+		}
+	}
+	else if (this.m_sTimer.Get() >= this.m_nWaitTime)
+	{
+		this.startEffect();
+	}
+}
+
+void tagTitle::create()
+{
+	int i = 0;
+	this.delete();
+	画面_クリア();
+	this.m_sBack[0].create(2, 12501, 2, 1);
+	this.m_sBack[1].create(3, 12502, 2, 3);
+	this.m_sParticle.create(11);
+	this.m_spBase.setCG(12504);
+	this.m_spBase.setPos(0, 0);
+	this.m_spBase.setZ(21);
+	this.m_spBase.setShow(1);
+	this.m_spLogo.setCG(12500);
+	this.m_spLogo.setPos(0, 60);
+	this.m_spLogo.setZ(31);
+	this.m_spLogo.setShow(1);
+	this.m_sEffect.create(12510, 30);
+	this.m_sEffect.setPos(0, 18);
+	this.m_sEffect.setZ(41);
+	this.m_sEffect.setDrawMethod(1);
+	this.m_sEffect.setSpeed(35);
+	int nX = 242;
+	int nY = 410;
+	this.m_sButton.create(101, -1, -1);
+	this.createButton("Start", nX, nY, 1);
+	nY += 39;
+	this.createButton("Continue", nX, nY, 2);
+	nY += 39;
+	this.createButton("Alice's Mansion", nX, nY, 3);
+	nY += 39;
+	this.createButton("Scene Selection", nX, nY, 4);
+	nY += 39;
+	this.createButton("Exit Game", nX, nY, 9);
+	this.m_sButton.setShow(true);
+}
+
+void tagTitle::delete()
+{
+	int i = 0;
+	for (i = 0; i < 2; ++i)
+	{
+		this.m_sBack[i].delete();
+	}
+	this.m_sParticle.delete();
+	this.m_spBase.delete();
+	this.m_spLogo.delete();
+	this.m_sEffect.delete();
+	this.m_sButton.delete();
+	this.m_bEffect = false;
+	this.m_nEffectCount = 0;
+	this.m_nWaitTime = 0;
+}
+
+void tagTitle::createButton(string szText, int nX, int nY, int nID)
+{
+	int nNo = 0;
+	array@tagSprite aspWork[5];
+	g_sSelectCg.createSpTitle(szText, 0, 0, 0, aspWork);
+	nNo = this.m_sButton.addButtonSp(aspWork[0], aspWork[1], aspWork[2], aspWork[3], aspWork[4]);
+	this.m_sButton.setButtonPos(nNo, nX, nY);
+	this.m_sButton.setButtonActive(nNo, true);
+	this.m_sButton.setButtonID(nNo, nID);
+	ref tagSprite rfSp;
+	rfSp <- this.m_sButton.getButtonSp(nNo, 0);
+	rfSp.setBlendRate(153);
+	rfSp <- this.m_sButton.getButtonSp(nNo, 2);
+	rfSp.setBlendRate(153);
+}
+
+void tagTitle::start()
+{
+	int i = 0;
+	for (i = 0; i < 2; ++i)
+	{
+		this.m_sBack[i].start();
+	}
+	this.m_sParticle.start();
+	this.endEffect();
+	UPDATE();
+	g_rfTitle <- this;
+}
+
+void tagTitle::end()
+{
+	int i = 0;
+	for (i = 0; i < 2; ++i)
+	{
+		this.m_sBack[i].end();
+	}
+	this.m_sParticle.end();
+	this.endEffect();
+	UPDATE();
+	g_rfTitle <- NULL;
+}
+
+void tagTitle::startEffect()
+{
+	this.endEffect();
+	this.m_sEffect.start(0, false);
+	this.m_bEffect = true;
+	this.m_nEffectCount = 乱数(30);
+	this.m_nWaitTime = 0;
+}
+
+void tagTitle::endEffect()
+{
+	this.m_sEffect.end(false);
+	this.m_bEffect = false;
+	this.m_nEffectCount = 0;
+	this.m_nWaitTime = 1000 + 乱数(4000);
+	this.m_sTimer.Set(0);
+}
+
+int tagTitle::checkSelect()
+{
+	int nRet = 0;
+	int nID = 0;
+	キー_クリア(true);
+	this.resetSelect();
+	while (true)
+	{
+		if (キー_キャンセル())
+		{
+			this.m_sButton.soundCancel();
+			キー_クリア(true);
+			this.setCursor(9);
+		}
+		nID = this.checkMouse(nID);
+		if (キー_決定())
+		{
+			if (this.checkClick(nID))
+			{
+				nRet = nID;
+				break;
+			}
+		}
+	}
+	return nRet;
+}
+
+int tagTitle::checkMouse(int nID)
+{
+	int nID2 = nID;
+	if (マウス優先())
+	{
+		int nNo = this.m_sButton.checkMouseRect(true, true);
+		if (nNo > 0)
+		{
+			nID = this.m_sButton.getButtonID(nNo);
+		}
+		else
+		{
+			nID = 0;
+		}
+	}
+	if (キー_押下(38))
+	{
+		return this.moveUp(nID);
+	}
+	if (キー_押下(40))
+	{
+		return this.moveDown(nID);
+	}
+	if (キー_押下(37))
+	{
+		return this.moveLeft(nID);
+	}
+	if (キー_押下(39))
+	{
+		return this.moveRight(nID);
+	}
+	if (nID != nID2)
+	{
+		this.setSelect(nID2, false);
+		this.setSelect(nID, true);
+	}
+	UPDATE();
+	return nID;
+}
+
+bool tagTitle::checkClick(int nID)
+{
+	return this.m_sButton.checkClick(this.m_sButton.getButtonNo(nID));
+}
+
+int tagTitle::moveUp(int nID)
+{
+	int nNo = this.m_sButton.getButtonNo(nID);
+	int nID2 = nID;
+	int nTime = 250;
+	while (キー_押下(38))
+	{
+		if (--nNo < 1)
+		{
+			nNo = this.m_sButton.getCount();
+		}
+		nID = this.m_sButton.getButtonID(nNo);
+		if (nID == nID2)
+		{
+			break;
+		}
+		this.setSelect(nID2, false);
+		this.setSelect(nID, true);
+		nID2 = nID;
+		UPDATE();
+		if (!キー_離し待ち_タイマ(nTime, 38))
+		{
+			break;
+		}
+		nTime = 50;
+	}
+	キー_離し待ち(38);
+	キー_クリア(true);
+	return nID;
+}
+
+int tagTitle::moveDown(int nID)
+{
+	int nNo = this.m_sButton.getButtonNo(nID);
+	int nID2 = nID;
+	int nTime = 250;
+	while (キー_押下(40))
+	{
+		if (++nNo > this.m_sButton.getCount())
+		{
+			nNo = 1;
+		}
+		nID = this.m_sButton.getButtonID(nNo);
+		if (nID == nID2)
+		{
+			break;
+		}
+		this.setSelect(nID2, false);
+		this.setSelect(nID, true);
+		nID2 = nID;
+		UPDATE();
+		if (!キー_離し待ち_タイマ(nTime, 40))
+		{
+			break;
+		}
+		nTime = 50;
+	}
+	キー_離し待ち(40);
+	キー_クリア(true);
+	return nID;
+}
+
+int tagTitle::moveLeft(int nID)
+{
+	int nID2 = nID;
+	nID = this.m_sButton.getButtonID(this.m_sButton.getCount());
+	if (nID != nID2)
+	{
+		this.setSelect(nID2, false);
+		this.setSelect(nID, true);
+		UPDATE();
+	}
+	キー_離し待ち(37);
+	キー_クリア(true);
+	return nID;
+}
+
+int tagTitle::moveRight(int nID)
+{
+	int nID2 = nID;
+	nID = this.m_sButton.getButtonID(1);
+	if (nID != nID2)
+	{
+		this.setSelect(nID2, false);
+		this.setSelect(nID, true);
+		UPDATE();
+	}
+	キー_離し待ち(37);
+	キー_クリア(true);
+	return nID;
+}
+
+void tagTitle::resetSelect()
+{
+	this.m_sButton.resetSelect();
+}
+
+void tagTitle::setSelect(int nID, bool bSelect)
+{
+	this.m_sButton.setButtonSelect(this.m_sButton.getButtonNo(nID), bSelect, false);
+}
+
+void tagTitle::setCursor(int nID)
+{
+	this.m_sButton.setCursor(this.m_sButton.getButtonNo(nID));
+}
+

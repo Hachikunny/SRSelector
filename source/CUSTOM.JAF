@@ -1,0 +1,5359 @@
+// Isoroku == Senhime > Ran >>> Your favorite girl
+
+int strtoi(string s) {
+	int t, mult = 1, len = 0, result = -1, i;
+	int c = s[len] & 0xff;
+	while (c != 0) {
+		len++;
+		c = s[len] & 0xff;
+	}
+	if (len == 0) return -1;
+	for (i = len-1; i >= 0; i--) {
+		t = s[i] - '0';
+		if (t < 0 || t > 9) {
+			if (s[i] == ' ') continue;
+			return -1;
+		}
+		result = result == -1 ? t : result + (t * mult);
+		mult *= 10;
+	}
+	return result;
+}
+
+void sceneChooser() {
+	// Create the dialog box.
+	tagInput2 t;
+	string choice = "";
+	int noChoice = -1, tableMax = 1763;	
+	
+	loop:
+	音楽(301, 0, false);
+	アリスＣＧ();
+	台詞枠(0, 0, 0);
+	顔(906, "", 1, 100);
+	'Please choose a scene number from the provided table. You can cancel the selection process by entering "CANCEL" (all caps).' A;
+	
+	// Prompt until we get a valid number.
+	prompt:
+	do {
+		choice = t.run(choice);
+		noChoice = strtoi(choice);
+	} while (noChoice == -1 && choice != "CANCEL");
+	
+	if (choice == "CANCEL") {
+		cleanUp();
+		return;
+	}
+	
+	// Check to see that the index is within the bounds of the table.
+	if (noChoice > tableMax || noChoice == 0) {
+		'The index you chose is out of the table\'s range.' A;
+		goto prompt;
+	}
+	
+	/* 'You chose scene no. ' R;
+	N(noChoice, -1, 0);
+	'.' A; */
+	
+	// Choose the scene. Good luck reading these runes :)
+	cleanUp();
+	switch (noChoice) {
+		case 1:
+			ゲーム_アリスの館();
+			break;
+		case 2:
+			馬場／勧誘成功();
+			break;
+		case 3:
+			馬場／部下会話／初();
+			break;
+		case 4:
+			馬場／基本接触();
+			break;
+		case 5:
+			馬場／信頼();
+			break;
+		case 6:
+			馬場／合戦／汎用();
+			break;
+		case 7:
+			武田／初登場();
+			break;
+		case 8:
+			武田／最初の軍議();
+			break;
+		case 9:
+			武田／ｖｓ上杉１();
+			break;
+		case 10:
+			武田／ｖｓ北条１();
+			break;
+		case 11:
+			武田／ｖｓ北条２();
+			break;
+		case 12:
+			武田／ｖｓ上杉汎用();
+			break;
+		case 13:
+			武田／ｖｓ北条汎用();
+			break;
+		case 14:
+			武田／信玄の誕生日();
+			break;
+		case 15:
+			武田／上杉征伐１();
+			break;
+		case 16:
+			武田／上杉征伐２();
+			break;
+		case 17:
+			武田／北条征伐１();
+			break;
+		case 18:
+			武田／北条征伐２();
+			break;
+		case 19:
+			武田／今川征伐();
+			break;
+		case 20:
+			武田／織田に宣戦布告();
+			break;
+		case 21:
+			武田／宣戦布告();
+			break;
+		case 22:
+			武田／大攻勢前();
+			break;
+		case 23:
+			武田／高坂隊１();
+			break;
+		case 24:
+			武田／真田隊１();
+			break;
+		case 25:
+			武田／馬場隊１();
+			break;
+		case 26:
+			武田／山県隊１();
+			break;
+		case 27:
+			武田／信玄隊１();
+			break;
+		case 28:
+			武田／高坂隊汎用();
+			break;
+		case 29:
+			武田／真田隊汎用();
+			break;
+		case 30:
+			武田／馬場隊汎用();
+			break;
+		case 31:
+			武田／山県隊汎用();
+			break;
+		case 32:
+			武田／信玄隊汎用();
+			break;
+		case 33:
+			織田／武田大攻勢の後();
+			break;
+		case 34:
+			織田／騎馬軍団対策／マリア();
+			break;
+		case 35:
+			織田／騎馬軍団対策／重彦();
+			break;
+		case 36:
+			武田／騎馬対策後();
+			break;
+		case 37:
+			武田／残り１国();
+			break;
+		case 38:
+			武田／もっこの対策();
+			break;
+		case 39:
+			武田／陥落１();
+			break;
+		case 40:
+			武田／陥落２();
+			break;
+		case 41:
+			武田／開戦準備();
+			break;
+		case 42:
+			武田／裏工作();
+			break;
+		case 43:
+			武田／瓢箪略奪();
+			break;
+		case 44:
+			武田／大攻勢撃退();
+			break;
+		case 45:
+			武田／信玄の暗殺計画();
+			break;
+		case 46:
+			武田／信玄の居場所();
+			break;
+		case 47:
+			美濃／美濃３人衆の噂();
+			break;
+		case 48:
+			京／足利に滅ぼされた国();
+			break;
+		case 49:
+			京／超神の噂();
+			break;
+		case 50:
+			足利／初登場();
+			break;
+		case 51:
+			足利／初要求Ａ();
+			break;
+		case 52:
+			足利／要求Ｂ();
+			break;
+		case 53:
+			足利／要求Ｃ();
+			break;
+		case 54:
+			足利／汎用要求();
+			break;
+		case 55:
+			足利／宣戦布告();
+			break;
+		case 56:
+			足利／帝のリング();
+			break;
+		case 57:
+			足利／織田を誅殺();
+			break;
+		case 58:
+			足利／陥落();
+			break;
+		case 59:
+			足利／降伏受け入れ();
+			break;
+		case 60:
+			足利／瓢箪略奪();
+			break;
+		case 61:
+			足利／原家滅亡();
+			break;
+		case 62:
+			足利／リーザス援軍();
+			break;
+		case 63:
+			足利／京の場合();
+			break;
+		case 64:
+			足利／美濃の場合();
+			break;
+		case 65:
+			京／公家の娘();
+			break;
+		case 66:
+			足利／天志教ネタで宣戦布告();
+			break;
+		case 67:
+			のぞみ／新撰組１();
+			break;
+		case 68:
+			のぞみ／新撰組２();
+			break;
+		case 69:
+			のぞみ／新撰組３();
+			break;
+		case 70:
+			のぞみ／京で遊ぶ();
+			break;
+		case 71:
+			のぞみ／武将に取り立てる();
+			break;
+		case 72:
+			のぞみ／武将初();
+			break;
+		case 73:
+			のぞみ／信頼();
+			break;
+		case 74:
+			のぞみ／ハードエロ();
+			break;
+		case 75:
+			のぞみ／基本接触();
+			break;
+		case 76:
+			のぞみ／ハードプレイ();
+			break;
+		case 77:
+			のぞみ／ハードプレイ１();
+			break;
+		case 78:
+			のぞみ／ハードプレイ２();
+			break;
+		case 79:
+			のぞみ／ハードプレイ３();
+			break;
+		case 80:
+			のぞみ／ハードプレイ４();
+			break;
+		case 81:
+			のぞみ／ハードプレイ終わり();
+			break;
+		case 82:
+			のぞみ／愛情();
+			break;
+		case 83:
+			のぞみ／合戦前／汎用();
+			break;
+		case 84:
+			のぞみ／基本接触／愛情();
+			break;
+		case 85:
+			鈴女／登場();
+			break;
+		case 86:
+			鈴女／武将に();
+			break;
+		case 87:
+			鈴女／部下会話／初();
+			break;
+		case 88:
+			鈴女／大奥１回目();
+			break;
+		case 89:
+			鈴女／部下会話／愛情に();
+			break;
+		case 90:
+			鈴女／大奥性欲絶倫();
+			break;
+		case 91:
+			鈴女／大奥分身の術();
+			break;
+		case 92:
+			鈴女／犬飼の情報();
+			break;
+		case 93:
+			鈴女／伊賀合戦();
+			break;
+		case 94:
+			鈴女／汎用エッチ();
+			break;
+		case 95:
+			鈴女／基本接触();
+			break;
+		case 96:
+			鈴女／迷宮ヒント();
+			break;
+		case 97:
+			鈴女／倒れる();
+			break;
+		case 98:
+			鈴女／合戦前／汎用();
+			break;
+		case 99:
+			名取／勧誘成功();
+			break;
+		case 100:
+			名取／武将初();
+			break;
+		case 101:
+			名取／基本接触();
+			break;
+		case 102:
+			名取／汎用エロ();
+			break;
+		case 103:
+			名取／信頼();
+			break;
+		case 104:
+			名取／愛情();
+			break;
+		case 105:
+			名取／オロチの説明();
+			break;
+		case 106:
+			名取／信頼ＮＧ();
+			break;
+		case 107:
+			名取／基本接触／愛情();
+			break;
+		case 108:
+			名取／基本接触／オロチ();
+			break;
+		case 109:
+			名取／合戦前／汎用();
+			break;
+		case 110:
+			月光／登場();
+			break;
+		case 111:
+			月光／信頼();
+			break;
+		case 112:
+			月光／伊賀が敵();
+			break;
+		case 113:
+			月光／お町();
+			break;
+		case 114:
+			月光／信長の死();
+			break;
+		case 115:
+			月光／香の死();
+			break;
+		case 116:
+			月光／爆死();
+			break;
+		case 117:
+			月光／基本接触();
+			break;
+		case 118:
+			月光／合戦前／汎用();
+			break;
+		case 119:
+			志津香／登場();
+			break;
+		case 120:
+			志津香／０１();
+			break;
+		case 121:
+			志津香／０２();
+			break;
+		case 122:
+			志津香／０３();
+			break;
+		case 123:
+			志津香／基本接触();
+			break;
+		case 124:
+			志津香／離脱();
+			break;
+		case 125:
+			月光／勝家();
+			break;
+		case 126:
+			三河／宇宙人１();
+			break;
+		case 127:
+			三河／宇宙人２();
+			break;
+		case 128:
+			三河／宇宙人／汎用();
+			break;
+		case 129:
+			三河／宇宙人３();
+			break;
+		case 130:
+			川之江美禰／勧誘成功();
+			break;
+		case 131:
+			川之江美禰／武将初();
+			break;
+		case 132:
+			川之江美禰／信頼();
+			break;
+		case 133:
+			川之江美禰／約束反故();
+			break;
+		case 134:
+			川之江美禰／エッチ();
+			break;
+		case 135:
+			川之江美禰／龍馬ゲット();
+			break;
+		case 136:
+			川之江美禰／基本接触();
+			break;
+		case 137:
+			川之江美禰／基本接触２();
+			break;
+		case 138:
+			川之江美禰／休憩();
+			break;
+		case 139:
+			川之江美禰／合戦前／汎用();
+			break;
+		case 140:
+			てる／妖怪退治撃退();
+			break;
+		case 141:
+			てる／勧誘成功();
+			break;
+		case 142:
+			てる／普通();
+			break;
+		case 143:
+			てる／信頼();
+			break;
+		case 144:
+			てる／愛情();
+			break;
+		case 145:
+			てる／基本接触();
+			break;
+		case 146:
+			てる／汎用エロ();
+			break;
+		case 147:
+			てる／基本接触／愛情();
+			break;
+		case 148:
+			てる／合戦前／汎用();
+			break;
+		case 149:
+			野菊／出撃();
+			break;
+		case 150:
+			野菊／捕獲エロ();
+			break;
+		case 151:
+			野菊／勧誘成功();
+			break;
+		case 152:
+			野菊／部下会話／初();
+			break;
+		case 153:
+			野菊／基本接触();
+			break;
+		case 154:
+			野菊／普通();
+			break;
+		case 155:
+			野菊／信頼();
+			break;
+		case 156:
+			野菊／愛情();
+			break;
+		case 157:
+			野菊／基本接触／愛情();
+			break;
+		case 158:
+			野菊／汎用エロ();
+			break;
+		case 159:
+			野菊／合戦／汎用();
+			break;
+		case 160:
+			折女／出撃();
+			break;
+		case 161:
+			折女／捕獲エロ();
+			break;
+		case 162:
+			折女／勧誘成功();
+			break;
+		case 163:
+			折女／部下会話／初();
+			break;
+		case 164:
+			折女／基本接触();
+			break;
+		case 165:
+			折女／信頼();
+			break;
+		case 166:
+			折女／愛情();
+			break;
+		case 167:
+			折女／基本接触／愛情();
+			break;
+		case 168:
+			折女／汎用エロ();
+			break;
+		case 169:
+			折女／合戦／汎用();
+			break;
+		case 170:
+			高坂／勧誘成功();
+			break;
+		case 171:
+			高坂／部下会話／初();
+			break;
+		case 172:
+			高坂／基本接触();
+			break;
+		case 173:
+			高坂／信頼();
+			break;
+		case 174:
+			高坂／合戦／汎用();
+			break;
+		case 175:
+			性眼／逃亡１();
+			break;
+		case 176:
+			性眼／逃亡２();
+			break;
+		case 177:
+			性眼／未熟();
+			break;
+		case 178:
+			性眼／仕官();
+			break;
+		case 179:
+			性眼／作戦の提案();
+			break;
+		case 180:
+			性眼／信頼();
+			break;
+		case 181:
+			性眼／三度の依頼();
+			break;
+		case 182:
+			性眼／三度の依頼実行();
+			break;
+		case 183:
+			性眼／香姫と();
+			break;
+		case 184:
+			性眼／シィルと();
+			break;
+		case 185:
+			性眼／基本接触();
+			break;
+		case 186:
+			性眼／ランスと();
+			break;
+		case 187:
+			性眼／合戦前／ｖｓ魔軍();
+			break;
+		case 188:
+			性眼／合戦前／汎用();
+			break;
+		case 189:
+			イエヒサ／普通();
+			break;
+		case 190:
+			イエヒサ／信頼();
+			break;
+		case 191:
+			イエヒサ／勧誘成功();
+			break;
+		case 192:
+			イエヒサ／基本接触();
+			break;
+		case 193:
+			イエヒサ／基本接触／乱丸();
+			break;
+		case 194:
+			イエヒサ／信頼２();
+			break;
+		case 195:
+			イエヒサ／合戦前／汎用();
+			break;
+		case 196:
+			柚原／勧誘成功();
+			break;
+		case 197:
+			柚原／部下会話／普通に();
+			break;
+		case 198:
+			柚原／合戦前();
+			break;
+		case 199:
+			柚原／部下会話／信頼に();
+			break;
+		case 200:
+			柚原／合戦後／愛情に();
+			break;
+		case 201:
+			柚原／たぬーとの遭遇();
+			break;
+		case 202:
+			柚原／基本接触();
+			break;
+		case 203:
+			柚原／基本接触／愛情();
+			break;
+		case 204:
+			柚原／徳川家訪問();
+			break;
+		case 205:
+			柚原／犬飼家訪問();
+			break;
+		case 206:
+			柚原／種子島家の話();
+			break;
+		case 207:
+			柚原／子供ほしい();
+			break;
+		case 208:
+			柚原／基本接触／愛情２();
+			break;
+		case 209:
+			柚原／合戦前／汎用();
+			break;
+		case 210:
+			柚原／汎用エロ();
+			break;
+		case 211:
+			今川／初登場();
+			break;
+		case 212:
+			今川／日常１();
+			break;
+		case 213:
+			今川／日常２();
+			break;
+		case 214:
+			今川／日常３();
+			break;
+		case 215:
+			今川／義元の秘密();
+			break;
+		case 216:
+			今川／上洛計画１();
+			break;
+		case 217:
+			今川／上洛計画２();
+			break;
+		case 218:
+			今川／上洛計画３Ａ();
+			break;
+		case 219:
+			今川／上洛計画３Ｂ();
+			break;
+		case 220:
+			今川／上洛計画３Ｃ();
+			break;
+		case 221:
+			今川／上洛計画４Ａ();
+			break;
+		case 222:
+			今川／上洛計画４Ｂ();
+			break;
+		case 223:
+			今川／上洛計画４Ｃ();
+			break;
+		case 224:
+			今川／義元と接触Ａ();
+			break;
+		case 225:
+			今川／義元と接触Ｂ();
+			break;
+		case 226:
+			今川／義元と接触Ｃ();
+			break;
+		case 227:
+			今川／宣戦布告();
+			break;
+		case 228:
+			今川／陥落／情報無し();
+			break;
+		case 229:
+			今川／陥落／情報有りＡ();
+			break;
+		case 230:
+			今川／織田に宣戦布告();
+			break;
+		case 231:
+			お町／出撃();
+			break;
+		case 232:
+			お町／倒す();
+			break;
+		case 233:
+			お町／部下会話／初();
+			break;
+		case 234:
+			お町／基本接触();
+			break;
+		case 235:
+			お町／普通();
+			break;
+		case 236:
+			お町／信頼();
+			break;
+		case 237:
+			お町／愛情();
+			break;
+		case 238:
+			お町／基本接触／愛情();
+			break;
+		case 239:
+			お町／汎用エロ();
+			break;
+		case 240:
+			お町／合戦／汎用();
+			break;
+		case 241:
+			早雲／石油穴で発見Ａ();
+			break;
+		case 242:
+			早雲／石油穴で発見Ｂ();
+			break;
+		case 243:
+			早雲／石油穴で発見Ｃ();
+			break;
+		case 244:
+			早雲／仕官();
+			break;
+		case 245:
+			早雲／信頼();
+			break;
+		case 246:
+			早雲／基本接触();
+			break;
+		case 247:
+			早雲／性眼と対談();
+			break;
+		case 248:
+			早雲／名取と対談();
+			break;
+		case 249:
+			早雲／陰陽道の仕事();
+			break;
+		case 250:
+			早雲／蘭の思い出();
+			break;
+		case 251:
+			早雲／合戦前／汎用();
+			break;
+		case 252:
+			山県／勧誘成功();
+			break;
+		case 253:
+			山県／部下会話／初();
+			break;
+		case 254:
+			山県／基本接触();
+			break;
+		case 255:
+			山県／信頼();
+			break;
+		case 256:
+			山県／合戦／汎用();
+			break;
+		case 257:
+			龍馬／勧誘成功();
+			break;
+		case 258:
+			龍馬／信頼();
+			break;
+		case 259:
+			龍馬／妖怪なめくじ情報();
+			break;
+		case 260:
+			龍馬／妖怪なめくじＡ();
+			break;
+		case 261:
+			龍馬／妖怪なめくじＢ();
+			break;
+		case 262:
+			龍馬／男になる();
+			break;
+		case 263:
+			龍馬／女になる();
+			break;
+		case 264:
+			龍馬／女になってから();
+			break;
+		case 265:
+			龍馬／ランスとエッチ();
+			break;
+		case 266:
+			龍馬／基本接触();
+			break;
+		case 267:
+			龍馬／香姫１();
+			break;
+		case 268:
+			龍馬／香姫２();
+			break;
+		case 269:
+			龍馬／香姫３();
+			break;
+		case 270:
+			龍馬／ゴンを出せ();
+			break;
+		case 271:
+			龍馬／美禰を出せ();
+			break;
+		case 272:
+			龍馬／譲を出せ();
+			break;
+		case 273:
+			龍馬／汎用エロ();
+			break;
+		case 274:
+			龍馬／基本接触／エロ後();
+			break;
+		case 275:
+			龍馬／合戦前／汎用();
+			break;
+		case 276:
+			織田／ターン１();
+			break;
+		case 277:
+			地域／初めて();
+			break;
+		case 278:
+			合戦／初めて();
+			break;
+		case 279:
+			大奥／初めて();
+			break;
+		case 280:
+			武将／初めて();
+			break;
+		case 281:
+			捕虜／初めて();
+			break;
+		case 282:
+			織田／花見();
+			break;
+		case 283:
+			織田／信長と瓢箪();
+			break;
+		case 284:
+			織田／信長と瓢箪２();
+			break;
+		case 285:
+			織田／第２の瓢箪();
+			break;
+		case 286:
+			織田／第３の瓢箪();
+			break;
+		case 287:
+			織田／第４の瓢箪();
+			break;
+		case 288:
+			織田／第５の瓢箪();
+			break;
+		case 289:
+			織田／第Ｘの瓢箪();
+			break;
+		case 290:
+			織田／天志教事件開始();
+			break;
+		case 291:
+			織田／比叡山焼き討ち();
+			break;
+		case 292:
+			織田／門徒の反乱Ａ();
+			break;
+		case 293:
+			織田／門徒の反乱Ｂ();
+			break;
+		case 294:
+			織田／カオスの話();
+			break;
+		case 295:
+			織田／信長抹殺計画();
+			break;
+		case 296:
+			本能寺の変Ａ();
+			break;
+		case 297:
+			本能寺の変Ｂ();
+			break;
+		case 298:
+			本能寺の変ＢＢ();
+			break;
+		case 299:
+			本能寺の変Ｃ();
+			break;
+		case 300:
+			本能寺の変Ｄ();
+			break;
+		case 301:
+			織田／織田家分裂();
+			break;
+		case 302:
+			人望の杖();
+			break;
+		case 303:
+			織田／汎用会話２１();
+			break;
+		case 304:
+			織田／汎用会話２２();
+			break;
+		case 305:
+			信長を殺しに行く／返り討ち();
+			break;
+		case 306:
+			織田／義勇団１();
+			break;
+		case 307:
+			織田／義勇団２();
+			break;
+		case 308:
+			学徒動員();
+			break;
+		case 309:
+			学徒動員／汎用();
+			break;
+		case 310:
+			織田／宣戦布告の仕方();
+			break;
+		case 311:
+			本能寺／初();
+			break;
+		case 312:
+			本能寺／汎用();
+			break;
+		case 313:
+			本能寺／煉獄();
+			break;
+		case 314:
+			本能寺／香姫行方不明中();
+			break;
+		case 315:
+			本能寺／魔人の巣Ａ();
+			break;
+		case 316:
+			本能寺／魔人の巣Ｂ();
+			break;
+		case 317:
+			本能寺／空っぽ();
+			break;
+		case 318:
+			本能寺／式部Ａ();
+			break;
+		case 319:
+			本能寺／式部Ｂ();
+			break;
+		case 320:
+			本能寺／式部Ｃ();
+			break;
+		case 321:
+			本能寺／式部ＢＣ共通();
+			break;
+		case 322:
+			ランス屋敷／汎用();
+			break;
+		case 323:
+			尾張を取られた();
+			break;
+		case 324:
+			コパ傭兵団到着();
+			break;
+		case 325:
+			風丸／勧誘成功();
+			break;
+		case 326:
+			風丸／部下会話／信頼へ();
+			break;
+		case 327:
+			風丸／部下会話／火鉢１();
+			break;
+		case 328:
+			風丸／部下会話／火鉢２();
+			break;
+		case 329:
+			風丸／基本接触();
+			break;
+		case 330:
+			風丸／基本接触２();
+			break;
+		case 331:
+			風丸／合戦前／エロ対決();
+			break;
+		case 332:
+			風丸／合戦前／汎用();
+			break;
+		case 333:
+			夕張／仕官／香();
+			break;
+		case 334:
+			夕張／仕官／香なし();
+			break;
+		case 335:
+			夕張／武将初();
+			break;
+		case 336:
+			夕張／基本接触();
+			break;
+		case 337:
+			夕張／初エッチ();
+			break;
+		case 338:
+			夕張／初エッチ共通後();
+			break;
+		case 339:
+			夕張／基本接触／エロ後();
+			break;
+		case 340:
+			夕張／基本接触／オロチ();
+			break;
+		case 341:
+			夕張／汎用エロ();
+			break;
+		case 342:
+			夕張と巫女機関１();
+			break;
+		case 343:
+			夕張と巫女機関２();
+			break;
+		case 344:
+			夕張／信頼Ａ();
+			break;
+		case 345:
+			夕張／信頼Ｂ();
+			break;
+		case 346:
+			夕張／信頼Ｃ();
+			break;
+		case 347:
+			夕張／信頼Ｄ();
+			break;
+		case 348:
+			夕張／オロチの話();
+			break;
+		case 349:
+			オロチの穴／結界開く();
+			break;
+		case 350:
+			オロチの穴／夕張の異変();
+			break;
+		case 351:
+			オロチと対決Ａ();
+			break;
+		case 352:
+			オロチと対決Ｂ();
+			break;
+		case 353:
+			オロチと対決Ｃ();
+			break;
+		case 354:
+			オロチと対決Ｄ();
+			break;
+		case 355:
+			夕張／邪馬台で合戦中();
+			break;
+		case 356:
+			夕張／基本接触／ＶＳ巫女機関();
+			break;
+		case 357:
+			夕張／夕張と名取();
+			break;
+		case 358:
+			夕張／愛情();
+			break;
+		case 359:
+			夕張／合戦前／汎用();
+			break;
+		case 360:
+			夕張／基本接触／愛情();
+			break;
+		case 361:
+			服部／勧誘成功();
+			break;
+		case 362:
+			服部／部下会話／初();
+			break;
+		case 363:
+			服部／基本接触();
+			break;
+		case 364:
+			服部／信頼();
+			break;
+		case 365:
+			服部／合戦／汎用();
+			break;
+		case 366:
+			アギレダ／出陣();
+			break;
+		case 367:
+			アギレダ／勧誘成功();
+			break;
+		case 368:
+			アギレダ／セックスの条件();
+			break;
+		case 369:
+			アギレダ／セックス();
+			break;
+		case 370:
+			アギレダ／汎用セックス();
+			break;
+		case 371:
+			アギレダ／カイロにて();
+			break;
+		case 372:
+			アギレダ／アマゾンにて();
+			break;
+		case 373:
+			アギレダ／基本接触();
+			break;
+		case 374:
+			アギレダ／基本接触／エロ();
+			break;
+		case 375:
+			アギレダ／愛情確認();
+			break;
+		case 376:
+			アギレダ／愛情();
+			break;
+		case 377:
+			アギレダ／合戦前／汎用();
+			break;
+		case 378:
+			アギレダ／基本接触／愛情();
+			break;
+		case 379:
+			アギレダ／汎用セックス／愛情();
+			break;
+		case 380:
+			超神／勧誘成功();
+			break;
+		case 381:
+			超神／部下会話／初();
+			break;
+		case 382:
+			超神／名前変更();
+			break;
+		case 383:
+			超神／尊氏の屏風();
+			break;
+		case 384:
+			超神／基本接触();
+			break;
+		case 385:
+			超神／基本接触／うんこ();
+			break;
+		case 386:
+			超神／合戦前／汎用();
+			break;
+		case 387:
+			超神／普通();
+			break;
+		case 388:
+			超神／信頼();
+			break;
+		case 389:
+			徳川家康／仕官();
+			break;
+		case 390:
+			徳川家康／基本接触();
+			break;
+		case 391:
+			徳川家康／本多();
+			break;
+		case 392:
+			徳川家康／井伊();
+			break;
+		case 393:
+			徳川家康／服部();
+			break;
+		case 394:
+			徳川家康／酒井();
+			break;
+		case 395:
+			徳川家康／信頼();
+			break;
+		case 396:
+			徳川家康／合戦前／汎用();
+			break;
+		case 397:
+			黒姫／信長と対面();
+			break;
+		case 398:
+			黒姫／捕獲／香();
+			break;
+		case 399:
+			黒姫／捕獲／香なし();
+			break;
+		case 400:
+			黒姫／捕獲／エロ();
+			break;
+		case 401:
+			黒姫／捕獲／香後半();
+			break;
+		case 402:
+			黒姫／ゲット計画();
+			break;
+		case 403:
+			黒姫／ゲット計画／実行();
+			break;
+		case 404:
+			黒姫／捕獲２();
+			break;
+		case 405:
+			黒姫／信長陵辱();
+			break;
+		case 406:
+			黒姫／汎用エッチ();
+			break;
+		case 407:
+			小早川／魔導の予兆１();
+			break;
+		case 408:
+			小早川／魔導の予兆２();
+			break;
+		case 409:
+			ちぬ／合戦前／毒作戦();
+			break;
+		case 410:
+			ちぬ／勧誘成功();
+			break;
+		case 411:
+			ちぬ／信頼();
+			break;
+		case 412:
+			ちぬ／愛情();
+			break;
+		case 413:
+			ちぬ／基本接触();
+			break;
+		case 414:
+			ちぬ／合戦前／汎用();
+			break;
+		case 415:
+			ちぬ／汎用エロ();
+			break;
+		case 416:
+			きく／勧誘成功();
+			break;
+		case 417:
+			きく／普通();
+			break;
+		case 418:
+			きく／信頼();
+			break;
+		case 419:
+			きく／愛情();
+			break;
+		case 420:
+			きく／基本接触();
+			break;
+		case 421:
+			きく／合戦前／汎用();
+			break;
+		case 422:
+			きく／基本接触／愛情();
+			break;
+		case 423:
+			きく／愛情２();
+			break;
+		case 424:
+			ノワール／出撃();
+			break;
+		case 425:
+			ノワール／捕獲エロ();
+			break;
+		case 426:
+			ノワール／勧誘成功();
+			break;
+		case 427:
+			ノワール／部下会話／初();
+			break;
+		case 428:
+			ノワール／基本接触();
+			break;
+		case 429:
+			ノワール／普通();
+			break;
+		case 430:
+			ノワール／信頼();
+			break;
+		case 431:
+			ノワール／愛情();
+			break;
+		case 432:
+			ノワール／基本接触／愛情();
+			break;
+		case 433:
+			ノワール／汎用エロ();
+			break;
+		case 434:
+			ノワール／合戦／汎用();
+			break;
+		case 435:
+			榊原／勧誘成功();
+			break;
+		case 436:
+			榊原／部下会話／初();
+			break;
+		case 437:
+			榊原／基本接触();
+			break;
+		case 438:
+			榊原／信頼();
+			break;
+		case 439:
+			榊原／合戦／汎用();
+			break;
+		case 440:
+			神原昌示／部下会話／信頼にＡ();
+			break;
+		case 441:
+			神原昌示／部下会話／信頼にＢ();
+			break;
+		case 442:
+			神原昌示／部下会話／信頼にＣ();
+			break;
+		case 443:
+			神原昌示／部下会話／正義ルート();
+			break;
+		case 444:
+			神原昌示／その後();
+			break;
+		case 445:
+			神原昌示／部下会話／悪ルート();
+			break;
+		case 446:
+			原昌示／基本接触();
+			break;
+		case 447:
+			原昌示／基本接触／正義();
+			break;
+		case 448:
+			原昌示／合戦前／汎用();
+			break;
+		case 449:
+			あんこ／奴隷大奥１回目();
+			break;
+		case 450:
+			子鹿／足利家訪問();
+			break;
+		case 451:
+			子鹿／伊賀家訪問();
+			break;
+		case 452:
+			子鹿／天志教訪問();
+			break;
+		case 453:
+			子鹿／織田家訪問();
+			break;
+		case 454:
+			子鹿／戦準備();
+			break;
+		case 455:
+			子鹿／元就強襲();
+			break;
+		case 456:
+			子鹿／子犬と();
+			break;
+		case 457:
+			子鹿／エロ();
+			break;
+		case 458:
+			子鹿／仕官();
+			break;
+		case 459:
+			子鹿／部下会話／初();
+			break;
+		case 460:
+			子鹿／基本接触();
+			break;
+		case 461:
+			子鹿／普通();
+			break;
+		case 462:
+			子鹿／信頼();
+			break;
+		case 463:
+			子鹿／愛情();
+			break;
+		case 464:
+			子鹿／基本接触／愛情();
+			break;
+		case 465:
+			子鹿／合戦／汎用();
+			break;
+		case 466:
+			ゴン／勧誘成功();
+			break;
+		case 467:
+			ゴン／呪い付き();
+			break;
+		case 468:
+			ゴン／妖怪情報();
+			break;
+		case 469:
+			ゴン／信頼();
+			break;
+		case 470:
+			ゴン／基本接触();
+			break;
+		case 471:
+			ゴン／さようなら();
+			break;
+		case 472:
+			ゴン／合戦前／汎用();
+			break;
+		case 473:
+			織田／全国トップ();
+			break;
+		case 474:
+			織田／全国クリア();
+			break;
+		case 475:
+			魔軍／全国トップ();
+			break;
+		case 476:
+			魔軍／全国クリア();
+			break;
+		case 477:
+			北条／全国トップ();
+			break;
+		case 478:
+			北条／全国クリア();
+			break;
+		case 479:
+			上杉／全国トップ();
+			break;
+		case 480:
+			上杉／全国クリア();
+			break;
+		case 481:
+			島津／全国トップ();
+			break;
+		case 482:
+			島津／全国クリア();
+			break;
+		case 483:
+			巫女機関／全国トップ();
+			break;
+		case 484:
+			巫女機関／全国クリア();
+			break;
+		case 485:
+			ＡＡ／全国トップ();
+			break;
+		case 486:
+			ＡＡ／全国クリア();
+			break;
+		case 487:
+			種子島／全国トップ();
+			break;
+		case 488:
+			種子島／全国クリア();
+			break;
+		case 489:
+			明石／全国トップ();
+			break;
+		case 490:
+			明石／全国クリア();
+			break;
+		case 491:
+			伊賀／全国トップ();
+			break;
+		case 492:
+			伊賀／全国クリア();
+			break;
+		case 493:
+			原／全国トップ();
+			break;
+		case 494:
+			原／全国クリア();
+			break;
+		case 495:
+			足利／全国トップ();
+			break;
+		case 496:
+			足利／全国クリア();
+			break;
+		case 497:
+			天志教／全国トップ();
+			break;
+		case 498:
+			天志教／全国クリア();
+			break;
+		case 499:
+			タクガ／全国トップ();
+			break;
+		case 500:
+			タクガ／全国クリア();
+			break;
+		case 501:
+			独眼流／全国トップ();
+			break;
+		case 502:
+			独眼流／全国クリア();
+			break;
+		case 503:
+			今川／全国トップ();
+			break;
+		case 504:
+			今川／全国クリア();
+			break;
+		case 505:
+			徳川／全国トップ();
+			break;
+		case 506:
+			徳川／全国クリア();
+			break;
+		case 507:
+			毛利／全国トップ();
+			break;
+		case 508:
+			毛利／全国クリア();
+			break;
+		case 509:
+			びずあるてすと();
+			break;
+		case 510:
+			小松／ファンの声();
+			break;
+		case 511:
+			小松／陵辱();
+			break;
+		case 512:
+			小松／勧誘成功();
+			break;
+		case 513:
+			小松／武将初();
+			break;
+		case 514:
+			小松／普通();
+			break;
+		case 515:
+			小松／信頼();
+			break;
+		case 516:
+			小松／愛情();
+			break;
+		case 517:
+			小松／初エッチ();
+			break;
+		case 518:
+			小松／基本接触();
+			break;
+		case 519:
+			小松／やる気無し();
+			break;
+		case 520:
+			小松／基本接触／信頼();
+			break;
+		case 521:
+			小松／基本接触／エロ後();
+			break;
+		case 522:
+			小松／合戦前／汎用();
+			break;
+		case 523:
+			小松／汎用エロ();
+			break;
+		case 524:
+			かなみ／参上();
+			break;
+		case 525:
+			かなみ／普通();
+			break;
+		case 526:
+			かなみ／エッチ();
+			break;
+		case 527:
+			かなみ／信頼();
+			break;
+		case 528:
+			かなみ／風魔の里で大ピンチ();
+			break;
+		case 529:
+			かなみ／無理矢理犯す();
+			break;
+		case 530:
+			かなみ／基本接触();
+			break;
+		case 531:
+			かなみ／いじけ();
+			break;
+		case 532:
+			かなみ／合戦前／汎用();
+			break;
+		case 533:
+			川之江譲／勧誘成功();
+			break;
+		case 534:
+			川之江譲／普通();
+			break;
+		case 535:
+			川之江譲／龍馬ゲット();
+			break;
+		case 536:
+			川之江譲／基本接触();
+			break;
+		case 537:
+			川之江譲／基本接触２();
+			break;
+		case 538:
+			川之江譲／龍馬の意志();
+			break;
+		case 539:
+			川之江譲／合戦前／汎用();
+			break;
+		case 540:
+			魔人／魔人信長復活();
+			break;
+		case 541:
+			織田／魔人信長復活情報();
+			break;
+		case 542:
+			魔人／完全復活();
+			break;
+		case 543:
+			健太郎／怪我をする();
+			break;
+		case 544:
+			健太郎／ヒラミレモン危機();
+			break;
+		case 545:
+			健太郎／地下蜜柑農園にて();
+			break;
+		case 546:
+			健太郎／美樹苦しむ();
+			break;
+		case 547:
+			健太郎／美樹にヒラミレモン();
+			break;
+		case 548:
+			魔王美樹誕生／ヒラミ不足();
+			break;
+		case 549:
+			魔人／式部強襲Ａ();
+			break;
+		case 550:
+			魔人／式部強襲Ｂ();
+			break;
+		case 551:
+			魔人／式部強襲Ｚ();
+			break;
+		case 552:
+			美樹／暴走１();
+			break;
+		case 553:
+			美樹／暴走２();
+			break;
+		case 554:
+			美樹／暴走３();
+			break;
+		case 555:
+			魔王美樹誕生／暴走();
+			break;
+		case 556:
+			織田／美樹暴走情報();
+			break;
+		case 557:
+			織田／美樹探索１();
+			break;
+		case 558:
+			織田／美樹探索２();
+			break;
+		case 559:
+			織田／美樹保護();
+			break;
+		case 560:
+			魂縛り／始まり();
+			break;
+		case 561:
+			合戦前／魂縛り();
+			break;
+		case 562:
+			合戦後／魂縛り();
+			break;
+		case 563:
+			石爺／始まり();
+			break;
+		case 564:
+			石爺／経過１();
+			break;
+		case 565:
+			石爺／経過２();
+			break;
+		case 566:
+			石爺／経過３();
+			break;
+		case 567:
+			石爺／ＪＡＰＡＮ墜落();
+			break;
+		case 568:
+			石爺／地震();
+			break;
+		case 569:
+			魔軍／陥落();
+			break;
+		case 570:
+			ラストバトルＡ();
+			break;
+		case 571:
+			ラストバトルＢ();
+			break;
+		case 572:
+			ラストバトルＣ();
+			break;
+		case 573:
+			ラストバトルＤ();
+			break;
+		case 574:
+			魂縛り／呪いの効果();
+			break;
+		case 575:
+			魂縛り／国壊滅();
+			break;
+		case 576:
+			魂縛り／国壊滅／汎用();
+			break;
+		case 577:
+			美樹／氷漬け後／汎用();
+			break;
+		case 578:
+			石爺／地震２();
+			break;
+		case 579:
+			蘭／勧誘成功();
+			break;
+		case 580:
+			蘭／武将初();
+			break;
+		case 581:
+			蘭／約束();
+			break;
+		case 582:
+			蘭／約束の催促();
+			break;
+		case 583:
+			蘭／基本接触();
+			break;
+		case 584:
+			蘭／約束の催促１();
+			break;
+		case 585:
+			蘭／１人で石油穴();
+			break;
+		case 586:
+			蘭／守り紙様();
+			break;
+		case 587:
+			酒井／勧誘成功();
+			break;
+		case 588:
+			酒井／部下会話／初();
+			break;
+		case 589:
+			酒井／基本接触();
+			break;
+		case 590:
+			酒井／信頼();
+			break;
+		case 591:
+			酒井／合戦／汎用();
+			break;
+		case 592:
+			蘭／ルートスタート();
+			break;
+		case 593:
+			蘭／早雲の見舞い();
+			break;
+		case 594:
+			蘭／早雲の見舞い／汎用();
+			break;
+		case 595:
+			蘭／早雲の見舞い／汎用２();
+			break;
+		case 596:
+			蘭／戯骸の影();
+			break;
+		case 597:
+			蘭／信長が魔人？();
+			break;
+		case 598:
+			蘭／本能寺Ａ();
+			break;
+		case 599:
+			蘭／本能寺ＢＣ共通();
+			break;
+		case 600:
+			蘭／本能寺Ｂ();
+			break;
+		case 601:
+			蘭／本能寺Ｃ();
+			break;
+		case 602:
+			蘭／本能寺の後();
+			break;
+		case 603:
+			蘭／ランスの誘い();
+			break;
+		case 604:
+			蘭／夜這い１();
+			break;
+		case 605:
+			蘭／傾国登場();
+			break;
+		case 606:
+			蘭／蘭と傾国();
+			break;
+		case 607:
+			蘭／いじめ();
+			break;
+		case 608:
+			蘭／傾国の噂();
+			break;
+		case 609:
+			蘭／傾国の噂２();
+			break;
+		case 610:
+			蘭／傾国出奔();
+			break;
+		case 611:
+			蘭／鬼を呼び出す();
+			break;
+		case 612:
+			蘭／地獄の穴が開いた();
+			break;
+		case 613:
+			蘭／鬼の来襲();
+			break;
+		case 614:
+			蘭／鬼の来襲／汎用();
+			break;
+		case 615:
+			蘭／傾国の居場所();
+			break;
+		case 616:
+			蘭／セキメイの墓／初();
+			break;
+		case 617:
+			蘭／ラストバトルＡ();
+			break;
+		case 618:
+			蘭／ラストバトルＢ共通();
+			break;
+		case 619:
+			蘭／ラストバトルＢ();
+			break;
+		case 620:
+			蘭／ラストバトルＢＢ();
+			break;
+		case 621:
+			蘭／エピローグＡ();
+			break;
+		case 622:
+			蘭／エピローグＢ();
+			break;
+		case 623:
+			蘭／夜這い２();
+			break;
+		case 624:
+			蘭／夜這い３();
+			break;
+		case 625:
+			蘭／早雲の見舞い／傾国();
+			break;
+		case 626:
+			蘭／早雲の見舞い／傾国汎用();
+			break;
+		case 627:
+			蘭／傾国出奔後();
+			break;
+		case 628:
+			地獄の穴／初めて();
+			break;
+		case 629:
+			地獄の穴／封鎖／初();
+			break;
+		case 630:
+			地獄の穴／汎用();
+			break;
+		case 631:
+			地獄の穴／封鎖／汎用();
+			break;
+		case 632:
+			地獄の穴／封鎖／ラスト();
+			break;
+		case 633:
+			鬼の来襲／負け();
+			break;
+		case 634:
+			蘭／早雲の見舞い／傾国汎用２();
+			break;
+		case 635:
+			蘭／傾国残念／穴塞ぎ();
+			break;
+		case 636:
+			蘭／傾国残念／鬼来襲();
+			break;
+		case 637:
+			蘭／傾国残念／全て塞がれた();
+			break;
+		case 638:
+			蘭／セキメイへの催促();
+			break;
+		case 639:
+			蘭／基本接触／早雲入院();
+			break;
+		case 640:
+			蘭／基本接触／傾国出奔();
+			break;
+		case 641:
+			蘭／信頼();
+			break;
+		case 642:
+			蘭／愛情();
+			break;
+		case 643:
+			蘭／汎用エッチ();
+			break;
+		case 644:
+			蘭／セキメイの墓／魔導Ａ();
+			break;
+		case 645:
+			蘭／セキメイの墓／魔導Ｂ();
+			break;
+		case 646:
+			蘭／セキメイの墓／魔導Ｃ();
+			break;
+		case 647:
+			出雲／黄泉平坂／だいだーら／入り口();
+			break;
+		case 648:
+			出雲／黄泉平坂／だいだーら();
+			break;
+		case 649:
+			信長ｖｓ馬場／ソロ();
+			break;
+		case 650:
+			謙信ｖｓ織田馬場Ａ();
+			break;
+		case 651:
+			謙信ｖｓ織田馬場Ｂ();
+			break;
+		case 652:
+			謙信ｖｓ１点();
+			break;
+		case 653:
+			謙信ｖｓ２点();
+			break;
+		case 654:
+			謙信／基本接触／教本();
+			break;
+		case 655:
+			謙信／基本接触／祈り();
+			break;
+		case 656:
+			美濃／まむし油田／早雲探し();
+			break;
+		case 657:
+			迷宮／脱出／早雲探し();
+			break;
+		case 658:
+			夕張／初エッチ／香姫無し();
+			break;
+		case 659:
+			傾国／魔軍参加();
+			break;
+		case 660:
+			３Ｇ／合戦待った();
+			break;
+		case 661:
+			石爺／鈴女の飴();
+			break;
+		case 662:
+			石爺／鈴女の飴／汎用();
+			break;
+		case 663:
+			部下会話／汎用女キャラ子供／普通に();
+			break;
+		case 664:
+			部下会話／汎用女キャラ婆／普通に();
+			break;
+		case 665:
+			部下会話／汎用女キャラ子供／信頼に();
+			break;
+		case 666:
+			部下会話／汎用女キャラ婆／信頼に();
+			break;
+		case 667:
+			部下会話／汎用女キャラ子供／信頼汎用();
+			break;
+		case 668:
+			部下会話／汎用女キャラ婆／信頼汎用();
+			break;
+		case 669:
+			信長／合戦前();
+			break;
+		case 670:
+			信長／日常１();
+			break;
+		case 671:
+			信長／日常２();
+			break;
+		case 672:
+			信長／日常３();
+			break;
+		case 673:
+			信長／見舞い１();
+			break;
+		case 674:
+			信長／見舞い２();
+			break;
+		case 675:
+			信長／見舞い３();
+			break;
+		case 676:
+			信長／日常会話汎用();
+			break;
+		case 677:
+			元就／合戦後／ｖｓランス();
+			break;
+		case 678:
+			元就／妖怪の秘密／竜馬();
+			break;
+		case 679:
+			元就／勧誘成功();
+			break;
+		case 680:
+			元就／武将初();
+			break;
+		case 681:
+			元就／老衰近し();
+			break;
+		case 682:
+			元就／信頼();
+			break;
+		case 683:
+			元就／基本接触();
+			break;
+		case 684:
+			元就／基本接触／幽霊();
+			break;
+		case 685:
+			元就／合戦前／汎用();
+			break;
+		case 686:
+			早雲／のぞき();
+			break;
+		case 687:
+			きく／香();
+			break;
+		case 688:
+			てる／子狸();
+			break;
+		case 689:
+			言裏／香();
+			break;
+		case 690:
+			言裏／のぞみ();
+			break;
+		case 691:
+			言裏／子鹿();
+			break;
+		case 692:
+			ランス／太古判();
+			break;
+		case 693:
+			元就／看病();
+			break;
+		case 694:
+			元就／ゴン();
+			break;
+		case 695:
+			龍馬／おっぱい();
+			break;
+		case 696:
+			超神／政宗();
+			break;
+		case 697:
+			３Ｇ／充電();
+			break;
+		case 698:
+			ランス／子狸();
+			break;
+		case 699:
+			ランス／島津４兄弟();
+			break;
+		case 700:
+			３Ｇ／成仏寸前();
+			break;
+		case 701:
+			勝家／子鹿();
+			break;
+		case 702:
+			風丸／嫉妬();
+			break;
+		case 703:
+			でこ対決();
+			break;
+		case 704:
+			政宗／禁妖怪();
+			break;
+		case 705:
+			重彦と柚美();
+			break;
+		case 706:
+			結婚／譲();
+			break;
+		case 707:
+			結婚／美禰();
+			break;
+		case 708:
+			龍馬／ゴンなし();
+			break;
+		case 709:
+			尾張／味噌カツ迷宮／発見();
+			break;
+		case 710:
+			地域／美女発見１();
+			break;
+		case 711:
+			地域／美女発見２();
+			break;
+		case 712:
+			地域／美女発見３();
+			break;
+		case 713:
+			汎用武将／信長に仕官();
+			break;
+		case 714:
+			汎用武将／香姫に仕官();
+			break;
+		case 715:
+			汎用武将／ランスに仕官();
+			break;
+		case 716:
+			部下会話／汎用男キャラ／普通に();
+			break;
+		case 717:
+			部下会話／汎用男キャラ／信頼に();
+			break;
+		case 718:
+			部下会話／汎用女キャラ／普通に();
+			break;
+		case 719:
+			部下会話／汎用女キャラ／信頼に();
+			break;
+		case 720:
+			部下会話／汎用女キャラ／愛情に();
+			break;
+		case 721:
+			商店／初めて();
+			break;
+		case 722:
+			商店／汎用();
+			break;
+		case 723:
+			商店／買わない();
+			break;
+		case 724:
+			商店／足りない();
+			break;
+		case 725:
+			商店／買う();
+			break;
+		case 726:
+			商店／おこめ券();
+			break;
+		case 727:
+			部下会話／汎用キャラ／信頼汎用();
+			break;
+		case 728:
+			部下会話／汎用女キャラ／愛情汎用();
+			break;
+		case 729:
+			部下会話／基本接触();
+			break;
+		case 730:
+			商店／屏風を買う();
+			break;
+		case 731:
+			商店／エロ話();
+			break;
+		case 732:
+			国占領はターンに１個まで();
+			break;
+		case 733:
+			作戦許可書の説明();
+			break;
+		case 734:
+			籐吉郎に餌();
+			break;
+		case 735:
+			アリスの敗戦処理／初();
+			break;
+		case 736:
+			アリスの敗戦処理／汎用();
+			break;
+		case 737:
+			戦姫／エロ／シィル();
+			break;
+		case 738:
+			戦姫／エロ／シィルなし();
+			break;
+		case 739:
+			戦姫／エロ／共通();
+			break;
+		case 740:
+			戦姫／仕官();
+			break;
+		case 741:
+			戦姫／基本接触();
+			break;
+		case 742:
+			戦姫／普通();
+			break;
+		case 743:
+			戦姫／信頼();
+			break;
+		case 744:
+			戦姫／出奔();
+			break;
+		case 745:
+			戦姫／愛情条件();
+			break;
+		case 746:
+			戦姫／負け戦１();
+			break;
+		case 747:
+			戦姫／負け戦３();
+			break;
+		case 748:
+			戦姫／愛情();
+			break;
+		case 749:
+			戦姫／合戦前／汎用();
+			break;
+		case 750:
+			戦姫／基本接触／愛情前();
+			break;
+		case 751:
+			戦姫／基本接触／愛情();
+			break;
+		case 752:
+			煉獄／登場();
+			break;
+		case 753:
+			式部／登場();
+			break;
+		case 754:
+			戯骸／登場／北条();
+			break;
+		case 755:
+			魔軍／強制登場予告();
+			break;
+		case 756:
+			魔軍／上杉壊滅();
+			break;
+		case 757:
+			魔軍／上杉壊滅／県政();
+			break;
+		case 758:
+			魔軍／武田壊滅();
+			break;
+		case 759:
+			魔軍／毛利壊滅();
+			break;
+		case 760:
+			魔軍／毛利壊滅／人間();
+			break;
+		case 761:
+			魔軍／北条壊滅();
+			break;
+		case 762:
+			魔軍／北条壊滅／マサコ();
+			break;
+		case 763:
+			魔軍／伊賀壊滅();
+			break;
+		case 764:
+			魔軍／明石壊滅();
+			break;
+		case 765:
+			魔軍／足利壊滅();
+			break;
+		case 766:
+			魔軍／魂縛り１();
+			break;
+		case 767:
+			魔軍／魂縛り２();
+			break;
+		case 768:
+			魔軍／巫女機関壊滅();
+			break;
+		case 769:
+			魔軍／タクガ壊滅();
+			break;
+		case 770:
+			魔軍／３Ｇの助言();
+			break;
+		case 771:
+			魔軍／攻撃開始();
+			break;
+		case 772:
+			魔軍／兵数激減();
+			break;
+		case 773:
+			魔軍／魔物参入();
+			break;
+		case 774:
+			魔軍／魔物将軍イスン();
+			break;
+		case 775:
+			魔軍／魔物将軍ベプチョ();
+			break;
+		case 776:
+			魔軍／魔物将軍ウィスピン();
+			break;
+		case 777:
+			魔軍／ランスを殺さない訳();
+			break;
+		case 778:
+			藤吉郎と瓢箪();
+			break;
+		case 779:
+			魔軍／ヨシヒサの作戦();
+			break;
+		case 780:
+			魔軍／ヨシヒサ強襲Ａ();
+			break;
+		case 781:
+			魔軍／ヨシヒサ強襲Ｂ();
+			break;
+		case 782:
+			魔軍／ヨシヒサ強襲Ｃ();
+			break;
+		case 783:
+			魔軍／ヨシヒサ強襲Ｄ();
+			break;
+		case 784:
+			魔軍／トシヒサ防衛Ａ();
+			break;
+		case 785:
+			魔軍／トシヒサ防衛Ｂ();
+			break;
+		case 786:
+			魔軍／イエヒサ防衛Ａ();
+			break;
+		case 787:
+			魔軍／イエヒサ防衛Ｂ();
+			break;
+		case 788:
+			魔軍／イエヒサ防衛Ｃ();
+			break;
+		case 789:
+			魔軍／カズヒサの死();
+			break;
+		case 790:
+			魔軍／鈴女の助言();
+			break;
+		case 791:
+			魔軍／美樹暴走情報();
+			break;
+		case 792:
+			魔軍／美樹が支配者();
+			break;
+		case 793:
+			魔王／終わりの始まり();
+			break;
+		case 794:
+			魔王／健太郎スカウト／人間();
+			break;
+		case 795:
+			魔王／健太郎スカウト／魔人();
+			break;
+		case 796:
+			魔王／ホーネットからの手紙();
+			break;
+		case 797:
+			魔王／ケイブリスからの手紙();
+			break;
+		case 798:
+			魔王／崩壊();
+			break;
+		case 799:
+			マリア／参上();
+			break;
+		case 800:
+			マリア／リアからの手紙();
+			break;
+		case 801:
+			マリア／エッチ();
+			break;
+		case 802:
+			マリア／カスミの参加();
+			break;
+		case 803:
+			マリア／基本接触();
+			break;
+		case 804:
+			マリア／女神エロ();
+			break;
+		case 805:
+			マリア／汎用エロ();
+			break;
+		case 806:
+			マリア／おまもり();
+			break;
+		case 807:
+			マリア／合戦前／汎用();
+			break;
+		case 808:
+			タクガ／独立();
+			break;
+		case 809:
+			タクガ／鬼の住む大地();
+			break;
+		case 810:
+			タクガ／死国門突破作戦();
+			break;
+		case 811:
+			タクガ／中っ国奪取();
+			break;
+		case 812:
+			タクガ／毛利と同盟();
+			break;
+		case 813:
+			タクガ／妖怪退治開始();
+			break;
+		case 814:
+			タクガ／妖怪退治１();
+			break;
+		case 815:
+			タクガ／鬼の陵辱();
+			break;
+		case 816:
+			タクガ／未来の望み();
+			break;
+		case 817:
+			タクガ／宣戦布告();
+			break;
+		case 818:
+			タクガ／中っ国を追われる譲();
+			break;
+		case 819:
+			タクガ／中っ国を追われる譲なし();
+			break;
+		case 820:
+			タクガ／ピンチ美禰();
+			break;
+		case 821:
+			タクガ／ピンチ美禰なし();
+			break;
+		case 822:
+			タクガ／陥落Ａゴン();
+			break;
+		case 823:
+			タクガ／陥落Ａゴンなし();
+			break;
+		case 824:
+			タクガ／陥落Ａ共通();
+			break;
+		case 825:
+			タクガ／陥落Ｂ();
+			break;
+		case 826:
+			タクガ／開戦準備();
+			break;
+		case 827:
+			タクガ／織田に宣戦布告();
+			break;
+		case 828:
+			タクガ／裏工作();
+			break;
+		case 829:
+			タクガ／死国門封鎖Ａ();
+			break;
+		case 830:
+			タクガ／死国門封鎖Ｂ();
+			break;
+		case 831:
+			タクガ／死国門封鎖Ｃ();
+			break;
+		case 832:
+			タクガ／封鎖中１();
+			break;
+		case 833:
+			タクガ／封鎖中２();
+			break;
+		case 834:
+			ヨシヒサ／普通();
+			break;
+		case 835:
+			ヨシヒサ／信頼();
+			break;
+		case 836:
+			ヨシヒサ／勧誘成功();
+			break;
+		case 837:
+			ヨシヒサ／基本接触();
+			break;
+		case 838:
+			ヨシヒサ／基本接触／毛利てる();
+			break;
+		case 839:
+			ヨシヒサ／信頼２();
+			break;
+		case 840:
+			ヨシヒサ／合戦前／汎用();
+			break;
+		case 841:
+			天志教／初();
+			break;
+		case 842:
+			天志教／月餅の触媒();
+			break;
+		case 843:
+			言裏／訪問();
+			break;
+		case 844:
+			天志教／比叡山の後始末();
+			break;
+		case 845:
+			天志教／魔人を知る();
+			break;
+		case 846:
+			天志教／陥落／信長();
+			break;
+		case 847:
+			天志教／陥落();
+			break;
+		case 848:
+			天志教／陥落共通();
+			break;
+		case 849:
+			天志教／降伏受け入れ();
+			break;
+		case 850:
+			一揆／初めて();
+			break;
+		case 851:
+			一揆／汎用();
+			break;
+		case 852:
+			一揆／事前鎮圧();
+			break;
+		case 853:
+			一揆／大暴れ();
+			break;
+		case 854:
+			ランスの天志教弾圧();
+			break;
+		case 855:
+			天志教／性眼の怪我();
+			break;
+		case 856:
+			天志教／性眼の出撃();
+			break;
+		case 857:
+			天志教／三好の３人();
+			break;
+		case 858:
+			天志教／性眼ｖｓ煉獄();
+			break;
+		case 859:
+			ランス／夢();
+			break;
+		case 860:
+			透琳／大陸の事();
+			break;
+		case 861:
+			高坂／鈴女１();
+			break;
+		case 862:
+			高坂／鈴女２();
+			break;
+		case 863:
+			高坂／鈴女３();
+			break;
+		case 864:
+			武田／全国トップ();
+			break;
+		case 865:
+			武田／全国クリア();
+			break;
+		case 866:
+			本多／勧誘成功();
+			break;
+		case 867:
+			本多／部下会話／初();
+			break;
+		case 868:
+			本多／基本接触();
+			break;
+		case 869:
+			本多／信頼();
+			break;
+		case 870:
+			本多／合戦／汎用();
+			break;
+		case 871:
+			五十六／登場();
+			break;
+		case 872:
+			五十六／ランス狙撃();
+			break;
+		case 873:
+			五十六／足利家の軍議();
+			break;
+		case 874:
+			五十六／１回目の敗走();
+			break;
+		case 875:
+			五十六／超神にいびられる();
+			break;
+		case 876:
+			五十六／勧誘成功();
+			break;
+		case 877:
+			五十六／山本家の村();
+			break;
+		case 878:
+			五十六／求婚者の列();
+			break;
+		case 879:
+			五十六／２人の仲間();
+			break;
+		case 880:
+			五十六／信頼();
+			break;
+		case 881:
+			五十六／初エッチ();
+			break;
+		case 882:
+			五十六／汎用エッチ();
+			break;
+		case 883:
+			五十六／合戦前／エッチ後();
+			break;
+		case 884:
+			五十六／基本接触／お寺();
+			break;
+		case 885:
+			五十六／基本接触／神社();
+			break;
+		case 886:
+			五十六／守り紙様();
+			break;
+		case 887:
+			ランス／部下会話汎用();
+			break;
+		case 888:
+			ランス／援軍要請Ａ();
+			break;
+		case 889:
+			ランス／援軍要請Ｂ();
+			break;
+		case 890:
+			ランス／援軍要請汎用();
+			break;
+		case 891:
+			ランス／ひらめき１();
+			break;
+		case 892:
+			ランス／ひらめき２();
+			break;
+		case 893:
+			ランス／ひらめき３();
+			break;
+		case 894:
+			ランス／ひらめき４();
+			break;
+		case 895:
+			ランス／汎用会話２();
+			break;
+		case 896:
+			ランス／部下会話汎用３();
+			break;
+		case 897:
+			ランス／魂縛りの戦況();
+			break;
+		case 898:
+			ランス／コマンド回数();
+			break;
+		case 899:
+			ランス隊が精鋭に();
+			break;
+		case 900:
+			ランス／傍若無人１();
+			break;
+		case 901:
+			ランス／傍若無人２();
+			break;
+		case 902:
+			ランス／傍若無人３();
+			break;
+		case 903:
+			臨時徴収１();
+			break;
+		case 904:
+			ランス／貝塚でうはうは１();
+			break;
+		case 905:
+			ランス／貝塚でうはうは２();
+			break;
+		case 906:
+			ランス／貝塚でうはうは３();
+			break;
+		case 907:
+			ランス／戦死／シィル();
+			break;
+		case 908:
+			ランス／戦死／鈴女();
+			break;
+		case 909:
+			ランス／コマンド回数／シィル無し();
+			break;
+		case 910:
+			ランス／合戦後の刺客１Ａ();
+			break;
+		case 911:
+			ランス／合戦後の刺客１Ｂ();
+			break;
+		case 912:
+			ランス／合戦後の刺客２Ａ();
+			break;
+		case 913:
+			ランス／合戦後の刺客２Ｂ();
+			break;
+		case 914:
+			ランス／合戦後の刺客３Ａ();
+			break;
+		case 915:
+			ランス／合戦後の刺客３Ｂ();
+			break;
+		case 916:
+			織田／信長が帝を目指す();
+			break;
+		case 917:
+			謙信／帝ソード();
+			break;
+		case 918:
+			謙信／信長の呼び出しＡ();
+			break;
+		case 919:
+			謙信／信長の呼び出しＢ();
+			break;
+		case 920:
+			謙信／帝レースへの悩み();
+			break;
+		case 921:
+			信長／逃亡中();
+			break;
+		case 922:
+			信長／帝();
+			break;
+		case 923:
+			伊達／ラストバトル謙信Ａ();
+			break;
+		case 924:
+			伊達／ラストバトル謙信Ｂ();
+			break;
+		case 925:
+			伊達／ラストバトル謙信Ｃ();
+			break;
+		case 926:
+			謙信／敗北();
+			break;
+		case 927:
+			謙信ｖｓ政宗Ａ();
+			break;
+		case 928:
+			謙信ｖｓ政宗Ｂ();
+			break;
+		case 929:
+			謙信ｖｓのぞみＡ();
+			break;
+		case 930:
+			謙信ｖｓのぞみＢ();
+			break;
+		case 931:
+			謙信ｖｓ柚原Ａ();
+			break;
+		case 932:
+			謙信ｖｓ柚原Ｂ();
+			break;
+		case 933:
+			毛利／陥落謙信Ａ();
+			break;
+		case 934:
+			毛利／陥落謙信Ｂ();
+			break;
+		case 935:
+			謙信ｖｓ呪い元就();
+			break;
+		case 936:
+			謙信ｖｓ元就Ａ();
+			break;
+		case 937:
+			謙信ｖｓ元就Ｂ();
+			break;
+		case 938:
+			謙信ｖｓ熊野五郎Ａ();
+			break;
+		case 939:
+			謙信ｖｓ熊野五郎Ｂ();
+			break;
+		case 940:
+			謙信ｖｓ鈴谷無双Ａ();
+			break;
+		case 941:
+			謙信ｖｓ鈴谷無双Ｂ();
+			break;
+		case 942:
+			謙信ｖｓみくまＡ();
+			break;
+		case 943:
+			謙信ｖｓみくまＢ();
+			break;
+		case 944:
+			謙信ｖｓ平坂最上Ａ();
+			break;
+		case 945:
+			謙信ｖｓ平坂最上Ｂ();
+			break;
+		case 946:
+			謙信／帝();
+			break;
+		case 947:
+			信長／ザビエルに();
+			break;
+		case 948:
+			ザビエルの最後の作戦();
+			break;
+		case 949:
+			ザビエルとオロチ();
+			break;
+		case 950:
+			信長ｖｓ政宗();
+			break;
+		case 951:
+			信長ｖｓのぞみ();
+			break;
+		case 952:
+			信長ｖｓ馬場();
+			break;
+		case 953:
+			信長ｖｓゴン();
+			break;
+		case 954:
+			信長ｖｓゴン／タクガ滅亡();
+			break;
+		case 955:
+			信長ｖｓ柚原();
+			break;
+		case 956:
+			信長ｖｓ元就／呪い付き();
+			break;
+		case 957:
+			信長ｖｓ元就／人間();
+			break;
+		case 958:
+			信長ｖｓカズヒサ();
+			break;
+		case 959:
+			信長ｖｓ熊野五郎();
+			break;
+		case 960:
+			信長ｖｓ鈴谷無双();
+			break;
+		case 961:
+			信長ｖｓみくま();
+			break;
+		case 962:
+			信長ｖｓ平坂最上();
+			break;
+		case 963:
+			謙信ｖｓ馬場Ａ();
+			break;
+		case 964:
+			謙信ｖｓ馬場Ｂ();
+			break;
+		case 965:
+			謙信ｖｓゴンＡ();
+			break;
+		case 966:
+			謙信ｖｓゴンＢ();
+			break;
+		case 967:
+			カズヒサ／信長から逃げる();
+			break;
+		case 968:
+			カズヒサ／探索１();
+			break;
+		case 969:
+			謙信ｖｓカズヒサＡ();
+			break;
+		case 970:
+			謙信ｖｓカズヒサＢ();
+			break;
+		case 971:
+			上杉／ボーナスエロ();
+			break;
+		case 972:
+			傾国／帝レースの準備();
+			break;
+		case 973:
+			傾国／合戦工作();
+			break;
+		case 974:
+			信長ｖｓ偽傾国();
+			break;
+		case 975:
+			謙信／ランスを殺さない訳();
+			break;
+		case 976:
+			帝の威光で降伏勧告();
+			break;
+		case 977:
+			帝の威光で降伏勧告／汎用();
+			break;
+		case 978:
+			帝の威光で降伏勧告／魔軍();
+			break;
+		case 979:
+			魔軍／支配地奪取();
+			break;
+		case 980:
+			謙信／兵数激減();
+			break;
+		case 981:
+			謙信／帝ノートＡ();
+			break;
+		case 982:
+			謙信／帝ノートＢ();
+			break;
+		case 983:
+			謙信／帝ノートＣ();
+			break;
+		case 984:
+			謙信／帝ノートＤ();
+			break;
+		case 985:
+			謙信／帝ノートＥ();
+			break;
+		case 986:
+			謙信／香姫が国主に();
+			break;
+		case 987:
+			謙信／魔人信長復活情報();
+			break;
+		case 988:
+			謙信／レベルドレイン();
+			break;
+		case 989:
+			謙信／特訓／初めて();
+			break;
+		case 990:
+			謙信／特訓／汎用１();
+			break;
+		case 991:
+			謙信／特訓／汎用２();
+			break;
+		case 992:
+			謙信／愛の確認();
+			break;
+		case 993:
+			謙信／直江に報告();
+			break;
+		case 994:
+			謙信／レベル３０();
+			break;
+		case 995:
+			謙信／Ｖ１();
+			break;
+		case 996:
+			謙信／Ｖ２();
+			break;
+		case 997:
+			謙信／Ｖ３();
+			break;
+		case 998:
+			謙信／Ｖ４();
+			break;
+		case 999:
+			謙信／政宗の事();
+			break;
+		case 1000:
+			謙信／柚原の事();
+			break;
+		case 1001:
+			謙信／鈴谷の事();
+			break;
+		case 1002:
+			謙信／熊野の事();
+			break;
+		case 1003:
+			謙信／みくまの事();
+			break;
+		case 1004:
+			謙信／平坂の事();
+			break;
+		case 1005:
+			謙信／元就の事();
+			break;
+		case 1006:
+			謙信／馬場の事();
+			break;
+		case 1007:
+			謙信／ゴンの事();
+			break;
+		case 1008:
+			謙信／帝謙信とエッチ();
+			break;
+		case 1009:
+			謙信／基本接触／帝();
+			break;
+		case 1010:
+			謙信／大蛇の穴へ行こう();
+			break;
+		case 1011:
+			ザビエル／大蛇迷宮１();
+			break;
+		case 1012:
+			ザビエル／大蛇迷宮２();
+			break;
+		case 1013:
+			ザビエル／大蛇迷宮３();
+			break;
+		case 1014:
+			謙信／ラストバトルＡ();
+			break;
+		case 1015:
+			謙信／ラストバトルＢ();
+			break;
+		case 1016:
+			謙信／エピローグ();
+			break;
+		case 1017:
+			信長ｖｓ２点();
+			break;
+		case 1018:
+			謙信／馬場とまだ();
+			break;
+		case 1019:
+			傾国／謙信を狙う１();
+			break;
+		case 1020:
+			傾国／謙信を狙う２();
+			break;
+		case 1021:
+			まんまる／陵辱();
+			break;
+		case 1022:
+			まんまる／陵辱２();
+			break;
+		case 1023:
+			まんまる／逃がすＡ();
+			break;
+		case 1024:
+			まんまる／逃がすＢ();
+			break;
+		case 1025:
+			まんまる／逃がすＣ();
+			break;
+		case 1026:
+			謙信／仕官();
+			break;
+		case 1027:
+			謙信／ランスに迫る();
+			break;
+		case 1028:
+			謙信／信頼();
+			break;
+		case 1029:
+			謙信／合戦前();
+			break;
+		case 1030:
+			謙信／愛情();
+			break;
+		case 1031:
+			謙信／基本接触();
+			break;
+		case 1032:
+			謙信／基本接触２();
+			break;
+		case 1033:
+			謙信／汎用エロ();
+			break;
+		case 1034:
+			謙信／守り紙様();
+			break;
+		case 1035:
+			ＭＡＺＯ／無敵のお守り();
+			break;
+		case 1036:
+			信濃／丹下犬();
+			break;
+		case 1037:
+			柚原／人面犬の噂();
+			break;
+		case 1038:
+			阿樹／人面犬の噂();
+			break;
+		case 1039:
+			甲斐／人面犬の噂();
+			break;
+		case 1040:
+			さいたま／人面犬の噂();
+			break;
+		case 1041:
+			テキサス／お勉強穴／発見();
+			break;
+		case 1042:
+			尾張／ボタン狩りＡ();
+			break;
+		case 1043:
+			尾張／ボタン狩りＢ();
+			break;
+		case 1044:
+			佐渡／ボタン狩りＡ();
+			break;
+		case 1045:
+			佐渡／ボタン狩りＢ();
+			break;
+		case 1046:
+			さいたま／猿狩りＡ();
+			break;
+		case 1047:
+			さいたま／猿狩りＢ();
+			break;
+		case 1048:
+			姫路／猿狩りＡ();
+			break;
+		case 1049:
+			姫路／猿狩りＢ();
+			break;
+		case 1050:
+			中っ国／パンダ狩りＡ();
+			break;
+		case 1051:
+			中っ国／パンダ狩りＢ();
+			break;
+		case 1052:
+			上総／パンダ狩りＡ();
+			break;
+		case 1053:
+			上総／パンダ狩りＢ();
+			break;
+		case 1054:
+			まんぼう狩りＡ();
+			break;
+		case 1055:
+			まんぼう狩りＢ();
+			break;
+		case 1056:
+			捕虜がいっぱいです();
+			break;
+		case 1057:
+			蜜柑／ヒラミレモンを拾う();
+			break;
+		case 1058:
+			迷宮前／汎用();
+			break;
+		case 1059:
+			迷宮内／脱出();
+			break;
+		case 1060:
+			伊勢／真珠迷宮／発見();
+			break;
+		case 1061:
+			京／竜宮城／発見();
+			break;
+		case 1062:
+			佐渡／佐渡金山／発見();
+			break;
+		case 1063:
+			ＭＡＺＯ／ＳＭ迷宮／発見();
+			break;
+		case 1064:
+			上総／里見帝国／発見();
+			break;
+		case 1065:
+			江戸／魔界都市／発見();
+			break;
+		case 1066:
+			貝／貝塚／発見();
+			break;
+		case 1067:
+			三河／徳川埋蔵金／発見();
+			break;
+		case 1068:
+			大和／平城京／発見();
+			break;
+		case 1069:
+			なにわ／梅田地下街／発見();
+			break;
+		case 1070:
+			丹波／丹波鉱山／発見();
+			break;
+		case 1071:
+			姫路／虎の穴／発見();
+			break;
+		case 1072:
+			戦艦長門／ビキニ観賞／発見();
+			break;
+		case 1073:
+			忍者屋敷の建設();
+			break;
+		case 1074:
+			黄泉平坂／帝の剣();
+			break;
+		case 1075:
+			天満橋を渡るＡ();
+			break;
+		case 1076:
+			天満橋を渡るＢ();
+			break;
+		case 1077:
+			天満橋を渡るＣ();
+			break;
+		case 1078:
+			天満橋を渡るＤ();
+			break;
+		case 1079:
+			性転換１();
+			break;
+		case 1080:
+			性転換Ａ();
+			break;
+		case 1081:
+			性転換Ｂ１();
+			break;
+		case 1082:
+			性転換Ｂ２();
+			break;
+		case 1083:
+			性転換Ｃ();
+			break;
+		case 1084:
+			性転換Ｄ();
+			break;
+		case 1085:
+			鬼退治１();
+			break;
+		case 1086:
+			鬼退治２();
+			break;
+		case 1087:
+			竜宮城エロ１();
+			break;
+		case 1088:
+			竜宮城エロ１Ａ();
+			break;
+		case 1089:
+			竜宮城エロ２();
+			break;
+		case 1090:
+			竜宮城エロ３();
+			break;
+		case 1091:
+			迷宮／味噌カツ迷宮／クリア();
+			break;
+		case 1092:
+			伊勢／真珠迷宮／クリア();
+			break;
+		case 1093:
+			テキサス／お勉強穴／クリア();
+			break;
+		case 1094:
+			赤ヘル／赤壁迷宮／クリア();
+			break;
+		case 1095:
+			三河／徳川埋蔵金／クリア();
+			break;
+		case 1096:
+			陰陽学校の建設();
+			break;
+		case 1097:
+			陰陽学校の見学();
+			break;
+		case 1098:
+			鉄砲鍛冶場の見学();
+			break;
+		case 1099:
+			忍者屋敷の見学();
+			break;
+		case 1100:
+			足軽屋敷の建設();
+			break;
+		case 1101:
+			足軽屋敷の見学();
+			break;
+		case 1102:
+			江戸／黄金熊Ａ();
+			break;
+		case 1103:
+			江戸／黄金熊Ｂ();
+			break;
+		case 1104:
+			奥州／妖怪の宝();
+			break;
+		case 1105:
+			出雲／黄泉平坂／発見();
+			break;
+		case 1106:
+			赤ヘル／赤壁迷宮／発見();
+			break;
+		case 1107:
+			大和／平城京／初();
+			break;
+		case 1108:
+			大和／平城京／クリア();
+			break;
+		case 1109:
+			６大秘宝();
+			break;
+		case 1110:
+			てばさき牧場１();
+			break;
+		case 1111:
+			てばさき牧場２();
+			break;
+		case 1112:
+			てばさき牧場／汎用();
+			break;
+		case 1113:
+			てばさき牧場３();
+			break;
+		case 1114:
+			神原／宣戦布告();
+			break;
+		case 1115:
+			神原／宣戦布告／神原からの場合();
+			break;
+		case 1116:
+			神原／呉服屋();
+			break;
+		case 1117:
+			神原／餅漬();
+			break;
+		case 1118:
+			神原／汚れの日();
+			break;
+		case 1119:
+			神原／降伏受け入れ();
+			break;
+		case 1120:
+			神原／陥落Ａ();
+			break;
+		case 1121:
+			神原／陥落Ｂ();
+			break;
+		case 1122:
+			神原／陥落Ｃ();
+			break;
+		case 1123:
+			レイラ／参上();
+			break;
+		case 1124:
+			レイラ／信頼();
+			break;
+		case 1125:
+			レイラ／ｖｓ謙信();
+			break;
+		case 1126:
+			レイラ／エッチ();
+			break;
+		case 1127:
+			レイラ／基本接触();
+			break;
+		case 1128:
+			レイラ／捕獲される();
+			break;
+		case 1129:
+			レイラ／陵辱();
+			break;
+		case 1130:
+			レイラ／合戦前／汎用();
+			break;
+		case 1131:
+			香姫／行方不明();
+			break;
+		case 1132:
+			香姫／助ける();
+			break;
+		case 1133:
+			香姫／行方不明／汎用();
+			break;
+		case 1134:
+			香姫／レイプのフォロー();
+			break;
+		case 1135:
+			香姫／信長の心配汎用();
+			break;
+		case 1136:
+			香姫を襲う();
+			break;
+		case 1137:
+			織田／信長抹殺計画／汎用();
+			break;
+		case 1138:
+			香姫／総大将ですから();
+			break;
+		case 1139:
+			香姫／婿捜し();
+			break;
+		case 1140:
+			香姫／兄ランス();
+			break;
+		case 1141:
+			香姫／本陣に現れた信長();
+			break;
+		case 1142:
+			香姫／倒れる();
+			break;
+		case 1143:
+			香姫／マジックと();
+			break;
+		case 1144:
+			香姫／行かず後家();
+			break;
+		case 1145:
+			香姫／信長の心配２汎用();
+			break;
+		case 1146:
+			香姫／信長の心配３汎用();
+			break;
+		case 1147:
+			香姫／信長の心配４汎用();
+			break;
+		case 1148:
+			香姫／美樹暴走中();
+			break;
+		case 1149:
+			香姫／領内の散歩();
+			break;
+		case 1150:
+			香姫／信長の小遣い();
+			break;
+		case 1151:
+			香姫／２章汎用();
+			break;
+		case 1152:
+			香姫／成長１();
+			break;
+		case 1153:
+			香姫／成長２();
+			break;
+		case 1154:
+			香姫／２章その１();
+			break;
+		case 1155:
+			香姫／２章その２();
+			break;
+		case 1156:
+			香姫／２章その３();
+			break;
+		case 1157:
+			香姫／２章その４();
+			break;
+		case 1158:
+			香姫／日常会話汎用();
+			break;
+		case 1159:
+			香姫／行方不明／時間切れ();
+			break;
+		case 1160:
+			香姫／出陣();
+			break;
+		case 1161:
+			香姫／ランスの異変１();
+			break;
+		case 1162:
+			香姫／ランスの異変２();
+			break;
+		case 1163:
+			香姫／パーティ();
+			break;
+		case 1164:
+			香姫／疲れて寝ているＡ();
+			break;
+		case 1165:
+			香姫／疲れて寝ているＢ();
+			break;
+		case 1166:
+			香姫／疲れて寝ているＣ();
+			break;
+		case 1167:
+			香姫／お風呂();
+			break;
+		case 1168:
+			香姫／本能寺前汎用();
+			break;
+		case 1169:
+			香姫／３章Ａ汎用();
+			break;
+		case 1170:
+			香姫／３章Ｂ汎用();
+			break;
+		case 1171:
+			香姫／戦死();
+			break;
+		case 1172:
+			香姫／後半時間経過();
+			break;
+		case 1173:
+			香姫／氷漬け後／汎用();
+			break;
+		case 1174:
+			香姫／作戦許可書中止();
+			break;
+		case 1175:
+			香姫／守り紙様();
+			break;
+		case 1176:
+			明石／少年の国();
+			break;
+		case 1177:
+			明石／宣戦布告();
+			break;
+		case 1178:
+			明石／安部平三の死();
+			break;
+		case 1179:
+			明石／朝比奈百万の死();
+			break;
+		case 1180:
+			明石／ぬへ始動();
+			break;
+		case 1181:
+			明石／生野の戦い();
+			break;
+		case 1182:
+			明石／縄取の戦い();
+			break;
+		case 1183:
+			明石／夕餉の日常();
+			break;
+		case 1184:
+			明石／夕餉の戦い();
+			break;
+		case 1185:
+			明石／火鉢を逃がす();
+			break;
+		case 1186:
+			明石／降伏受け入れ();
+			break;
+		case 1187:
+			明石／瓢箪略奪();
+			break;
+		case 1188:
+			明石／織田へ宣戦布告();
+			break;
+		case 1189:
+			明石／ボーナスエロ();
+			break;
+		case 1190:
+			明石／陥落();
+			break;
+		case 1191:
+			明石／陥落Ｂ();
+			break;
+		case 1192:
+			明石／陥落Ｃ();
+			break;
+		case 1193:
+			明石／陥落Ｄ();
+			break;
+		case 1194:
+			明石／開戦準備();
+			break;
+		case 1195:
+			明石／裏工作();
+			break;
+		case 1196:
+			明石／織田へ宣戦布告２();
+			break;
+		case 1197:
+			伊達／開始();
+			break;
+		case 1198:
+			伊達／妖怪帝国について聞く();
+			break;
+		case 1199:
+			坂上田村麻呂／遭遇();
+			break;
+		case 1200:
+			坂上田村麻呂／撃破();
+			break;
+		case 1201:
+			伊達／宣戦布告();
+			break;
+		case 1202:
+			伊達／停戦協定();
+			break;
+		case 1203:
+			伊達／日常１();
+			break;
+		case 1204:
+			伊達／日常２();
+			break;
+		case 1205:
+			伊達／日常３();
+			break;
+		case 1206:
+			伊達／政宗の弱点();
+			break;
+		case 1207:
+			伊達／ラストバトルＡ();
+			break;
+		case 1208:
+			伊達／ラストバトルＢ();
+			break;
+		case 1209:
+			伊賀／初登場();
+			break;
+		case 1210:
+			伊賀／信長の情報();
+			break;
+		case 1211:
+			伊賀／内乱鎮圧();
+			break;
+		case 1212:
+			伊賀／宣戦布告();
+			break;
+		case 1213:
+			伊賀／戦場の刺客();
+			break;
+		case 1214:
+			伊賀／忍者ファイブ登場();
+			break;
+		case 1215:
+			伊賀／陥落／鈴女();
+			break;
+		case 1216:
+			伊賀／陥落();
+			break;
+		case 1217:
+			伊賀／復活();
+			break;
+		case 1218:
+			伊賀／瓢箪略奪();
+			break;
+		case 1219:
+			伊賀／織田に宣戦布告();
+			break;
+		case 1220:
+			伊賀／ゼス援軍();
+			break;
+		case 1221:
+			伊賀／鈴女のその後();
+			break;
+		case 1222:
+			伊賀／降伏受け入れ();
+			break;
+		case 1223:
+			伊賀／瓢箪献上();
+			break;
+		case 1224:
+			伊賀／わんわんトラップ();
+			break;
+		case 1225:
+			大和／くのいち学校発見();
+			break;
+		case 1226:
+			籐吉郎／殺す();
+			break;
+		case 1227:
+			猿殺し／クリア();
+			break;
+		case 1228:
+			シィル／部下会話汎用();
+			break;
+		case 1229:
+			シィル／大奥１();
+			break;
+		case 1230:
+			シィル／大奥２();
+			break;
+		case 1231:
+			シィル／大奥３();
+			break;
+		case 1232:
+			シィル／大奥４();
+			break;
+		case 1233:
+			シィル／大奥０();
+			break;
+		case 1234:
+			シィル／汎用会話２();
+			break;
+		case 1235:
+			シィル／基本接触();
+			break;
+		case 1236:
+			シィル／日常１();
+			break;
+		case 1237:
+			シィル／日常２();
+			break;
+		case 1238:
+			シィル／日常３();
+			break;
+		case 1239:
+			シィル／日常４();
+			break;
+		case 1240:
+			シィル／誕生日();
+			break;
+		case 1241:
+			シィル／温泉();
+			break;
+		case 1242:
+			シィル／セーラ服エロ();
+			break;
+		case 1243:
+			シィル／氷１Ａ();
+			break;
+		case 1244:
+			シィル／氷１Ｂ();
+			break;
+		case 1245:
+			シィル／氷１Ｃ();
+			break;
+		case 1246:
+			シィル／氷１Ｄ();
+			break;
+		case 1247:
+			シィル／氷１Ｅ();
+			break;
+		case 1248:
+			シィル／氷１Ｆ();
+			break;
+		case 1249:
+			シィル／氷２Ａ();
+			break;
+		case 1250:
+			シィル／氷２Ｂ();
+			break;
+		case 1251:
+			シィル／氷２Ｃ();
+			break;
+		case 1252:
+			シィル／氷３();
+			break;
+		case 1253:
+			シィル／基本接触／氷();
+			break;
+		case 1254:
+			ウルザ／参上();
+			break;
+		case 1255:
+			ウルザ／信頼();
+			break;
+		case 1256:
+			ウルザ／魔法電話();
+			break;
+		case 1257:
+			ウルザ／花火大会();
+			break;
+		case 1258:
+			ウルザ／基本接触();
+			break;
+		case 1259:
+			ウルザ／青姦();
+			break;
+		case 1260:
+			ウルザ／合戦前／汎用();
+			break;
+		case 1261:
+			政宗／仕官();
+			break;
+		case 1262:
+			政宗／基本接触();
+			break;
+		case 1263:
+			政宗／部下会話／初();
+			break;
+		case 1264:
+			政宗／信頼();
+			break;
+		case 1265:
+			政宗／合戦／汎用();
+			break;
+		case 1266:
+			政宗／殺生石();
+			break;
+		case 1267:
+			政宗／お町復活();
+			break;
+		case 1268:
+			井伊／勧誘成功();
+			break;
+		case 1269:
+			井伊／部下会話／初();
+			break;
+		case 1270:
+			井伊／基本接触();
+			break;
+		case 1271:
+			井伊／信頼();
+			break;
+		case 1272:
+			井伊／合戦／汎用();
+			break;
+		case 1273:
+			時間経過();
+			break;
+		case 1274:
+			乱丸／信頼();
+			break;
+		case 1275:
+			乱丸／基本接触();
+			break;
+		case 1276:
+			乱丸／ランス口説く１();
+			break;
+		case 1277:
+			乱丸／勝家と戦場();
+			break;
+		case 1278:
+			乱丸／ランスが口説く２();
+			break;
+		case 1279:
+			乱丸／着替え();
+			break;
+		case 1280:
+			乱丸／結婚の決意();
+			break;
+		case 1281:
+			乱丸／勝家ゲット();
+			break;
+		case 1282:
+			乱丸／基本接触／勝家();
+			break;
+		case 1283:
+			乱丸／合戦前／汎用();
+			break;
+		case 1284:
+			カズヒサ／普通();
+			break;
+		case 1285:
+			カズヒサ／信頼();
+			break;
+		case 1286:
+			カズヒサ／勧誘成功();
+			break;
+		case 1287:
+			カズヒサ／基本接触();
+			break;
+		case 1288:
+			カズヒサ／基本接触／直江愛();
+			break;
+		case 1289:
+			カズヒサ／信頼２();
+			break;
+		case 1290:
+			カズヒサ／合戦前／汎用();
+			break;
+		case 1291:
+			新撰組と子鹿();
+			break;
+		case 1292:
+			新撰組とタクガ１();
+			break;
+		case 1293:
+			新撰組とタクガ２();
+			break;
+		case 1294:
+			新撰組支援Ａ();
+			break;
+		case 1295:
+			新撰組支援Ｂ();
+			break;
+		case 1296:
+			新撰組支援Ｃ();
+			break;
+		case 1297:
+			新撰組テロリスト１();
+			break;
+		case 1298:
+			新撰組テロリスト２();
+			break;
+		case 1299:
+			上杉／初登場();
+			break;
+		case 1300:
+			上杉／他国援軍初();
+			break;
+		case 1301:
+			上杉／他国援軍汎用();
+			break;
+		case 1302:
+			上杉／宣戦布告();
+			break;
+		case 1303:
+			上杉／ランスｖｓ謙信();
+			break;
+		case 1304:
+			上杉／ランスｖｓ謙信汎用();
+			break;
+		case 1305:
+			上杉／謙信の一目惚れ();
+			break;
+		case 1306:
+			上杉／謙信の結婚相手();
+			break;
+		case 1307:
+			上杉／謙信の決意();
+			break;
+		case 1308:
+			上杉／夜襲();
+			break;
+		case 1309:
+			上杉／反乱軍発生Ａ();
+			break;
+		case 1310:
+			上杉／反乱軍発生Ｂ();
+			break;
+		case 1311:
+			上杉／反乱軍発生Ｃ();
+			break;
+		case 1312:
+			上杉／反乱軍その後();
+			break;
+		case 1313:
+			上杉／陥落／謙信無し();
+			break;
+		case 1314:
+			上杉／陥落();
+			break;
+		case 1315:
+			上杉／瓢箪略奪();
+			break;
+		case 1316:
+			上杉／瓢箪略奪／武田支配下();
+			break;
+		case 1317:
+			上杉／織田へ宣戦布告();
+			break;
+		case 1318:
+			上杉／織田援軍初();
+			break;
+		case 1319:
+			上杉／織田援軍汎用();
+			break;
+		case 1320:
+			県政／捕虜謙信／汎用();
+			break;
+		case 1321:
+			県政／捕虜謙信愛／汎用();
+			break;
+		case 1322:
+			上杉／反乱軍経過();
+			break;
+		case 1323:
+			発禁堕山／発見Ａ();
+			break;
+		case 1324:
+			発禁堕山／発見Ｂ();
+			break;
+		case 1325:
+			発禁堕山／発見Ｃ();
+			break;
+		case 1326:
+			発禁堕山／部下会話／初();
+			break;
+		case 1327:
+			発禁堕山／基本接触();
+			break;
+		case 1328:
+			発禁堕山／信頼();
+			break;
+		case 1329:
+			発禁堕山／合戦／汎用();
+			break;
+		case 1330:
+			魔導／登場();
+			break;
+		case 1331:
+			魔導／登場／部下();
+			break;
+		case 1332:
+			魔導／登場／捕虜();
+			break;
+		case 1333:
+			魔導／その頃１();
+			break;
+		case 1334:
+			魔導／その頃２();
+			break;
+		case 1335:
+			魔導／出撃();
+			break;
+		case 1336:
+			魔導／ラストバトルＡ();
+			break;
+		case 1337:
+			魔導／ラストバトルＡＡ();
+			break;
+		case 1338:
+			魔導／ラストバトルＢ();
+			break;
+		case 1339:
+			魂縛り封印共通();
+			break;
+		case 1340:
+			種子島／降伏受け入れ();
+			break;
+		case 1341:
+			なにわ／梅田地下街／クリア();
+			break;
+		case 1342:
+			佐渡／佐渡金山／クリア();
+			break;
+		case 1343:
+			ＭＡＺＯ／ＳＭ迷宮／クリア();
+			break;
+		case 1344:
+			上総／里見帝国／クリア();
+			break;
+		case 1345:
+			江戸／魔界都市／クリア();
+			break;
+		case 1346:
+			丹波／丹波鉱山／クリア();
+			break;
+		case 1347:
+			戦艦長門／ビキニ観賞／クリア();
+			break;
+		case 1348:
+			蜜柑／蜜柑農園／クリア();
+			break;
+		case 1349:
+			美濃／まむし油田／クリア();
+			break;
+		case 1350:
+			姫路／虎の穴／クリア();
+			break;
+		case 1351:
+			出雲／黄泉平坂／クリア();
+			break;
+		case 1352:
+			傾国／謙信を倒す();
+			break;
+		case 1353:
+			五十六／基本接触／足利滅亡前();
+			break;
+		case 1354:
+			天志教／和睦の提案Ａ();
+			break;
+		case 1355:
+			天志教／和睦の提案Ｃ();
+			break;
+		case 1356:
+			天志教／和睦の提案Ｂ();
+			break;
+		case 1357:
+			貝／貝塚／クリア();
+			break;
+		case 1358:
+			武田／織田に宣戦布告／五十六ルート();
+			break;
+		case 1359:
+			毛利／織田に宣戦布告／五十六ルート();
+			break;
+		case 1360:
+			鈴女／種付け／五十六ルート();
+			break;
+		case 1361:
+			蘭／種付け／五十六ルート();
+			break;
+		case 1362:
+			謙信／種付け／五十六ルート();
+			break;
+		case 1363:
+			川之江美禰／合戦前／汎用２();
+			break;
+		case 1364:
+			魔導／登場／例外();
+			break;
+		case 1365:
+			戯骸／登場／例外();
+			break;
+		case 1366:
+			朝倉義景／勧誘成功();
+			break;
+		case 1367:
+			朝倉義景／武将初();
+			break;
+		case 1368:
+			朝倉義景／普通();
+			break;
+		case 1369:
+			朝倉義景／信頼();
+			break;
+		case 1370:
+			朝倉義景／基本接触();
+			break;
+		case 1371:
+			朝倉義景／基本接触／信頼();
+			break;
+		case 1372:
+			朝倉義景／合戦前／汎用();
+			break;
+		case 1373:
+			種子島／初めて();
+			break;
+		case 1374:
+			種子島／毛利に販売();
+			break;
+		case 1375:
+			種子島／島津に販売();
+			break;
+		case 1376:
+			種子島／織田に販売();
+			break;
+		case 1377:
+			種子島／織田に販売汎用();
+			break;
+		case 1378:
+			種子島／織田に販売／買う();
+			break;
+		case 1379:
+			種子島／織田に販売／買わない();
+			break;
+		case 1380:
+			種子島／宣戦布告();
+			break;
+		case 1381:
+			種子島／重彦の逆恨み１();
+			break;
+		case 1382:
+			種子島／重彦の逆恨み２();
+			break;
+		case 1383:
+			種子島／陥落();
+			break;
+		case 1384:
+			柚原／出陣();
+			break;
+		case 1385:
+			種子島／カオスエロ();
+			break;
+		case 1386:
+			阿樹／部下会話／初();
+			break;
+		case 1387:
+			阿樹／部下会話／普通へ();
+			break;
+		case 1388:
+			阿樹／部下会話／信頼へ();
+			break;
+		case 1389:
+			阿樹／部下エッチ１();
+			break;
+		case 1390:
+			阿樹／奴隷大奥１回目();
+			break;
+		case 1391:
+			阿樹／奴隷大奥２回目();
+			break;
+		case 1392:
+			阿樹／奴隷大奥３回目();
+			break;
+		case 1393:
+			阿樹／奴隷大奥４回目();
+			break;
+		case 1394:
+			阿樹／愛情に();
+			break;
+		case 1395:
+			阿樹／基本接触();
+			break;
+		case 1396:
+			阿樹／基本接触／愛情();
+			break;
+		case 1397:
+			阿樹／合戦前／汎用();
+			break;
+		case 1398:
+			毛利／明石攻撃();
+			break;
+		case 1399:
+			毛利／元就と三姉妹();
+			break;
+		case 1400:
+			毛利／日常１();
+			break;
+		case 1401:
+			毛利／日常２();
+			break;
+		case 1402:
+			毛利／日常３();
+			break;
+		case 1403:
+			毛利／娘を失って();
+			break;
+		case 1404:
+			毛利／陥落／呪い付きＡ();
+			break;
+		case 1405:
+			毛利／陥落／呪い付きＢ();
+			break;
+		case 1406:
+			毛利／元就の呪いが解ける();
+			break;
+		case 1407:
+			毛利／陥落Ａ();
+			break;
+		case 1408:
+			毛利／陥落Ｂ();
+			break;
+		case 1409:
+			毛利／宣戦布告();
+			break;
+		case 1410:
+			毛利／瓢箪略奪();
+			break;
+		case 1411:
+			毛利姉妹４Ｐ();
+			break;
+		case 1412:
+			毛利／種子島占領();
+			break;
+		case 1413:
+			毛利／開戦準備();
+			break;
+		case 1414:
+			毛利／裏工作();
+			break;
+		case 1415:
+			毛利／織田に宣戦布告();
+			break;
+		case 1416:
+			毛利／大決戦準備();
+			break;
+		case 1417:
+			毛利／大決戦汎用();
+			break;
+		case 1418:
+			毛利／大決戦ＮＯ();
+			break;
+		case 1419:
+			毛利／大決戦Ａ();
+			break;
+		case 1420:
+			毛利／大決戦Ｂ();
+			break;
+		case 1421:
+			毛利／大決戦Ｃ();
+			break;
+		case 1422:
+			毛利／魔軍情報();
+			break;
+		case 1423:
+			毛利／明石占領();
+			break;
+		case 1424:
+			健太郎／登場();
+			break;
+		case 1425:
+			健太郎／合戦前();
+			break;
+		case 1426:
+			健太郎／逃亡();
+			break;
+		case 1427:
+			健太郎／浪人();
+			break;
+		case 1428:
+			健太郎／茶屋での出会い();
+			break;
+		case 1429:
+			健太郎／仕官();
+			break;
+		case 1430:
+			健太郎／合戦前の魔王話();
+			break;
+		case 1431:
+			健太郎／必殺技取得();
+			break;
+		case 1432:
+			健太郎／不死();
+			break;
+		case 1433:
+			健太郎／ランスが美樹を狙うＡ();
+			break;
+		case 1434:
+			健太郎／ランスが美樹を狙うＢ();
+			break;
+		case 1435:
+			健太郎／ランスが美樹を狙うＣ();
+			break;
+		case 1436:
+			健太郎／信頼();
+			break;
+		case 1437:
+			健太郎／美樹とカオス();
+			break;
+		case 1438:
+			健太郎／美樹ヒラミ事件の後();
+			break;
+		case 1439:
+			健太郎／基本接触();
+			break;
+		case 1440:
+			健太郎／基本接触／魔人();
+			break;
+		case 1441:
+			健太郎／大冒険／死国();
+			break;
+		case 1442:
+			健太郎／大冒険／ＭＡＺＯ();
+			break;
+		case 1443:
+			健太郎／大冒険／伊賀();
+			break;
+		case 1444:
+			健太郎／大冒険／カイロ();
+			break;
+		case 1445:
+			健太郎／合戦前／汎用();
+			break;
+		case 1446:
+			健太郎／魔人();
+			break;
+		case 1447:
+			健太郎／美樹苦しむ／汎用();
+			break;
+		case 1448:
+			健太郎／美樹暴走汎用();
+			break;
+		case 1449:
+			一休／勧誘成功();
+			break;
+		case 1450:
+			一休／部下会話／初();
+			break;
+		case 1451:
+			一休／基本接触();
+			break;
+		case 1452:
+			一休／信頼();
+			break;
+		case 1453:
+			一休／合戦／汎用();
+			break;
+		case 1454:
+			織田／３Ｇに矢();
+			break;
+		case 1455:
+			織田／３Ｇと餅();
+			break;
+		case 1456:
+			乱丸／合戦前／汎用２();
+			break;
+		case 1457:
+			川之江譲／合戦前／汎用２();
+			break;
+		case 1458:
+			神原昌示／勧誘成功();
+			break;
+		case 1459:
+			五十六／太郎の死１();
+			break;
+		case 1460:
+			五十六／太郎の死２();
+			break;
+		case 1461:
+			織田／盆踊り／初();
+			break;
+		case 1462:
+			織田／盆踊り／汎用();
+			break;
+		case 1463:
+			織田／盆踊り／シィル();
+			break;
+		case 1464:
+			織田／盆踊り／香();
+			break;
+		case 1465:
+			織田／盆踊り／五十六();
+			break;
+		case 1466:
+			織田／盆踊り／謙信();
+			break;
+		case 1467:
+			織田／盆踊り／蘭();
+			break;
+		case 1468:
+			織田／盆踊り／彰炎();
+			break;
+		case 1469:
+			織田／盆踊り／３Ｇ();
+			break;
+		case 1470:
+			織田／盆踊り／鈴女();
+			break;
+		case 1471:
+			織田／タクガ全員();
+			break;
+		case 1472:
+			織田／上杉全員();
+			break;
+		case 1473:
+			織田／足利全員();
+			break;
+		case 1474:
+			織田／ＡＡ全員();
+			break;
+		case 1475:
+			織田／種子島全員();
+			break;
+		case 1476:
+			織田／天志教全員();
+			break;
+		case 1477:
+			織田／毛利全員();
+			break;
+		case 1478:
+			織田／独眼流全員();
+			break;
+		case 1479:
+			織田／徳川全員();
+			break;
+		case 1480:
+			織田／武田全員();
+			break;
+		case 1481:
+			織田／島津全員();
+			break;
+		case 1482:
+			織田／ゼス全員();
+			break;
+		case 1483:
+			織田／リーザス全員();
+			break;
+		case 1484:
+			発禁堕山／雪();
+			break;
+		case 1485:
+			早雲／エロ教育();
+			break;
+		case 1486:
+			言裏／仕官();
+			break;
+		case 1487:
+			言裏／仲良し１();
+			break;
+		case 1488:
+			言裏／仲良し２();
+			break;
+		case 1489:
+			言裏／基本接触();
+			break;
+		case 1490:
+			言裏／信頼();
+			break;
+		case 1491:
+			言裏／合戦前／汎用();
+			break;
+		case 1492:
+			リズナ／参上();
+			break;
+		case 1493:
+			リズナ／淫欲を押さえる薬();
+			break;
+		case 1494:
+			リズナ／薬をぱくる();
+			break;
+		case 1495:
+			リズナ／薬が無くて困る();
+			break;
+		case 1496:
+			リズナ／エッチ();
+			break;
+		case 1497:
+			リズナ／基本接触();
+			break;
+		case 1498:
+			リズナ／基本接触２();
+			break;
+		case 1499:
+			リズナ／エッチ２();
+			break;
+		case 1500:
+			リズナ／合戦前／汎用();
+			break;
+		case 1501:
+			戯骸／登場／織田();
+			break;
+		case 1502:
+			戯骸／出撃();
+			break;
+		case 1503:
+			戯骸／挑戦();
+			break;
+		case 1504:
+			戯骸／挑戦／汎用();
+			break;
+		case 1505:
+			戯骸／ｖｓ汎用キャラ();
+			break;
+		case 1506:
+			戯骸／ｖｓ魔人健太郎();
+			break;
+		case 1507:
+			戯骸／ｖｓランス／情報無し();
+			break;
+		case 1508:
+			戯骸／ｖｓランスＡ();
+			break;
+		case 1509:
+			戯骸／ｖｓランスＢ();
+			break;
+		case 1510:
+			戯骸／対策プラン();
+			break;
+		case 1511:
+			戯骸／ｖｓ早雲();
+			break;
+		case 1512:
+			戯骸／ランスゲット();
+			break;
+		case 1513:
+			プロローグＡ();
+			break;
+		case 1514:
+			プロローグＢ();
+			break;
+		case 1515:
+			巫女／巫女機関の噂();
+			break;
+		case 1516:
+			巫女／初訪問();
+			break;
+		case 1517:
+			巫女／訪問２度目();
+			break;
+		case 1518:
+			巫女／訪問汎用();
+			break;
+		case 1519:
+			巫女／宣戦布告();
+			break;
+		case 1520:
+			巫女／陥落();
+			break;
+		case 1521:
+			巫女／織田の神社／シィル();
+			break;
+		case 1522:
+			巫女／オロチの話();
+			break;
+		case 1523:
+			巫女／地震();
+			break;
+		case 1524:
+			巫女／２人の巫女();
+			break;
+		case 1525:
+			巫女／最後の援軍();
+			break;
+		case 1526:
+			巫女／織田の神社／汎用();
+			break;
+		case 1527:
+			マジック／参上();
+			break;
+		case 1528:
+			マジック／武将初();
+			break;
+		case 1529:
+			マジック／誘い();
+			break;
+		case 1530:
+			マジック／夜這い();
+			break;
+		case 1531:
+			マジック／ランスの愛();
+			break;
+		case 1532:
+			マジック／基本接触();
+			break;
+		case 1533:
+			マジック／基本接触２();
+			break;
+		case 1534:
+			マジック／２度目のエロ();
+			break;
+		case 1535:
+			マジック／合戦前／汎用();
+			break;
+		case 1536:
+			徳川／初めて();
+			break;
+		case 1537:
+			徳川／日常１();
+			break;
+		case 1538:
+			徳川／日常２();
+			break;
+		case 1539:
+			徳川／日常３();
+			break;
+		case 1540:
+			徳川／宣戦布告();
+			break;
+		case 1541:
+			徳川／今川家に援軍を();
+			break;
+		case 1542:
+			徳川／忍者軍団();
+			break;
+		case 1543:
+			徳川／陥落Ａ共通();
+			break;
+		case 1544:
+			徳川／陥落Ｂ();
+			break;
+		case 1545:
+			徳川／反旗／子狸();
+			break;
+		case 1546:
+			徳川／反旗／人();
+			break;
+		case 1547:
+			徳川／降伏受け入れ();
+			break;
+		case 1548:
+			徳川／支配下１();
+			break;
+		case 1549:
+			徳川／支配下２();
+			break;
+		case 1550:
+			徳川／支配下３();
+			break;
+		case 1551:
+			徳川／支配下４();
+			break;
+		case 1552:
+			徳川／支配下５();
+			break;
+		case 1553:
+			徳川／織田に宣戦布告／子狸();
+			break;
+		case 1554:
+			徳川／織田に宣戦布告／人();
+			break;
+		case 1555:
+			徳川／出陣();
+			break;
+		case 1556:
+			徳川／伊達配下に();
+			break;
+		case 1557:
+			徳川／家康の情報();
+			break;
+		case 1558:
+			徳川／陥落Ａ２();
+			break;
+		case 1559:
+			徳川／陥落Ｃ();
+			break;
+		case 1560:
+			トシヒサ／普通();
+			break;
+		case 1561:
+			トシヒサ／信頼();
+			break;
+		case 1562:
+			トシヒサ／勧誘成功();
+			break;
+		case 1563:
+			トシヒサ／基本接触();
+			break;
+		case 1564:
+			トシヒサ／基本接触／大道寺小松();
+			break;
+		case 1565:
+			トシヒサ／信頼２();
+			break;
+		case 1566:
+			トシヒサ／合戦前／汎用();
+			break;
+		case 1567:
+			雪姫／脱出();
+			break;
+		case 1568:
+			雪姫／他国家老の元へ();
+			break;
+		case 1569:
+			雪姫／他国家老に抱かれる();
+			break;
+		case 1570:
+			雪姫／他国家老を殺す();
+			break;
+		case 1571:
+			雪姫／その後();
+			break;
+		case 1572:
+			雪姫／仕官();
+			break;
+		case 1573:
+			雪姫／武将初();
+			break;
+		case 1574:
+			雪姫／普通Ａ();
+			break;
+		case 1575:
+			雪姫／普通Ｂ();
+			break;
+		case 1576:
+			雪姫／普通Ｃ();
+			break;
+		case 1577:
+			雪姫／信頼();
+			break;
+		case 1578:
+			雪姫／愛情();
+			break;
+		case 1579:
+			雪姫／基本接触();
+			break;
+		case 1580:
+			雪姫／基本接触／信頼();
+			break;
+		case 1581:
+			雪姫／基本接触／愛情();
+			break;
+		case 1582:
+			雪姫／合戦前／汎用();
+			break;
+		case 1583:
+			北条／登場();
+			break;
+		case 1584:
+			北条／鬼退治();
+			break;
+		case 1585:
+			北条／天下を目指さない理由();
+			break;
+		case 1586:
+			北条／早雲と蘭();
+			break;
+		case 1587:
+			北条／早雲の疲労();
+			break;
+		case 1588:
+			蘭／式部と遭遇();
+			break;
+		case 1589:
+			蘭／事故死();
+			break;
+		case 1590:
+			蘭／朱雀召還();
+			break;
+		case 1591:
+			蘭／早雲が朱雀を調べる共通();
+			break;
+		case 1592:
+			蘭／早雲が朱雀を調べる／復活した();
+			break;
+		case 1593:
+			蘭／早雲が朱雀を調べる／復活まだ();
+			break;
+		case 1594:
+			北条／織田に宣戦布告();
+			break;
+		case 1595:
+			北条／宣戦布告();
+			break;
+		case 1596:
+			蘭／朱雀合戦後();
+			break;
+		case 1597:
+			蘭／早雲のストップ();
+			break;
+		case 1598:
+			北条／早雲の悲しみ();
+			break;
+		case 1599:
+			北条／ミナモト発生();
+			break;
+		case 1600:
+			北条／陥落／蘭健在();
+			break;
+		case 1601:
+			北条／陥落／早雲健在();
+			break;
+		case 1602:
+			北条／陥落();
+			break;
+		case 1603:
+			北条／ボーナスエロ();
+			break;
+		case 1604:
+			北条／瓢箪略奪();
+			break;
+		case 1605:
+			北条／瓢箪略奪／武田支配下();
+			break;
+		case 1606:
+			北条／和睦交渉Ａ();
+			break;
+		case 1607:
+			北条／和睦交渉Ｂ();
+			break;
+		case 1608:
+			北条／和睦交渉Ｃ();
+			break;
+		case 1609:
+			北条／尾張の鬼退治Ａ();
+			break;
+		case 1610:
+			北条／尾張の鬼退治Ｂ();
+			break;
+		case 1611:
+			北条／尾張の鬼退治Ｃ();
+			break;
+		case 1612:
+			北条／武田情報();
+			break;
+		case 1613:
+			上杉／瓢箪献上();
+			break;
+		case 1614:
+			足利／瓢箪献上();
+			break;
+		case 1615:
+			明石／瓢箪献上();
+			break;
+		case 1616:
+			石爺／美樹が見つからないので();
+			break;
+		case 1617:
+			島津／初登場();
+			break;
+		case 1618:
+			ヨシヒサ／出陣();
+			break;
+		case 1619:
+			カズヒサ／出陣();
+			break;
+		case 1620:
+			トシヒサ／出陣();
+			break;
+		case 1621:
+			イエヒサ／出陣();
+			break;
+		case 1622:
+			島津／天下を目指す();
+			break;
+		case 1623:
+			島津／合戦初めて();
+			break;
+		case 1624:
+			島津／その頃１();
+			break;
+		case 1625:
+			島津／その頃２();
+			break;
+		case 1626:
+			島津／その頃３();
+			break;
+		case 1627:
+			島津／毛利合併();
+			break;
+		case 1628:
+			島津／タクガ合併();
+			break;
+		case 1629:
+			島津／種子島合併();
+			break;
+		case 1630:
+			島津／香姫かどわかし();
+			break;
+		case 1631:
+			鈴女／島津への注意();
+			break;
+		case 1632:
+			島津／引き抜き();
+			break;
+		case 1633:
+			島津／４兄妹の降参();
+			break;
+		case 1634:
+			島津／４兄弟来る();
+			break;
+		case 1635:
+			島津／陥落Ａ();
+			break;
+		case 1636:
+			島津／陥落Ｂ();
+			break;
+		case 1637:
+			島津／陥落Ｃ();
+			break;
+		case 1638:
+			島津／織田隣接();
+			break;
+		case 1639:
+			香姫／死亡();
+			break;
+		case 1640:
+			信長／暗殺Ａ();
+			break;
+		case 1641:
+			信長／暗殺Ｂ();
+			break;
+		case 1642:
+			ランス争奪戦スタート();
+			break;
+		case 1643:
+			ランス／種付けエロ();
+			break;
+		case 1644:
+			ランス／種つけエロ汎用();
+			break;
+		case 1645:
+			五十六／種付け時汎用();
+			break;
+		case 1646:
+			五十六／基本接触();
+			break;
+		case 1647:
+			五十六／基本接触／エロ後();
+			break;
+		case 1648:
+			五十六／基本接触／妊娠();
+			break;
+		case 1649:
+			五十六／種付け希望();
+			break;
+		case 1650:
+			五十六／種付け希望汎用();
+			break;
+		case 1651:
+			五十六／種付け沈静();
+			break;
+		case 1652:
+			五十六／傾国のじらし();
+			break;
+		case 1653:
+			五十六／傾国のじらし／汎用();
+			break;
+		case 1654:
+			五十六／傾国の種付け();
+			break;
+		case 1655:
+			五十六／傾国の種付け／汎用();
+			break;
+		case 1656:
+			五十六／傾国の懐妊();
+			break;
+		case 1657:
+			五十六／腹ボテ傾国();
+			break;
+		case 1658:
+			五十六／傾国妊娠中汎用();
+			break;
+		case 1659:
+			五十六／魔人信長復活情報();
+			break;
+		case 1660:
+			傾国／妊娠中１();
+			break;
+		case 1661:
+			傾国／妊娠中２();
+			break;
+		case 1662:
+			傾国／妊娠中３();
+			break;
+		case 1663:
+			傾国／妊娠中／ヒラミレモン();
+			break;
+		case 1664:
+			五十六／日本丸誕生();
+			break;
+		case 1665:
+			傾国／子供付き汎用();
+			break;
+		case 1666:
+			五十六／織田の権力者１();
+			break;
+		case 1667:
+			五十六／織田の権力者２();
+			break;
+		case 1668:
+			五十六／傾国の権力者３();
+			break;
+		case 1669:
+			五十六／傾国の権力者４();
+			break;
+		case 1670:
+			五十六／傾国の権力者５();
+			break;
+		case 1671:
+			五十六／五十六の出産祝い();
+			break;
+		case 1672:
+			五十六／ぽつり種なし();
+			break;
+		case 1673:
+			五十六／傾国の牛乳();
+			break;
+		case 1674:
+			五十六／傾国追放();
+			break;
+		case 1675:
+			五十六／傾国追放後Ａ();
+			break;
+		case 1676:
+			五十六／傾国追放後Ｂ();
+			break;
+		case 1677:
+			五十六／傾国追放後Ｃ();
+			break;
+		case 1678:
+			五十六／傾国追放後Ｄ();
+			break;
+		case 1679:
+			五十六／傾国追放後Ｅ();
+			break;
+		case 1680:
+			五十六／妊娠エロ();
+			break;
+		case 1681:
+			五十六／妊娠エロ汎用();
+			break;
+		case 1682:
+			シィル／耳かき();
+			break;
+		case 1683:
+			五十六／懐妊();
+			break;
+		case 1684:
+			五十六／妊娠中汎用();
+			break;
+		case 1685:
+			五十六／美樹保護();
+			break;
+		case 1686:
+			魂縛り／解放();
+			break;
+		case 1687:
+			五十六／ザビエル出る();
+			break;
+		case 1688:
+			五十六／ラストバトルＡ();
+			break;
+		case 1689:
+			五十六／ラストバトルＢ();
+			break;
+		case 1690:
+			五十六／ラストバトルＣ();
+			break;
+		case 1691:
+			五十六／エピローグ();
+			break;
+		case 1692:
+			犬飼／タイマン勝負Ａ();
+			break;
+		case 1693:
+			犬飼／タイマン勝負Ｂ();
+			break;
+		case 1694:
+			犬飼／武将初();
+			break;
+		case 1695:
+			犬飼／信頼();
+			break;
+		case 1696:
+			犬飼と鈴女();
+			break;
+		case 1697:
+			犬飼とかなみ();
+			break;
+		case 1698:
+			犬飼／蜘蛛弾正登場();
+			break;
+		case 1699:
+			犬飼／合戦前／蜘蛛弾正();
+			break;
+		case 1700:
+			犬飼／合戦後／蜘蛛弾正();
+			break;
+		case 1701:
+			犬飼／銀目教();
+			break;
+		case 1702:
+			犬飼／基本接触();
+			break;
+		case 1703:
+			犬飼／合戦前／汎用();
+			break;
+		case 1704:
+			火鉢／ランスの命令でエッチ();
+			break;
+		case 1705:
+			火鉢／捕まえてエッチ();
+			break;
+		case 1706:
+			火鉢／捕まえてエッチ２();
+			break;
+		case 1707:
+			勝家／信頼();
+			break;
+		case 1708:
+			勝家／基本接触();
+			break;
+		case 1709:
+			勝家／怪我治る();
+			break;
+		case 1710:
+			勝家／友達１Ａ();
+			break;
+		case 1711:
+			勝家／友達１Ｂ();
+			break;
+		case 1712:
+			勝家／友達１Ｃ();
+			break;
+		case 1713:
+			勝家／友達２Ａ();
+			break;
+		case 1714:
+			勝家／友達２Ｂ();
+			break;
+		case 1715:
+			勝家／友達２Ｃ();
+			break;
+		case 1716:
+			勝家と香姫Ａ();
+			break;
+		case 1717:
+			勝家と香姫Ｂ();
+			break;
+		case 1718:
+			勝家と香姫Ｃ();
+			break;
+		case 1719:
+			勝家／基本接触／香姫();
+			break;
+		case 1720:
+			勝家／基本接触／乱丸();
+			break;
+		case 1721:
+			勝家／合戦前／汎用();
+			break;
+		case 1722:
+			直江／謙信奪還();
+			break;
+		case 1723:
+			直江／潜伏中を捕獲する();
+			break;
+		case 1724:
+			直江／仕官();
+			break;
+		case 1725:
+			直江／普通();
+			break;
+		case 1726:
+			直江／信頼();
+			break;
+		case 1727:
+			直江／基本接触();
+			break;
+		case 1728:
+			直江／謙信奪還計画();
+			break;
+		case 1729:
+			直江／愛情();
+			break;
+		case 1730:
+			直江／基本接触／愛情();
+			break;
+		case 1731:
+			直江／合戦前／汎用();
+			break;
+		case 1732:
+			真田／勧誘成功();
+			break;
+		case 1733:
+			真田／部下会話／初();
+			break;
+		case 1734:
+			真田／信頼();
+			break;
+		case 1735:
+			真田／合戦前／汎用();
+			break;
+		case 1736:
+			真田／基本接触();
+			break;
+		case 1737:
+			ＡＡ／初めて();
+			break;
+		case 1738:
+			ＡＡ／日常１();
+			break;
+		case 1739:
+			ＡＡ／日常２();
+			break;
+		case 1740:
+			ＡＡ／日常３();
+			break;
+		case 1741:
+			ＡＡ／宣戦布告();
+			break;
+		case 1742:
+			ＡＡ／義景の動揺();
+			break;
+		case 1743:
+			ＡＡ／降伏受け入れ();
+			break;
+		case 1744:
+			ＡＡ／発禁堕山登場();
+			break;
+		case 1745:
+			ＡＡ／パンダ襲撃();
+			break;
+		case 1746:
+			ＡＡ／パンダ襲撃汎用();
+			break;
+		case 1747:
+			ＡＡ／発禁堕山と雪姫();
+			break;
+		case 1748:
+			ＡＡ／雪姫の願い();
+			break;
+		case 1749:
+			ＡＡ／陥落();
+			break;
+		case 1750:
+			ＡＡ／織田へ宣戦布告();
+			break;
+		case 1751:
+			ＡＡ／テキサス大地震();
+			break;
+		case 1752:
+			ＡＡ／大地震に付け込む();
+			break;
+		case 1753:
+			ＡＡ／交渉接触Ａ();
+			break;
+		case 1754:
+			ＡＡ／交渉接触Ｂ();
+			break;
+		case 1755:
+			ＡＡ／交渉接触Ｃ();
+			break;
+		case 1756:
+			重彦／勧誘成功();
+			break;
+		case 1757:
+			重彦／部下会話／普通に();
+			break;
+		case 1758:
+			重彦／部下会話／信頼に();
+			break;
+		case 1759:
+			重彦／鉄砲鍛冶場の建設１();
+			break;
+		case 1760:
+			重彦／鉄砲鍛冶場の建設２();
+			break;
+		case 1761:
+			重彦／マリアを紹介してほしい();
+			break;
+		case 1762:
+			重彦／合戦前／汎用();
+			break;
+		case 1763:
+			重彦／基本接触();
+			break;
+	}
+	goto loop;
+}
+
+void cleanUp() {
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

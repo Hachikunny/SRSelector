@@ -1,0 +1,109 @@
+void ゲーム_初期化()
+{
+	ＣＧモード初期化();
+	音楽モード初期化();
+	共通変数_初期化();
+	音_初期化();
+	画面_初期化();
+	選択_初期化();
+	キー_初期化();
+	ショートカット_初期化();
+	if (system.IsDebugMode())
+	{
+		LOG_TADA("ゲーム初期化\n");
+	}
+	msgSkipStop(0);
+	黒画面(1, 100, 0);
+}
+
+void ゲーム_終了処理()
+{
+	msgSkipStop(0);
+	戦闘_削除();
+	マップ_終了処理();
+	tagSprite spSp;
+	spSp.create(画面幅(), 画面高さ(), 0, 0, 0, 255);
+	spSp.setPos(0, 0);
+	spSp.setZ(-1);
+	spSp.setShow(1);
+	EFFECT(1, 100, 0);
+	ショートカット_終了処理();
+	選択_終了処理();
+	画面_終了処理();
+	音_終了処理();
+	共通変数_終了処理();
+	spSp.delete();
+}
+
+void ゲーム再起動()
+{
+	ゲーム_終了処理();
+	system.Reset();
+	system.Peek();
+}
+
+void ゲーム終了()
+{
+	ゲーム_終了処理();
+	system.Exit(0);
+}
+
+void ゲーム_実行()
+{
+	msgSkipSetEnable(1);
+	黒画面(1, 100, 0);
+	tagTitle sTitle;
+	int nID = 0;
+	while (true)
+	{
+		nID = sTitle.run();
+		if (nID == 9)
+		{
+			break;
+		}
+		if (nID == 1)
+		{
+			ゲーム_メイン();
+		}
+		if (nID == 2)
+		{
+			ゲーム_ロード();
+		}
+		if (nID == 3)
+		{
+			館＿メイン();
+		}
+		if (nID == 4)
+		{
+			sceneChooser();
+		}
+	}
+	msgSkipStop(0);
+}
+
+void ゲーム_メイン()
+{
+	黒画面(1, 2000, 0);
+	ゲーム初期化();
+	セーブデータ_初期化();
+	マップ_初期化();
+	画面_クリア();
+	メイン();
+	マップ_終了処理();
+}
+
+void ゲーム_ロード()
+{
+	データ倉庫_背景設定();
+	g_sSystemBar.create();
+	データ倉庫(false);
+	g_sSystemBar.delete();
+}
+
+void ゲーム_アリスの館()
+{
+	ト書き枠(0, 0);
+	'まだ' A;
+	枠閉じ(0, 0);
+}
+
