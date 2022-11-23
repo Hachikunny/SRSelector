@@ -1,0 +1,1763 @@
+1 | Game - Alice's House | ƒQ[ƒ€_ƒAƒŠƒX‚ÌŠÙ
+2 | Baba / Successful recruitment | ”nê^Š©—U¬Œ÷
+3 | Baba / Subordinate conversation / first | ”nê^•”‰º‰ï˜b^‰
+4 | Baba / Basic contact | ”nê^Šî–{ÚG
+5 | Baba / Trust | ”nê^M—Š
+6 | Baba / Battle / General | ”nê^‡í^”Ä—p
+7 | Takeda / First appearance | •“c^‰“oê
+8 | Takeda / First military discussion | •“c^Å‰‚ÌŒR‹c
+9 | Takeda / vs-Uesugi 1 | •“c^‚–‚“ã™‚P
+10 | Takeda / vs Hojo1 | •“c^‚–‚“–kğ‚P
+11 | Takeda / vs Hojo2 | •“c^‚–‚“–kğ‚Q
+12 | Takeda / vs Uesugi general | •“c^‚–‚“ã™”Ä—p
+13 | Takeda / vs Hojo general | •“c^‚–‚“–kğ”Ä—p
+14 | Takeda / Shingen's birthday | •“c^MŒº‚Ì’a¶“ú
+15 | Takeda / Uesugi conquest 1 | •“c^ã™ª”°‚P
+16 | Takeda / Uesugi conquest 2 | •“c^ã™ª”°‚Q
+17 | Takeda / Hojo conquest 1 | •“c^–kğª”°‚P
+18 | Takeda / Conquest of Hojo 2 | •“c^–kğª”°‚Q
+19 | Takeda / Conquest of Imagawa | •“c^¡ìª”°
+20 | Takeda / Declaration of war against Oda | •“c^D“c‚Ééí•z
+21 | Takeda / Declaration of war | •“c^éí•z
+22 | Takeda / Before the Great Offensive | •“c^‘åU¨‘O
+23 | Takeda / Takasaka Corps 1 | •“c^‚â‘à‚P
+24 | Takeda / Sanada Squadron 1 | •“c^^“c‘à‚P
+25 | Takeda / Baba Squadron 1 | •“c^”nê‘à‚P
+26 | Takeda / Yamagata Squadron 1 | •“c^RŒ§‘à‚P
+27 | Takeda / Shingen Corps1 | •“c^MŒº‘à‚P
+28 | Takeda / Kosaka team 1 | •“c^‚â‘à”Ä—p
+29 | Takeda / Sanada Group General  | •“c^^“c‘à”Ä—p
+30 | Takeda / Baba Group General  | •“c^”nê‘à”Ä—p
+31 | Takeda / Yamagata  | •“c^RŒ§‘à”Ä—p
+32 | Takeda / Shingen Group General  | •“c^MŒº‘à”Ä—p
+33 | Oda / After the Great Takeda Offensive | D“c^•“c‘åU¨‚ÌŒã
+34 | Oda / Cavalry countermeasures / Maria | D“c^‹R”nŒR’c‘Îô^ƒ}ƒŠƒA
+35 | Oda / Cavalry countermeasures / Shigehiko | D“c^‹R”nŒR’c‘Îô^d•F
+36 | Takeda / After the cavalry countermeasures | •“c^‹R”n‘ÎôŒã
+37 | Takeda / One country remaining | •“c^c‚è‚P‘
+38 | Takeda / Measures against Motto | •“c^‚à‚Á‚±‚Ì‘Îô
+39 | Takeda / Fall 1 | •“c^Š×—‚P
+40 | Takeda / Fall 2 | •“c^Š×—‚Q
+41 | Takeda / Preparations for the start of war | •“c^ŠJí€”õ
+42 | Takeda / Subterfuge | •“c^— Hì
+43 | Takeda / Looting of gourds | •“c^•Z’\—ª’D
+44 | Takeda / Repulse of the Great Offensive | •“c^‘åU¨Œ‚‘Ş
+45 | Takeda / Assassination plan of Shingen | •“c^MŒº‚ÌˆÃEŒv‰æ
+46 | Takeda / Location of Shingen | •“c^MŒº‚Ì‹êŠ
+47 | Mino / Rumors of the three Minoans | ”ü”Z^”ü”Z‚RlO‚Ì‰\
+48 | Kyoto / Country destroyed by Ashikaga | ‹^‘«—˜‚É–Å‚Ú‚³‚ê‚½‘
+49 | Kyo / Rumors of a super god | ‹^’´_‚Ì‰\
+50 | Ashikaga / First appearance | ‘«—˜^‰“oê
+51 | Ashikaga / first request A | ‘«—˜^‰—v‹‚`
+52 | Ashikaga / Request B | ‘«—˜^—v‹‚a
+53 | Ashikaga / Request C | ‘«—˜^—v‹‚b
+54 | Ashikaga / generic demand | ‘«—˜^”Ä—p—v‹
+55 | Ashikaga / Declaration of war | ‘«—˜^éí•z
+56 | Ashikaga / The emperor's ring | ‘«—˜^’é‚ÌƒŠƒ“ƒO
+57 | Ashikaga / Demolish Oda | ‘«—˜^D“c‚ğænE
+58 | Ashikaga / falling | ‘«—˜^Š×—
+59 | Ashikaga / Acceptance of surrender | ‘«—˜^~•šó‚¯“ü‚ê
+60 | Ashikaga / Plunder of gourds | ‘«—˜^•Z’\—ª’D
+61 | Ashikaga / Hara family destroyed | ‘«—˜^Œ´‰Æ–Å–S
+62 | Ashikaga / Rezas reinforcements | ‘«—˜^ƒŠ[ƒUƒX‰‡ŒR
+63 | Ashikaga / In the case of Kyoto | ‘«—˜^‹‚Ìê‡
+64 | Ashikaga / In the case of Mino | ‘«—˜^”ü”Z‚Ìê‡
+65 | Kyo / Daughter of a noble | ‹^Œö‰Æ‚Ì–º
+66 | Ashikaga / Declaration of war with Tenshikyo story | ‘«—˜^“Vu‹³ƒlƒ^‚Åéí•z
+67 | Nozomi / Shin-Sen-Gumi 1 | ‚Ì‚¼‚İ^Vï‘g‚P
+68 | Nozomi / Shin-Sen-Gumi 2 | ‚Ì‚¼‚İ^Vï‘g‚Q
+69 | Nozomi / Shin-Sen-Gumi 3 | ‚Ì‚¼‚İ^Vï‘g‚R
+70 | Nozomi / Playing in Kyoto | ‚Ì‚¼‚İ^‹‚Å—V‚Ô
+71 | Nozomi / Take up to the Warlord | ‚Ì‚¼‚İ^•«‚Éæ‚è—§‚Ä‚é
+72 | Nozomi / First time as a military commander | ‚Ì‚¼‚İ^•«‰
+73 | Nozomi / Trust | ‚Ì‚¼‚İ^M—Š
+74 | Nozomi / Hard erotic | ‚Ì‚¼‚İ^ƒn[ƒhƒGƒ
+75 | Nozomi / Basic contact | ‚Ì‚¼‚İ^Šî–{ÚG
+76 | Nozomi / Hard Play | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒC
+77 | Nozomi / Hard Play 1 | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒC‚P
+78 | Nozomi / Hard Play 2 | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒC‚Q
+79 | Nozomi / Hard Play 3 | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒC‚R
+80 | Nozomi / Hard Play 4 | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒC‚S
+81 | Nozomi / Hard Play End | ‚Ì‚¼‚İ^ƒn[ƒhƒvƒŒƒCI‚í‚è
+82 | Nozomi / Love | ‚Ì‚¼‚İ^ˆ¤î
+83 | Nozomi / Before battle / General purpose | ‚Ì‚¼‚İ^‡í‘O^”Ä—p
+84 | Nozomi / Basic Contact / Affection | ‚Ì‚¼‚İ^Šî–{ÚG^ˆ¤î
+85 | Suzumeonna / Appearance | —é—^“oê
+86 | Suzumeonna / Becoming a warlord | —é—^•«‚É
+87 | Suzumeonna / Subordinate conversation / First | —é—^•”‰º‰ï˜b^‰
+88 | Suzumeonna / the 1st time in the inner palace | —é—^‘å‰œ‚P‰ñ–Ú
+89 | Suzumeonna / Subordinate conversation / To affection | —é—^•”‰º‰ï˜b^ˆ¤î‚É
+90 | Suzumeonna / sexual desire in the inner sanctum | —é—^‘å‰œ«—~â—Ï
+91 | Suzumeonna / Oooku alteration technique | —é—^‘å‰œ•ªg‚Ìp
+92 | Suzumeonna / Information of Inukai | —é—^Œ¢”‚Ìî•ñ
+93 | Suzuonna / Iga battle | —é—^ˆÉ‰ê‡í
+94 | Suzumeonna / Generic sex | —é—^”Ä—pƒGƒbƒ`
+95 | Suzumeonna / Basic Contact | —é—^Šî–{ÚG
+96 | Suzumeonna / Labyrinth hint | —é—^–À‹{ƒqƒ“ƒg
+97 | Suzumeonna / Collapse | —é—^“|‚ê‚é
+98 | Suzumeonna / Before battle / General | —é—^‡í‘O^”Ä—p
+99 | Natori / Succeeded in recruiting | –¼æ^Š©—U¬Œ÷
+100 | Natori / Warlord first | –¼æ^•«‰
+101 | Natori / Basic contact | –¼æ^Šî–{ÚG
+102 | Natori / Generic erotic | –¼æ^”Ä—pƒGƒ
+103 | Natori / Trust | –¼æ^M—Š
+104 | Natori / Affection | –¼æ^ˆ¤î
+105 | Natori / Explanation of Orochi | –¼æ^ƒIƒƒ`‚Ìà–¾
+106 | Natori / Trust NG | –¼æ^M—Š‚m‚f
+107 | Natori / Basic contact / Affection | –¼æ^Šî–{ÚG^ˆ¤î
+108 | Natori / Basic contact / Orochi | –¼æ^Šî–{ÚG^ƒIƒƒ`
+109 | Natori / Before battle / General purpose | –¼æ^‡í‘O^”Ä—p
+110 | Gekko / Appearance | ŒŒõ^“oê
+111 | Gekko / Trust | ŒŒõ^M—Š
+112 | Gekko / Iga is the enemy | ŒŒõ^ˆÉ‰ê‚ª“G
+113 | Gekko / Omachi | ŒŒõ^‚¨’¬
+114 | Gekko / Death of Nobunaga | ŒŒõ^M’·‚Ì€
+115 | Gekko / Death of Shang | ŒŒõ^‚Ì€
+116 | Gekko / Death of bomb | ŒŒõ^”š€
+117 | Gekko / Basic contact | ŒŒõ^Šî–{ÚG
+118 | Gekko / Before the battle / General | ŒŒõ^‡í‘O^”Ä—p
+119 | Shizuka / Appearance | u’Ã^“oê
+120 | Shizuka / 01 | u’Ã^‚O‚P
+121 | Shizuka / 02 | u’Ã^‚O‚Q
+122 | Shizuka / 03 | u’Ã^‚O‚R
+123 | Shizuka / Basic contact | u’Ã^Šî–{ÚG
+124 | Shizuka / Released | u’Ã^—£’E
+125 | Gekko / Katsuke | ŒŒõ^Ÿ‰Æ
+126 | Mikawa / Alien 1 | O‰Í^‰F’ˆl‚P
+127 | Mikawa / Alien 2 | O‰Í^‰F’ˆl‚Q
+128 | Mikawa / alien / generic | O‰Í^‰F’ˆl^”Ä—p
+129 | Mikawa / Alien 3 | O‰Í^‰F’ˆl‚R
+130 | Kawanoe Mine / Recruitment Success | ì”V]”ü”H^Š©—U¬Œ÷
+131 | Kawanoe Minae / Warlord First | ì”V]”ü”H^•«‰
+132 | Kawanoe Minae / Trust | ì”V]”ü”H^M—Š
+133 | Kawanoe Minae / promise reneged | ì”V]”ü”H^–ñ‘©”½ŒÌ
+134 | Kawanoe Minet / Sex | ì”V]”ü”H^ƒGƒbƒ`
+135 | KawanoeMinet / Get Ryoma | ì”V]”ü”H^—´”nƒQƒbƒg
+136 | Kawanoe Minae / Basic Contact | ì”V]”ü”H^Šî–{ÚG
+137 | Kawanoe Minae / Basic Contact 2 | ì”V]”ü”H^Šî–{ÚG‚Q
+138 | Kawanoe Minae / Rest | ì”V]”ü”H^‹xŒe
+139 | Kawanoe Minae / Before the battle / General purpose | ì”V]”ü”H^‡í‘O^”Ä—p
+140 | Teru / Repulsion of the monsters | ‚Ä‚é^—d‰ö‘Ş¡Œ‚‘Ş
+141 | Teru / Recruitment success | ‚Ä‚é^Š©—U¬Œ÷
+142 | Teru / Normal | ‚Ä‚é^•’Ê
+143 | Teru / Trust | ‚Ä‚é^M—Š
+144 | Teru / Affection | ‚Ä‚é^ˆ¤î
+145 | Teel / Basic contact | ‚Ä‚é^Šî–{ÚG
+146 | You are / general erotic | ‚Ä‚é^”Ä—pƒGƒ
+147 | I know / Basic contact / Affectionate | ‚Ä‚é^Šî–{ÚG^ˆ¤î
+148 | Tigeru / Pre-battle / Generic | ‚Ä‚é^‡í‘O^”Ä—p
+149 | Chrysanthemum / sortie | –ì‹e^oŒ‚
+150 | Chrysanthemum / Capture erotic | –ì‹e^•ßŠlƒGƒ
+151 | Nonghiku / Recruitment success | –ì‹e^Š©—U¬Œ÷
+152 | Nonghiku / subordinate conversation / first | –ì‹e^•”‰º‰ï˜b^‰
+153 | Nonghiku / Basic contact | –ì‹e^Šî–{ÚG
+154 | Nonghiku / Normal | –ì‹e^•’Ê
+155 | Nonghiku / trust | –ì‹e^M—Š
+156 | Nonghiku / Affection | –ì‹e^ˆ¤î
+157 | Nonghiku / basic contact / affection | –ì‹e^Šî–{ÚG^ˆ¤î
+158 | Nonghiku / general erotic | –ì‹e^”Ä—pƒGƒ
+159 | Nonghiku / battle / general | –ì‹e^‡í^”Ä—p
+160 | Orihime / sortie | Ü—^oŒ‚
+161 | Orihime / capture erotic | Ü—^•ßŠlƒGƒ
+162 | Orihime / Recruitment success | Ü—^Š©—U¬Œ÷
+163 | Orihime / Subordinate conversation / First | Ü—^•”‰º‰ï˜b^‰
+164 | Orihime / Basic contact | Ü—^Šî–{ÚG
+165 | Orihime / Trust | Ü—^M—Š
+166 | Orihime / Affection | Ü—^ˆ¤î
+167 | Orihime / Basic contact / Affection | Ü—^Šî–{ÚG^ˆ¤î
+168 | Orihime / General erotic | Ü—^”Ä—pƒGƒ
+169 | Orihime / Battle / General Purpose | Ü—^‡í^”Ä—p
+170 | Kosaka / Recruitment success | ‚â^Š©—U¬Œ÷
+171 | Kosaka / Subordinate Conversation / First | ‚â^•”‰º‰ï˜b^‰
+172 | Kosaka / Basic contact | ‚â^Šî–{ÚG
+173 | Kosaka / Trust | ‚â^M—Š
+174 | Kosaka / Battle / General Purpose | ‚â^‡í^”Ä—p
+175 | Sex eye / Fugitive 1 | «Šá^“¦–S‚P
+176 | Sexual eye / Fugitive 2 | «Šá^“¦–S‚Q
+177 | Sexual eye / immature | «Šá^–¢n
+178 | Sexual eye / Officer | «Šá^dŠ¯
+179 | Eyes of sex / Proposal of strategy | «Šá^ìí‚Ì’ñˆÄ
+180 | Gender Eyes / Trust | «Šá^M—Š
+181 | Eye of the sex / Requested three times | «Šá^O“x‚ÌˆË—Š
+182 | Eyes of Sex / Execution of three requests | «Šá^O“x‚ÌˆË—ŠÀs
+183 | Eyes of Sex / With Kahime | «Šá^•P‚Æ
+184 | Sexual Eye / With Cir | «Šá^ƒVƒBƒ‹‚Æ
+185 | Eyes of Sex / Basic Contact | «Šá^Šî–{ÚG
+186 | Eyes of Sex / With Lance | «Šá^ƒ‰ƒ“ƒX‚Æ
+187 | Eyes of Sex / Before the battle / vs. the Demon Army | «Šá^‡í‘O^‚–‚“–‚ŒR
+188 | Eyes / Before battle / General | «Šá^‡í‘O^”Ä—p
+189 | Yehisa / Normal | ƒCƒGƒqƒT^•’Ê
+190 | Yehisa / Trust | ƒCƒGƒqƒT^M—Š
+191 | Yehisa / Recruitment Success | ƒCƒGƒqƒT^Š©—U¬Œ÷
+192 | Yeshisa / Basic contact | ƒCƒGƒqƒT^Šî–{ÚG
+193 | Yeshisa / Basic Contact / Ranmaru | ƒCƒGƒqƒT^Šî–{ÚG^—ŠÛ
+194 | Yehisa / Trust 2 | ƒCƒGƒqƒT^M—Š‚Q
+195 | Yehisa / Before battle / General Purpose | ƒCƒGƒqƒT^‡í‘O^”Ä—p
+196 | Yuzuhara / Recruitment Success | —MŒ´^Š©—U¬Œ÷
+197 | Yuzuhara / Subordinate Conversation / Normal | —MŒ´^•”‰º‰ï˜b^•’Ê‚É
+198 | Yuzuhara / Before Battle | —MŒ´^‡í‘O
+199 | Yuzuhara / Subordinate Conversation / Trust | —MŒ´^•”‰º‰ï˜b^M—Š‚É
+200 | Yuzuhara / After the Battle / To Affection  | —MŒ´^‡íŒã^ˆ¤î‚É
+201 | Yuzuhara / Encounter with Tanu | —MŒ´^‚½‚Ê[‚Æ‚Ì‘˜‹ö
+202 | Yuzuhara / Basic Contact | —MŒ´^Šî–{ÚG
+203 | Yuzuhara / Basic Contact / Affection | —MŒ´^Šî–{ÚG^ˆ¤î
+204 | Yuzuhara / Visit to Tokugawa Family | —MŒ´^“¿ì‰Æ–K–â
+205 | Yuzuhara / Visit to the Inukai Family | —MŒ´^Œ¢”‰Æ–K–â
+206 | Yuzuhara / The Tanegashima Family | —MŒ´^íq“‡‰Æ‚Ì˜b
+207 | Yuzuhara / Wanting Children | —MŒ´^q‹Ÿ‚Ù‚µ‚¢
+208 | Yuzuhara / Basic Contact / Affection 2 | —MŒ´^Šî–{ÚG^ˆ¤î‚Q
+209 | Yuzuhara / Before the Battle / General Purpose | —MŒ´^‡í‘O^”Ä—p
+210 | Yuzuhara / Generic Erotic | —MŒ´^”Ä—pƒGƒ
+211 | Imagawa / First Appearance | ¡ì^‰“oê
+212 | Imagawa / Daily Life 1 | ¡ì^“úí‚P
+213 | Imagawa / Everyday Life 2 | ¡ì^“úí‚Q
+214 | Imagawa / Everyday Life 3 | ¡ì^“úí‚R
+215 | Imagawa / Yoshimoto's Secret | ¡ì^‹`Œ³‚Ì”é–§
+216 | Imagawa / Joheraku Plan 1 | ¡ì^ã—ŒŒv‰æ‚P
+217 | Imagawa / Joheraku Plan 2 | ¡ì^ã—ŒŒv‰æ‚Q
+218 | Imagawa / Joheraku Plan 3A | ¡ì^ã—ŒŒv‰æ‚R‚`
+219 | Imagawa / Joheraku Plan 3B | ¡ì^ã—ŒŒv‰æ‚R‚a
+220 | Imagawa / Joheraku Plan 3C | ¡ì^ã—ŒŒv‰æ‚R‚b
+221 | Imagawa / Joheraku Plan 4A | ¡ì^ã—ŒŒv‰æ‚S‚`
+222 | Imagawa / Joheraku Plan 4B | ¡ì^ã—ŒŒv‰æ‚S‚a
+223 | Imagawa / Joheraku plan 4C | ¡ì^ã—ŒŒv‰æ‚S‚b
+224 | Imagawa / Contact with Yoshimoto A | ¡ì^‹`Œ³‚ÆÚG‚`
+225 | Imagawa / contact with Yoshimoto B | ¡ì^‹`Œ³‚ÆÚG‚a
+226 | Imagawa / Contact with Yoshimoto C | ¡ì^‹`Œ³‚ÆÚG‚b
+227 | Imagawa / Declaration of war | ¡ì^éí•z
+228 | Imagawa / fallen / no information | ¡ì^Š×—^î•ñ–³‚µ
+229 | Imagawa / Fall / Information A | ¡ì^Š×—^î•ñ—L‚è‚`
+230 | Imagawa / Declaration of war against Oda | ¡ì^D“c‚Ééí•z
+231 | Omachi / Sortie | ‚¨’¬^oŒ‚
+232 | Omachi / Defeat | ‚¨’¬^“|‚·
+233 | Omachi / Conversation with subordinates / First  | ‚¨’¬^•”‰º‰ï˜b^‰
+234 | Omachi / Basic contact | ‚¨’¬^Šî–{ÚG
+235 | Omachi / Normal | ‚¨’¬^•’Ê
+236 | Omachi / Trust | ‚¨’¬^M—Š
+237 | Omachi / Affection | ‚¨’¬^ˆ¤î
+238 | Omachi / Basic contact / Affection | ‚¨’¬^Šî–{ÚG^ˆ¤î
+239 | Omachi / General erotic | ‚¨’¬^”Ä—pƒGƒ
+240 | Omachi / Battle / General Purpose | ‚¨’¬^‡í^”Ä—p
+241 | Hayakumo / Discovery in oil hole A | ‘‰_^Î–ûŒŠ‚Å”­Œ©‚`
+242 | Hayakumo / Discovery in the oil pit B | ‘‰_^Î–ûŒŠ‚Å”­Œ©‚a
+243 | Hayakumo / Discovery in oil hole C | ‘‰_^Î–ûŒŠ‚Å”­Œ©‚b
+244 | Hayakumo / Officer | ‘‰_^dŠ¯
+245 | Hayakumo / Trust | ‘‰_^M—Š
+246 | Hayakumo / Basic contact | ‘‰_^Šî–{ÚG
+247 | Hayakumo / Talking with Sex Eye | ‘‰_^«Šá‚Æ‘Î’k
+248 | Hayakumo / Talking with Natori | ‘‰_^–¼æ‚Æ‘Î’k
+249 | Soun / Work of Yin-Yang-Dao | ‘‰_^‰A—z“¹‚Ìd–
+250 | Soun / Memories of Ran | ‘‰_^—–‚Ìv‚¢o
+251 | Soun / Before the battle / General purpose | ‘‰_^‡í‘O^”Ä—p
+252 | Yamagata / Recruitment success | RŒ§^Š©—U¬Œ÷
+253 | Yamagata / Subordinate conversation / First | RŒ§^•”‰º‰ï˜b^‰
+254 | Yamagata / Basic contact | RŒ§^Šî–{ÚG
+255 | Yamagata / Trust | RŒ§^M—Š
+256 | Yamagata / Battle / General Purpose | RŒ§^‡í^”Ä—p
+257 | Ryoma / Successful Recruitment | —´”n^Š©—U¬Œ÷
+258 | Ryoma / Trust | —´”n^M—Š
+259 | Ryoma / Yokai lickety-split information | —´”n^—d‰ö‚È‚ß‚­‚¶î•ñ
+260 | Ryoma / Yokai lickspittle A | —´”n^—d‰ö‚È‚ß‚­‚¶‚`
+261 | Ryoma / Yokai Namazuji B | —´”n^—d‰ö‚È‚ß‚­‚¶‚a
+262 | Ryoma / Become a man | —´”n^’j‚É‚È‚é
+263 | Ryoma / Becoming a woman | —´”n^—‚É‚È‚é
+264 | Ryoma / After becoming a woman | —´”n^—‚É‚È‚Á‚Ä‚©‚ç
+265 | Ryoma / Having sex with Lance | —´”n^ƒ‰ƒ“ƒX‚ÆƒGƒbƒ`
+266 | Ryoma / Basic contact | —´”n^Šî–{ÚG
+267 | Ryoma / Kahime 1 | —´”n^•P‚P
+268 | Ryoma / Kahime 2 | —´”n^•P‚Q
+269 | Ryoma / Kahime 3 | —´”n^•P‚R
+270 | Ryoma / Gon out | —´”n^ƒSƒ“‚ğo‚¹
+271 | Ryoma / Get Mine out | —´”n^”ü”H‚ğo‚¹
+272 | Ryoma / Yuzuru | —´”n^÷‚ğo‚¹
+273 | Ryoma / General erotic | —´”n^”Ä—pƒGƒ
+274 | Ryoma / Basic Contact / After Erotic | —´”n^Šî–{ÚG^ƒGƒŒã
+275 | Ryoma / Before battle / General | —´”n^‡í‘O^”Ä—p
+276 | Oda / Turn 1 | D“c^ƒ^[ƒ“‚P
+277 | Region / First time | ’nˆæ^‰‚ß‚Ä
+278 | Battle / First time | ‡í^‰‚ß‚Ä
+279 | Ooku / First time | ‘å‰œ^‰‚ß‚Ä
+280 | Warlord / First | •«^‰‚ß‚Ä
+281 | Prisoner of War / First | •ß—¸^‰‚ß‚Ä
+282 | Oda / Hanami | D“c^‰ÔŒ©
+283 | Oda / Nobunaga and gourd | D“c^M’·‚Æ•Z’\
+284 | Oda / Nobunaga and gourd 2 | D“c^M’·‚Æ•Z’\‚Q
+285 | Oda / the second gourd | D“c^‘æ‚Q‚Ì•Z’\
+286 | Oda / The third gourd | D“c^‘æ‚R‚Ì•Z’\
+287 | Oda / The fourth gourd | D“c^‘æ‚S‚Ì•Z’\
+288 | Oda / The fifth gourd | D“c^‘æ‚T‚Ì•Z’\
+289 | Oda / The Xth gourd | D“c^‘æ‚w‚Ì•Z’\
+290 | Oda / Tenshikyo Incident begins | D“c^“Vu‹³–ŒŠJn
+291 | Oda / Hieizan burning | D“c^”ä‰bRÄ‚«“¢‚¿
+292 | Oda / Monzu rebellion A | D“c^–å“k‚Ì”½—‚`
+293 | Oda / Rebellion of Monks B | D“c^–å“k‚Ì”½—‚a
+294 | Oda / Story of chaos | D“c^ƒJƒIƒX‚Ì˜b
+295 | Oda / Plan to eliminate Nobunaga | D“c^M’·–•EŒv‰æ
+296 | Honnoji Incident A | –{”\›‚Ì•Ï‚`
+297 | Honnoji Incident B | –{”\›‚Ì•Ï‚a
+298 | Honnoji Incident BB | –{”\›‚Ì•Ï‚a‚a
+299 | Honnoji Incident C | –{”\›‚Ì•Ï‚b
+300 | Honnoji Incident D | –{”\›‚Ì•Ï‚c
+301 | Oda / Oda family split | D“c^D“c‰Æ•ª—ô
+302 | The staff of popularity | l–]‚Ìñ
+303 | Oda / General conversation 21 | D“c^”Ä—p‰ï˜b‚Q‚P
+304 | Oda / General conversation 22 | D“c^”Ä—p‰ï˜b‚Q‚Q
+305 | Going to kill Nobunaga / returning fire | M’·‚ğE‚µ‚És‚­^•Ô‚è“¢‚¿
+306 | Oda / Volunteer group 1 | D“c^‹`—E’c‚P
+307 | Oda / volunteer group 2 | D“c^‹`—E’c‚Q
+308 | Mobilization of students | Šw“k“®ˆõ
+309 | Mobilization of students / generic | Šw“k“®ˆõ^”Ä—p
+310 | Oda / How to declare war | D“c^éí•z‚Ìd•û
+311 | Honnoji / First | –{”\›^‰
+312 | Honnoji / generic | –{”\›^”Ä—p
+313 | Honnoji / purgatory | –{”\›^—ù–
+314 | Honnoji / Kahime missing | –{”\›^•Ps•û•s–¾’†
+315 | Honnoji / Majin no Nest A | –{”\›^–‚l‚Ì‘ƒ‚`
+316 | Honnoji / Majin no Nest B | –{”\›^–‚l‚Ì‘ƒ‚a
+317 | Honnoji / empty | –{”\›^‹ó‚Á‚Û
+318 | Honnoji / Shikibu A | –{”\›^®•”‚`
+319 | Honnoji / Shikibu B | –{”\›^®•”‚a
+320 | Honnoji / Shikibu C | –{”\›^®•”‚b
+321 | Honnoji / Shikibu BC common | –{”\›^®•”‚a‚b‹¤’Ê
+322 | Lance house / generic | ƒ‰ƒ“ƒX‰®•~^”Ä—p
+323 | Owari taken | ”ö’£‚ğæ‚ç‚ê‚½
+324 | Arrival of Copa mercenaries | ƒRƒp—b•º’c“’…
+325 | Kazamaru / Recruitment success | •—ŠÛ^Š©—U¬Œ÷
+326 | Kazamaru / Subordinate conversation / To trust | •—ŠÛ^•”‰º‰ï˜b^M—Š‚Ö
+327 | Kazamaru / Subordinate conversation / brazier 1 | •—ŠÛ^•”‰º‰ï˜b^‰Î”«‚P
+328 | Kazamaru / Subordinate conversation / brazier 2 | •—ŠÛ^•”‰º‰ï˜b^‰Î”«‚Q
+329 | Kazamaru / Basic contact | •—ŠÛ^Šî–{ÚG
+330 | Kazamaru / Basic contact 2 | •—ŠÛ^Šî–{ÚG‚Q
+331 | Kazamaru / Before battle / Erotic confrontation | •—ŠÛ^‡í‘O^ƒGƒ‘ÎŒˆ
+332 | Kazamaru / Before battle / General purpose | •—ŠÛ^‡í‘O^”Ä—p
+333 | Yubari / Officer / Incense | —[’£^dŠ¯^
+334 | Yubari / Officer / No incense | —[’£^dŠ¯^‚È‚µ
+335 | Yubari / Warlord First | —[’£^•«‰
+336 | Yubari / Basic Contact | —[’£^Šî–{ÚG
+337 | Yubari / First time sex | —[’£^‰ƒGƒbƒ`
+338 | Yubari / After common first sex | —[’£^‰ƒGƒbƒ`‹¤’ÊŒã
+339 | Yubari / Basic Contact / After Erotic | —[’£^Šî–{ÚG^ƒGƒŒã
+340 | Yubari / Basic Contact / Orochi | —[’£^Šî–{ÚG^ƒIƒƒ`
+341 | Yubari / General erotic | —[’£^”Ä—pƒGƒ
+342 | Yubari and miko agency 1 | —[’£‚Æ›Ş—‹@ŠÖ‚P
+343 | Yubari and Miko Agency 2 | —[’£‚Æ›Ş—‹@ŠÖ‚Q
+344 | Yubari / Trust A | —[’£^M—Š‚`
+345 | Yubari / Trust B | —[’£^M—Š‚a
+346 | Yubari / Trust C | —[’£^M—Š‚b
+347 | Yubari / Trust D | —[’£^M—Š‚c
+348 | Yubari / Orochi's story | —[’£^ƒIƒƒ`‚Ì˜b
+349 | Orochi's Hole / Warding | ƒIƒƒ`‚ÌŒŠ^Œ‹ŠEŠJ‚­
+350 | Orochi's Hole / Yubari's Anomaly | ƒIƒƒ`‚ÌŒŠ^—[’£‚ÌˆÙ•Ï
+351 | Confrontation A with Orochi | ƒIƒƒ`‚Æ‘ÎŒˆ‚`
+352 | Confrontation B with Orochi | ƒIƒƒ`‚Æ‘ÎŒˆ‚a
+353 | Confrontation C with Orochi | ƒIƒƒ`‚Æ‘ÎŒˆ‚b
+354 | Confrontation D with Orochi | ƒIƒƒ`‚Æ‘ÎŒˆ‚c
+355 | Yubari / Battle in the Evil Horse Mountains | —[’£^×”n‘ä‚Å‡í’†
+356 | Yubari / Basic Contact / Vs. Miko Agency | —[’£^Šî–{ÚG^‚u‚r›Ş—‹@ŠÖ
+357 | Yubari / Yubari and Natori | —[’£^—[’£‚Æ–¼æ
+358 | Yubari / Affection | —[’£^ˆ¤î
+359 | Yubari / Before battle / General | —[’£^‡í‘O^”Ä—p
+360 | Yubari / Basic contact / Affection | —[’£^Šî–{ÚG^ˆ¤î
+361 | Hattori / Recruitment success | ••”^Š©—U¬Œ÷
+362 | Hattori / Subordinate conversation / First | ••”^•”‰º‰ï˜b^‰
+363 | Hattori / Basic Contact | ••”^Šî–{ÚG
+364 | Hattori / Trust | ••”^M—Š
+365 | Hattori / Battle / General | ••”^‡í^”Ä—p
+366 | Aguileda / Deployment | ƒAƒMƒŒƒ_^ow
+367 | Aguileda / Recruitment Success | ƒAƒMƒŒƒ_^Š©—U¬Œ÷
+368 | Aguileda / Conditions for sex | ƒAƒMƒŒƒ_^ƒZƒbƒNƒX‚ÌğŒ
+369 | Aguileda / Sex | ƒAƒMƒŒƒ_^ƒZƒbƒNƒX
+370 | Aguileda / generic sex | ƒAƒMƒŒƒ_^”Ä—pƒZƒbƒNƒX
+371 | Aguileda / In Cairo | ƒAƒMƒŒƒ_^ƒJƒCƒ‚É‚Ä
+372 | Aguileda / In Amazon | ƒAƒMƒŒƒ_^ƒAƒ}ƒ]ƒ“‚É‚Ä
+373 | Aguileda / Basic contact | ƒAƒMƒŒƒ_^Šî–{ÚG
+374 | Aguileda / Basic Contact / Erotic | ƒAƒMƒŒƒ_^Šî–{ÚG^ƒGƒ
+375 | Aguileda / Confirmation of affection | ƒAƒMƒŒƒ_^ˆ¤îŠm”F
+376 | Aguileda / Affection | ƒAƒMƒŒƒ_^ˆ¤î
+377 | Aguileda / Before battle / General purpose | ƒAƒMƒŒƒ_^‡í‘O^”Ä—p
+378 | Aguileda / Basic contact / Affection | ƒAƒMƒŒƒ_^Šî–{ÚG^ˆ¤î
+379 | Aguileda / General-purpose sex / Affection | ƒAƒMƒŒƒ_^”Ä—pƒZƒbƒNƒX^ˆ¤î
+380 | Chogami / Recruitment success | ’´_^Š©—U¬Œ÷
+381 | Chogami / Subordinate conversation / First | ’´_^•”‰º‰ï˜b^‰
+382 | Chogami / Name change | ’´_^–¼‘O•ÏX
+383 | Cho-kami / Folding screen of Takauji | ’´_^‘¸‚Ì› •—
+384 | Cho-kami / Basic contact | ’´_^Šî–{ÚG
+385 | Cho-kami / Basic contact / Poop | ’´_^Šî–{ÚG^‚¤‚ñ‚±
+386 | Cho-kami / Before battle / General | ’´_^‡í‘O^”Ä—p
+387 | Cho-kami / Ordinary | ’´_^•’Ê
+388 | Cho-kami / Trust | ’´_^M—Š
+389 | Tokugawa Ieyasu / Officer | “¿ì‰ÆN^dŠ¯
+390 | Tokugawa Ieyasu / Basic contact | “¿ì‰ÆN^Šî–{ÚG
+391 | Tokugawa Ieyasu / Honda | “¿ì‰ÆN^–{‘½
+392 | Tokugawa Ieyasu / Ii | “¿ì‰ÆN^ˆäˆÉ
+393 | Tokugawa Ieyasu / Hattori | “¿ì‰ÆN^••”
+394 | Tokugawa Ieyasu / Sakai | “¿ì‰ÆN^ğˆä
+395 | Tokugawa Ieyasu / Trust | “¿ì‰ÆN^M—Š
+396 | Tokugawa Ieyasu / Before the battle / General purpose | “¿ì‰ÆN^‡í‘O^”Ä—p
+397 | Kurohime / Face to face with Nobunaga | ••P^M’·‚Æ‘Î–Ê
+398 | Kurohime / Captured / Incense | ••P^•ßŠl^
+399 | Kurohime / capture / no incense | ••P^•ßŠl^‚È‚µ
+400 | Kurohime / Captured / Erotic | ••P^•ßŠl^ƒGƒ
+401 | Kurohime / Captured / Late Incense | ••P^•ßŠl^Œã”¼
+402 | Black Hime / Capture plan | ••P^ƒQƒbƒgŒv‰æ
+403 | Black Hime / Capture plan / Execution | ••P^ƒQƒbƒgŒv‰æ^Às
+404 | Kurohime / Capture 2 | ••P^•ßŠl‚Q
+405 | Kurohime / Nobunaga's humiliation | ••P^M’·—ËJ
+406 | Kurohime / generic sex | ••P^”Ä—pƒGƒbƒ`
+407 | Kobayakawa / Magic foreshadowing 1 | ¬‘ì^–‚“±‚Ì—\’›‚P
+408 | Kobayakawa / Signs of Magic 2 | ¬‘ì^–‚“±‚Ì—\’›‚Q
+409 | Chinu / Before the battle / Poison strategy | ‚¿‚Ê^‡í‘O^“Åìí
+410 | Chinu / Recruitment success | ‚¿‚Ê^Š©—U¬Œ÷
+411 | Chinu / Trust | ‚¿‚Ê^M—Š
+412 | Chinu / Affection | ‚¿‚Ê^ˆ¤î
+413 | Chinu / Basic contact | ‚¿‚Ê^Šî–{ÚG
+414 | Chinu / Before battle / General | ‚¿‚Ê^‡í‘O^”Ä—p
+415 | Chinu / General erotic | ‚¿‚Ê^”Ä—pƒGƒ
+416 | Kiku / Recruitment Success | ‚«‚­^Š©—U¬Œ÷
+417 | Kiku / Normal | ‚«‚­^•’Ê
+418 | Kiku / Trust | ‚«‚­^M—Š
+419 | Kiku / Affection | ‚«‚­^ˆ¤î
+420 | Kiku / Basic contact | ‚«‚­^Šî–{ÚG
+421 | Kiku / Before battle / General | ‚«‚­^‡í‘O^”Ä—p
+422 | Kiku / Basic contact / Affectionate | ‚«‚­^Šî–{ÚG^ˆ¤î
+423 | Kiku / Affection 2 | ‚«‚­^ˆ¤î‚Q
+424 | Noir / Sortie | ƒmƒ[ƒ‹^oŒ‚
+425 | Noir / Capture Erotic | ƒmƒ[ƒ‹^•ßŠlƒGƒ
+426 | Noir / Recruitment success | ƒmƒ[ƒ‹^Š©—U¬Œ÷
+427 | Noir / Subordinate conversation / First | ƒmƒ[ƒ‹^•”‰º‰ï˜b^‰
+428 | Noir / Basic contact | ƒmƒ[ƒ‹^Šî–{ÚG
+429 | Noir / Normal | ƒmƒ[ƒ‹^•’Ê
+430 | Noir / Trust | ƒmƒ[ƒ‹^M—Š
+431 | Noir / Affection | ƒmƒ[ƒ‹^ˆ¤î
+432 | Noir / Basic contact / Affection | ƒmƒ[ƒ‹^Šî–{ÚG^ˆ¤î
+433 | Noir / General Purpose Erotic | ƒmƒ[ƒ‹^”Ä—pƒGƒ
+434 | Noir / Battle / General | ƒmƒ[ƒ‹^‡í^”Ä—p
+435 | Sakakibara / Recruitment success | åŒ´^Š©—U¬Œ÷
+436 | Sakakibara / Subordinate conversation / First | åŒ´^•”‰º‰ï˜b^‰
+437 | Sakakibara / Basic contact | åŒ´^Šî–{ÚG
+438 | Sakakibara / Trust | åŒ´^M—Š
+439 | Sakakibara / Battle / General | åŒ´^‡í^”Ä—p
+440 | Masazi Kanbara / Subordinate conversation / A for trust | _Œ´¹¦^•”‰º‰ï˜b^M—Š‚É‚`
+441 | Masashi Kanbara / Subordinate conversation / B for trust | _Œ´¹¦^•”‰º‰ï˜b^M—Š‚É‚a
+442 | Masashi Kanbara / Conversation under subordinate / C | _Œ´¹¦^•”‰º‰ï˜b^M—Š‚É‚b
+443 | Masashi Kambara / Subordinate conversation / Route to justice | _Œ´¹¦^•”‰º‰ï˜b^³‹`ƒ‹[ƒg
+444 | Masashi Kambara / Afterwards | _Œ´¹¦^‚»‚ÌŒã
+445 | Masashi Kambara / Subordinate conversation / Evil route | _Œ´¹¦^•”‰º‰ï˜b^ˆ«ƒ‹[ƒg
+446 | Masashi Hara / Basic contact | Œ´¹¦^Šî–{ÚG
+447 | Masashi Hara / Basic contact / Justice | Œ´¹¦^Šî–{ÚG^³‹`
+448 | Masashi Hara / Before the battle / General-purpose | Œ´¹¦^‡í‘O^”Ä—p
+449 | Anko / Slave Ooku 1st | ‚ ‚ñ‚±^“z—ê‘å‰œ‚P‰ñ–Ú
+450 | Fawn / Visit Ashikaga family | q­^‘«—˜‰Æ–K–â
+451 | Fawn / Iga family visit | q­^ˆÉ‰ê‰Æ–K–â
+452 | Fawn / Visit to Tenshikyo | q­^“Vu‹³–K–â
+453 | Fawn / Visit to Oda family | q­^D“c‰Æ–K–â
+454 | Fawn / Preparation for battle | q­^í€”õ
+455 | Fawn / Motonaga attack | q­^Œ³A‹­P
+456 | Fawn / With puppy | q­^qŒ¢‚Æ
+457 | Fawn / Erotic | q­^ƒGƒ
+458 | Fawn / Servant | q­^dŠ¯
+459 | Fawn / Subordinate conversation / first | q­^•”‰º‰ï˜b^‰
+460 | Fawn / Basic contact | q­^Šî–{ÚG
+461 | Fawn / Normal | q­^•’Ê
+462 | Fawn / Trust | q­^M—Š
+463 | Fawn / Affection | q­^ˆ¤î
+464 | Fawn / Basic contact / Affection | q­^Šî–{ÚG^ˆ¤î
+465 | Fawn / Battle / General | q­^‡í^”Ä—p
+466 | Gong / Recruitment success | ƒSƒ“^Š©—U¬Œ÷
+467 | Gong / Cursed | ƒSƒ“^ô‚¢•t‚«
+468 | Gong / Specter information | ƒSƒ“^—d‰öî•ñ
+469 | Gong / Trust | ƒSƒ“^M—Š
+470 | Gong / Basic Contact | ƒSƒ“^Šî–{ÚG
+471 | Gong / Farewell | ƒSƒ“^‚³‚æ‚¤‚È‚ç
+472 | Gong / Before battle / General purpose | ƒSƒ“^‡í‘O^”Ä—p
+473 | Oda / Top of the nation | D“c^‘S‘ƒgƒbƒv
+474 | Oda / Nationwide clear | D“c^‘S‘ƒNƒŠƒA
+475 | Demon army / Top in the whole country | –‚ŒR^‘S‘ƒgƒbƒv
+476 | Demon Army / Clear the whole country | –‚ŒR^‘S‘ƒNƒŠƒA
+477 | Hojo / Top in the whole country | –kğ^‘S‘ƒgƒbƒv
+478 | Hojo / Nationwide clear | –kğ^‘S‘ƒNƒŠƒA
+479 | Uesugi / Top in the whole country | ã™^‘S‘ƒgƒbƒv
+480 | Uesugi / Clear the whole country | ã™^‘S‘ƒNƒŠƒA
+481 | Shimazu / Top in the whole country | “‡’Ã^‘S‘ƒgƒbƒv
+482 | Shimazu / Nationwide clear | “‡’Ã^‘S‘ƒNƒŠƒA
+483 | Miko Agency / Top of the nation | ›Ş—‹@ŠÖ^‘S‘ƒgƒbƒv
+484 | Miko Agency / Clear all over Japan | ›Ş—‹@ŠÖ^‘S‘ƒNƒŠƒA
+485 | AA / Top in all over Japan | ‚`‚`^‘S‘ƒgƒbƒv
+486 | AA / National clear | ‚`‚`^‘S‘ƒNƒŠƒA
+487 | Tanegashima / Top in Japan | íq“‡^‘S‘ƒgƒbƒv
+488 | Tanegashima / National clear | íq“‡^‘S‘ƒNƒŠƒA
+489 | Akashi / Top in Japan | –¾Î^‘S‘ƒgƒbƒv
+490 | Akashi / National clear | –¾Î^‘S‘ƒNƒŠƒA
+491 | Iga / Top in Japan | ˆÉ‰ê^‘S‘ƒgƒbƒv
+492 | Iga / Clear the whole country | ˆÉ‰ê^‘S‘ƒNƒŠƒA
+493 | Hara / Top in Japan | Œ´^‘S‘ƒgƒbƒv
+494 | Hara / Nationwide Clear | Œ´^‘S‘ƒNƒŠƒA
+495 | Ashikaga / Top in Japan | ‘«—˜^‘S‘ƒgƒbƒv
+496 | Ashikaga / Nationwide clear | ‘«—˜^‘S‘ƒNƒŠƒA
+497 | Tenshikyo / Top in Japan | “Vu‹³^‘S‘ƒgƒbƒv
+498 | Tenshikyo / Nationwide clear | “Vu‹³^‘S‘ƒNƒŠƒA
+499 | Takuga / National Top | ƒ^ƒNƒK^‘S‘ƒgƒbƒv
+500 | Takuga / Nationwide clear | ƒ^ƒNƒK^‘S‘ƒNƒŠƒA
+501 | Dokuganryu / Top in Japan | “ÆŠá—¬^‘S‘ƒgƒbƒv
+502 | Dokuganryu / Nationwide Clear | “ÆŠá—¬^‘S‘ƒNƒŠƒA
+503 | Imagawa / Nationwide top | ¡ì^‘S‘ƒgƒbƒv
+504 | Imagawa / Clear all over Japan | ¡ì^‘S‘ƒNƒŠƒA
+505 | Tokugawa / Top in the whole country | “¿ì^‘S‘ƒgƒbƒv
+506 | Tokugawa / Clear all over Japan | “¿ì^‘S‘ƒNƒŠƒA
+507 | Mori / Top in the whole country | –Ñ—˜^‘S‘ƒgƒbƒv
+508 | Mouri / clear in all of Japan | –Ñ—˜^‘S‘ƒNƒŠƒA
+509 | Biz Aru Test | ‚Ñ‚¸‚ ‚é‚Ä‚·‚Æ
+510 | Komatsu / Fan's Voice | ¬¼^ƒtƒ@ƒ“‚Ìº
+511 | Komatsu / Humiliation | ¬¼^—ËJ
+512 | Komatsu / Recruitment success | ¬¼^Š©—U¬Œ÷
+513 | Komatsu / First time in command | ¬¼^•«‰
+514 | Komatsu / Normal | ¬¼^•’Ê
+515 | Komatsu / Trust | ¬¼^M—Š
+516 | Komatsu / Affection | ¬¼^ˆ¤î
+517 | Komatsu / First time having sex | ¬¼^‰ƒGƒbƒ`
+518 | Komatsu / Basic contact | ¬¼^Šî–{ÚG
+519 | Komatsu / No motivation | ¬¼^‚â‚é‹C–³‚µ
+520 | Komatsu / Basic Contact / Trust | ¬¼^Šî–{ÚG^M—Š
+521 | Komatsu / Basic Contact / Post-Erotic | ¬¼^Šî–{ÚG^ƒGƒŒã
+522 | Komatsu / Pre-Game / Purposeful | ¬¼^‡í‘O^”Ä—p
+523 | Komatsu / General erotic | ¬¼^”Ä—pƒGƒ
+524 | Kanami / Visit | ‚©‚È‚İ^Qã
+525 | Kanami / Normal | ‚©‚È‚İ^•’Ê
+526 | Kanami / Sex | ‚©‚È‚İ^ƒGƒbƒ`
+527 | Kanami / Trust | ‚©‚È‚İ^M—Š
+528 | Kanami / Big trouble in Fuuma no Sato | ‚©‚È‚İ^•—–‚‚Ì—¢‚Å‘åƒsƒ“ƒ`
+529 | Kanami / Forcible rape | ‚©‚È‚İ^–³—–î—”Æ‚·
+530 | Kanami / Basic contact | ‚©‚È‚İ^Šî–{ÚG
+531 | Kanami / Tormenting | ‚©‚È‚İ^‚¢‚¶‚¯
+532 | Kanami / Before the battle / General purpose | ‚©‚È‚İ^‡í‘O^”Ä—p
+533 | Kawanoe Yuzuru / Recruitment success | ì”V]÷^Š©—U¬Œ÷
+534 | Kawanoe Yuzuru / Normal | ì”V]÷^•’Ê
+535 | Kawanoe Yuzuru / Get Ryoma | ì”V]÷^—´”nƒQƒbƒg
+536 | Kawanoe Yuzuru / Basic contact | ì”V]÷^Šî–{ÚG
+537 | Kawanoe Yuzuru / Basic contact 2 | ì”V]÷^Šî–{ÚG‚Q
+538 | Kawanoe Yuzuru / Ryoma's will | ì”V]÷^—´”n‚ÌˆÓu
+539 | Kawanoe Yuzuru / Before the battle / General purpose | ì”V]÷^‡í‘O^”Ä—p
+540 | Majin / Majin Nobunaga resurrection | –‚l^–‚lM’·•œŠˆ
+541 | Oda / Majin Nobunaga resurrection information | D“c^–‚lM’·•œŠˆî•ñ
+542 | Majin / Complete revival | –‚l^Š®‘S•œŠˆ
+543 | Kentaro / Injured | Œ’‘¾˜Y^‰ö‰ä‚ğ‚·‚é
+544 | Kentaro / Hirami lemon crisis | Œ’‘¾˜Y^ƒqƒ‰ƒ~ƒŒƒ‚ƒ“Šë‹@
+545 | Kentaro / In the underground citrus orchard | Œ’‘¾˜Y^’n‰º–¨Š¹”_‰€‚É‚Ä
+546 | Kentaro / Miki suffering | Œ’‘¾˜Y^”ü÷‹ê‚µ‚Ş
+547 | Kentaro / Hiramiremon for Miki | Œ’‘¾˜Y^”ü÷‚Éƒqƒ‰ƒ~ƒŒƒ‚ƒ“
+548 | Birth of Demon King Miki / Hirami shortage | –‚‰¤”ü÷’a¶^ƒqƒ‰ƒ~•s‘«
+549 | Majin / Shikibu Assault A | –‚l^®•”‹­P‚`
+550 | Majin / Shikibu Assault B | –‚l^®•”‹­P‚a
+551 | Majin / Shikibu Assault Z | –‚l^®•”‹­P‚y
+552 | Miki / Runaway 1 | ”ü÷^–\‘–‚P
+553 | Miki / Runaway 2 | ”ü÷^–\‘–‚Q
+554 | Miki / Runaway 3 | ”ü÷^–\‘–‚R
+555 | Birth of Demon King Miki / Runaway | –‚‰¤”ü÷’a¶^–\‘–
+556 | Oda / Miki runaway information | D“c^”ü÷–\‘–î•ñ
+557 | Oda / Miki search 1 | D“c^”ü÷’Tõ‚P
+558 | Oda / Miki search 2 | D“c^”ü÷’Tõ‚Q
+559 | Oda / Miki protection | D“c^”ü÷•ÛŒì
+560 | Soul binding / beginning | °”›‚è^n‚Ü‚è
+561 | Before battle / soul binding | ‡í‘O^°”›‚è
+562 | After battle / soul binding | ‡íŒã^°”›‚è
+563 | Grandfather Stone / Beginning | Î–ê^n‚Ü‚è
+564 | Grandpa Ishi / Progress 1 | Î–ê^Œo‰ß‚P
+565 | Geezer Ishi / Progress 2 | Î–ê^Œo‰ß‚Q
+566 | Grandpa Stone / Progress 3 | Î–ê^Œo‰ß‚R
+567 | Crash of JAPAN | Î–ê^‚i‚`‚o‚`‚m’Ä—
+568 | Earthquake | Î–ê^’nk
+569 | Demon Army / Fall | –‚ŒR^Š×—
+570 | Last Battle A | ƒ‰ƒXƒgƒoƒgƒ‹‚`
+571 | Last Battle B | ƒ‰ƒXƒgƒoƒgƒ‹‚a
+572 | Last Battle C | ƒ‰ƒXƒgƒoƒgƒ‹‚b
+573 | Last Battle D | ƒ‰ƒXƒgƒoƒgƒ‹‚c
+574 | Soul Binding / Curse Effect | °”›‚è^ô‚¢‚ÌŒø‰Ê
+575 | Soul Binding / Country Destruction | °”›‚è^‘‰ó–Å
+576 | Soul Binding / Country Destruction / General Purpose | °”›‚è^‘‰ó–Å^”Ä—p
+577 | Miki / After icing / General purpose | ”ü÷^•X’Ğ‚¯Œã^”Ä—p
+578 | Ishihei / Earthquake 2 | Î–ê^’nk‚Q
+579 | Lan / Recruitment success | —–^Š©—U¬Œ÷
+580 | Lan / Warlord first | —–^•«‰
+581 | Lan / Promise | —–^–ñ‘©
+582 | Orchid / Promise Prompt | —–^–ñ‘©‚ÌÃ‘£
+583 | Orchid / Basic contact | —–^Šî–{ÚG
+584 | Orchid / Promise Prompt 1 | —–^–ñ‘©‚ÌÃ‘£‚P
+585 | Orchid / Oil hole alone | —–^‚Pl‚ÅÎ–ûŒŠ
+586 | Orchid / Kei Shigami Sama | —–^ç‚è†—l
+587 | Sakai / Succeeded in recruiting | ğˆä^Š©—U¬Œ÷
+588 | Sakai / Subordinate conversation / First time | ğˆä^•”‰º‰ï˜b^‰
+589 | Sakai / Basic contact | ğˆä^Šî–{ÚG
+590 | Sakai / Trust | ğˆä^M—Š
+591 | Sakai / Battle / General Purpose | ğˆä^‡í^”Ä—p
+592 | Lan / Route start | —–^ƒ‹[ƒgƒXƒ^[ƒg
+593 | Lan / Visiting Hayakumo | —–^‘‰_‚ÌŒ©•‘‚¢
+594 | Orchid / Visiting Hayakumo / General Purpose | —–^‘‰_‚ÌŒ©•‘‚¢^”Ä—p
+595 | Orchid / Visiting Hayakumo / General Purpose 2 | —–^‘‰_‚ÌŒ©•‘‚¢^”Ä—p‚Q
+596 | Orchid / Shadow of the playbill | —–^‹YŠ[‚Ì‰e
+597 | Orchid / Nobunaga is a demon?  | —–^M’·‚ª–‚lH
+598 | Orchid / Honnoji A | —–^–{”\›‚`
+599 | Orchid / Honnoji BC common | —–^–{”\›‚a‚b‹¤’Ê
+600 | Orchid / Honnoji B | —–^–{”\›‚a
+601 | Orchid / Honnoji C | —–^–{”\›‚b
+602 | Orchid / After Honnoji | —–^–{”\›‚ÌŒã
+603 | Orchid / Lance's invitation | —–^ƒ‰ƒ“ƒX‚Ì—U‚¢
+604 | Orchid / Night Crawl 1 | —–^–é”‡‚¢‚P
+605 | Orchid / Appearance of leaning country | —–^ŒX‘“oê
+606 | Orchid / Orchid and leaning country | —–^—–‚ÆŒX‘
+607 | Orchid / Bullying | —–^‚¢‚¶‚ß
+608 | Orchid / Rumor of Leaning Country | —–^ŒX‘‚Ì‰\
+609 | Orchid / Rumor of Leaning Country 2 | —–^ŒX‘‚Ì‰\‚Q
+610 | Orchid / Leaning country departure | —–^ŒX‘o–z
+611 | Orchid / Calling Demon | —–^‹S‚ğŒÄ‚Ño‚·
+612 | Orchid / Hell hole opened | —–^’n–‚ÌŒŠ‚ªŠJ‚¢‚½
+613 | Orchid / Demon's attack | —–^‹S‚Ì—ˆP
+614 | Orchid / Demon's attack / generic | —–^‹S‚Ì—ˆP^”Ä—p
+615 | Orchid / Whereabouts of the leaning | —–^ŒX‘‚Ì‹êŠ
+616 | Orchid / Sekimei's Tomb / First | —–^ƒZƒLƒƒC‚Ì•æ^‰
+617 | Orchid / Last Battle A | —–^ƒ‰ƒXƒgƒoƒgƒ‹‚`
+618 | Orchid / Last Battle B common | —–^ƒ‰ƒXƒgƒoƒgƒ‹‚a‹¤’Ê
+619 | Orchid / Last Battle B | —–^ƒ‰ƒXƒgƒoƒgƒ‹‚a
+620 | Orchid / Last Battle BB | —–^ƒ‰ƒXƒgƒoƒgƒ‹‚a‚a
+621 | Orchid / Epilogue A | —–^ƒGƒsƒ[ƒO‚`
+622 | Orchid / Epilogue B | —–^ƒGƒsƒ[ƒO‚a
+623 | Orchid / Night Crawl 2 | —–^–é”‡‚¢‚Q
+624 | Orchid / Night Crawl 3 | —–^–é”‡‚¢‚R
+625 | Orchid / Visiting Hayakumo / Tilt | —–^‘‰_‚ÌŒ©•‘‚¢^ŒX‘
+626 | Orchid / Visiting Hayakumo / Inclined Country General | —–^‘‰_‚ÌŒ©•‘‚¢^ŒX‘”Ä—p
+627 | Orchid / After Leaning Tow | —–^ŒX‘o–zŒã
+628 | Hell hole / First time | ’n–‚ÌŒŠ^‰‚ß‚Ä
+629 | Hell Hole / Blockade / First | ’n–‚ÌŒŠ^••½^‰
+630 | Hell Hole / General | ’n–‚ÌŒŠ^”Ä—p
+631 | Hell Hole / Blockade / General | ’n–‚ÌŒŠ^••½^”Ä—p
+632 | Hell Hole / Blockade / Last | ’n–‚ÌŒŠ^••½^ƒ‰ƒXƒg
+633 | The demon's attack / Losing | ‹S‚Ì—ˆP^•‰‚¯
+634 | Orchid / Hayakumo's visit / Tilting general purpose 2 | —–^‘‰_‚ÌŒ©•‘‚¢^ŒX‘”Ä—p‚Q
+635 | Orchid / Tilting country disappointment / hole blockade | —–^ŒX‘c”O^ŒŠÇ‚¬
+636 | Ran / Tilting Country Shame / Oni no Iraku | —–^ŒX‘c”O^‹S—ˆP
+637 | Ran / Shame on Tilting Country / All blocked | —–^ŒX‘c”O^‘S‚ÄÇ‚ª‚ê‚½
+638 | Ran / Urging to Sekimei | —–^ƒZƒLƒƒC‚Ö‚ÌÃ‘£
+639 | Orchid / Basic Contact / Hayakumo hospitalized | —–^Šî–{ÚG^‘‰_“ü‰@
+640 | Orchid / Basic Contact / Exit to Tilting Country | —–^Šî–{ÚG^ŒX‘o–z
+641 | Orchid / Trust | —–^M—Š
+642 | Orchid / Affection | —–^ˆ¤î
+643 | Orchid / General sex | —–^”Ä—pƒGƒbƒ`
+644 | Orchid / Sekimei's Tomb / Magic A | —–^ƒZƒLƒƒC‚Ì•æ^–‚“±‚`
+645 | Orchid / Sekimei's Tomb / Magic B | —–^ƒZƒLƒƒC‚Ì•æ^–‚“±‚a
+646 | Orchid / Sekimei's Tomb / Magic C | —–^ƒZƒLƒƒC‚Ì•æ^–‚“±‚b
+647 | Izumo / Hadeshizuhirasaka / Daidara / Entrance | o‰_^‰©ò•½â^‚¾‚¢‚¾[‚ç^“ü‚èŒû
+648 | Izumo / Hadeshizuhirazaka / Daidara | o‰_^‰©ò•½â^‚¾‚¢‚¾[‚ç
+649 | Nobunaga vs Baba / Solo | M’·‚–‚“”nê^ƒ\ƒ
+650 | Kenshin vs Oda Baba A | ŒªM‚–‚“D“c”nê‚`
+651 | Kenshin vs Oda Baba B | ŒªM‚–‚“D“c”nê‚a
+652 | Kenshin vs 1 point | ŒªM‚–‚“‚P“_
+653 | Kenshin vs 2 points | ŒªM‚–‚“‚Q“_
+654 | Kenshin / basic contact / teaching | ŒªM^Šî–{ÚG^‹³–{
+655 | Kenshin / Basic Contact / Prayer | ŒªM^Šî–{ÚG^‹F‚è
+656 | Mino / Mamushi oil field / Searching for Hayakumo | ”ü”Z^‚Ü‚Ş‚µ–û“c^‘‰_’T‚µ
+657 | Labyrinth / Escape / Searching for Hayakumo | –À‹{^’Eo^‘‰_’T‚µ
+658 | Yubari / First time sex / No Kahime | —[’£^‰ƒGƒbƒ`^•P–³‚µ
+659 | Tilt / Participation in the Devil's Army | ŒX‘^–‚ŒRQ‰Á
+660 | 3G / Waiting for the battle | ‚R‚f^‡í‘Ò‚Á‚½
+661 | Grandpa Stone / Suzume-no-mame's candy | Î–ê^—é—‚Ìˆ¹
+662 | Grandpa Ishi / Suzume-no-mame's candy / General-purpose | Î–ê^—é—‚Ìˆ¹^”Ä—p
+663 | Subordinate conversation / generic female character child / normal | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰q‹Ÿ^•’Ê‚É
+664 | Subordinate conversation / Generic female character old woman / Normal | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰”k^•’Ê‚É
+665 | Subordinate conversation / generic female character child / trust | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰q‹Ÿ^M—Š‚É
+666 | Subordinate conversation / Generic female character old woman / Trust  | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰”k^M—Š‚É
+667 | Conversation with subordinates / General-purpose female character child / Trust  | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰q‹Ÿ^M—Š”Ä—p
+668 | Subordinate Conversation / Generic Female Character Old Lady / Trust  | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰”k^M—Š”Ä—p
+669 | Nobunaga / Before the battle | M’·^‡í‘O
+670 | Nobunaga / Daily life 1 | M’·^“úí‚P
+671 | Nobunaga / Daily life 2 | M’·^“úí‚Q
+672 | Nobunaga / Daily life 3 | M’·^“úí‚R
+673 | Nobunaga / Visiting Nobunaga 1 | M’·^Œ©•‘‚¢‚P
+674 | Nobunaga / Visiting 2 | M’·^Œ©•‘‚¢‚Q
+675 | Nobunaga / Sympathy 3 | M’·^Œ©•‘‚¢‚R
+676 | Nobunaga / everyday conversation general | M’·^“úí‰ï˜b”Ä—p
+677 | Motonaga / After the battle / vs Lance | Œ³A^‡íŒã^‚–‚“ƒ‰ƒ“ƒX
+678 | Motonari / Secret of the Specter / Ryoma | Œ³A^—d‰ö‚Ì”é–§^—³”n
+679 | Motonari / Recruitment success | Œ³A^Š©—U¬Œ÷
+680 | Motonari / First time as a general | Œ³A^•«‰
+681 | Motonari / Senility approaching | Œ³A^˜VŠ‹ß‚µ
+682 | Motoshige / Trust | Œ³A^M—Š
+683 | Motoshige / Basic contact | Œ³A^Šî–{ÚG
+684 | Motoshige / Basic contact / Ghost | Œ³A^Šî–{ÚG^—H—ì
+685 | Motoshige / Before the battle / General purpose | Œ³A^‡í‘O^”Ä—p
+686 | Hayakumo / Peep | ‘‰_^‚Ì‚¼‚«
+687 | Kiku / Kagi | ‚«‚­^
+688 | Teru / Child Raccoon | ‚Ä‚é^q’K
+689 | Kotobira / Aroma | Œ¾— ^
+690 | Kotobira / Nozomi | Œ¾— ^‚Ì‚¼‚İ
+691 | Kotobira / Fawn | Œ¾— ^q­
+692 | Lance / Taikohan | ƒ‰ƒ“ƒX^‘¾ŒÃ”»
+693 | Motonari / Nursing | Œ³A^ŠÅ•a
+694 | Motoyuki / Gon | Œ³A^ƒSƒ“
+695 | Ryoma / Tits | —´”n^‚¨‚Á‚Ï‚¢
+696 | Chogami / Masamune | ’´_^­@
+697 | 3G / Charge | ‚R‚f^[“d
+698 | Lance / Child Raccoon | ƒ‰ƒ“ƒX^q’K
+699 | Lance / Shimazu 4 Brothers | ƒ‰ƒ“ƒX^“‡’Ã‚SŒZ’í
+700 | 3G / On the verge of Buddhahood | ‚R‚f^¬•§¡‘O
+701 | Katsuie / Fawn | Ÿ‰Æ^q­
+702 | Kazamaru / Jealous | •—ŠÛ^¹“i
+703 | Deko Showdown | ‚Å‚±‘ÎŒˆ
+704 | Masamune / Forbidden Specter | ­@^‹Ö—d‰ö
+705 | Shigehiko and Yuzumi | d•F‚Æ—M”ü
+706 | Marriage / Yuzuru | Œ‹¥^÷
+707 | Marriage / Minne | Œ‹¥^”ü”H
+708 | Ryoma / No Gon | —´”n^ƒSƒ“‚È‚µ
+709 | Owari / Misokatsu Maze / Discovery | ”ö’£^–¡‘XƒJƒc–À‹{^”­Œ©
+710 | Region / Beauty discovery1 | ’nˆæ^”ü—”­Œ©‚P
+711 | Area / Beauty discovery 2 | ’nˆæ^”ü—”­Œ©‚Q
+712 | Region / Discover Beauty 3 | ’nˆæ^”ü—”­Œ©‚R
+713 | General / Nobunaga's officer | ”Ä—p•«^M’·‚ÉdŠ¯
+714 | General / Servant of Princess Kahime | ”Ä—p•«^•P‚ÉdŠ¯
+715 | General / Personal Warlord / General Lance  | ”Ä—p•«^ƒ‰ƒ“ƒX‚ÉdŠ¯
+716 | Subordinate conversation / General male character / Normal | •”‰º‰ï˜b^”Ä—p’jƒLƒƒƒ‰^•’Ê‚É
+717 | Conversation with subordinates / General male character / Trustworthy | •”‰º‰ï˜b^”Ä—p’jƒLƒƒƒ‰^M—Š‚É
+718 | Conversation with subordinates / General female character / Normal  | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰^•’Ê‚É
+719 | Conversation with subordinate / Generic female character / Trusted  | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰^M—Š‚É
+720 | Subordinate Conversation / General-Purpose Female Character / For Affection | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰^ˆ¤î‚É
+721 | Store / First time | ¤“X^‰‚ß‚Ä
+722 | Shop / Generic | ¤“X^”Ä—p
+723 | Store / Not buying | ¤“X^”ƒ‚í‚È‚¢
+724 | Store / Not enough | ¤“X^‘«‚è‚È‚¢
+725 | Store / Buy | ¤“X^”ƒ‚¤
+726 | Shop / Okonome ticket | ¤“X^‚¨‚±‚ßŒ”
+727 | Subordinate Conversation / Generic Character / Trust Generic | •”‰º‰ï˜b^”Ä—pƒLƒƒƒ‰^M—Š”Ä—p
+728 | Subordinate Conversation / Generic Female Character / Generic Affection | •”‰º‰ï˜b^”Ä—p—ƒLƒƒƒ‰^ˆ¤î”Ä—p
+729 | Subordinate Conversation / Basic Contact | •”‰º‰ï˜b^Šî–{ÚG
+730 | Store / Buying a folding screen | ¤“X^› •—‚ğ”ƒ‚¤
+731 | Store / Erotic talk | ¤“X^ƒGƒ˜b
+732 | Occupation of a country is limited to one per turn | ‘è—Ì‚Íƒ^[ƒ“‚É‚PŒÂ‚Ü‚Å
+733 | Explanation of operation permit | ìí‹–‰Â‘‚Ìà–¾
+734 | Feeding Rattan-kichiro | âÙ‹g˜Y‚É‰a
+735 | Alice's defeat treatment / first | ƒAƒŠƒX‚Ì”síˆ—^‰
+736 | Alice's Defeat Disposition / Generic | ƒAƒŠƒX‚Ì”síˆ—^”Ä—p
+737 | Warrior Princess / Ero / Syr | í•P^ƒGƒ^ƒVƒBƒ‹
+738 | Warrior Princess / Erotic / No sire | í•P^ƒGƒ^ƒVƒBƒ‹‚È‚µ
+739 | Warrior Princess / Erotic / Common | í•P^ƒGƒ^‹¤’Ê
+740 | Princess Warrior / Officer | í•P^dŠ¯
+741 | Princess Warrior / Basic contact | í•P^Šî–{ÚG
+742 | Princess Warrior / Normal | í•P^•’Ê
+743 | Princess Warrior / Trust | í•P^M—Š
+744 | Warrior Princess / Exit | í•P^o–z
+745 | Warrior Princess / Affectionate Condition | í•P^ˆ¤îğŒ
+746 | Warrior Princess / Losing Battle 1 | í•P^•‰‚¯í‚P
+747 | Warrior Princess / Losing Battle 3 | í•P^•‰‚¯í‚R
+748 | Warrior Princess / Affection | í•P^ˆ¤î
+749 | Warrior Princess / Before battle / General | í•P^‡í‘O^”Ä—p
+750 | Warrior Princess / Basic Contact / Before Affection | í•P^Šî–{ÚG^ˆ¤î‘O
+751 | Warrior Princess / Basic Contact / Affection | í•P^Šî–{ÚG^ˆ¤î
+752 | Purgatory / Appearance | —ù–^“oê
+753 | Shikibu / appearance | ®•”^“oê
+754 | Gigakujikan / Appearance / Houjou | ‹YŠ[^“oê^–kğ
+755 | Demon Army / Forced Appearance  | –‚ŒR^‹­§“oê—\
+756 | Demon army / Uesugi destroyed | –‚ŒR^ã™‰ó–Å
+757 | Demon Army / Uesugi destroyed / Prefectures | –‚ŒR^ã™‰ó–Å^Œ§­
+758 | Demon Army / Takeda destroyed | –‚ŒR^•“c‰ó–Å
+759 | Demon Army / Mouri destroyed | –‚ŒR^–Ñ—˜‰ó–Å
+760 | Demon Army / Mouri destroyed / Human | –‚ŒR^–Ñ—˜‰ó–Å^lŠÔ
+761 | Demon army / Hojo destroyed | –‚ŒR^–kğ‰ó–Å
+762 | Demon Army / Hojo destroyed / Masako | –‚ŒR^–kğ‰ó–Å^ƒ}ƒTƒR
+763 | Demon Army / Iga destroyed | –‚ŒR^ˆÉ‰ê‰ó–Å
+764 | Demon Army / Akashi destroyed | –‚ŒR^–¾Î‰ó–Å
+765 | Demon Army / Ashikaga destroyed | –‚ŒR^‘«—˜‰ó–Å
+766 | Demon Army / Soul Binding 1 | –‚ŒR^°”›‚è‚P
+767 | Demon Army / Soul Binding 2 | –‚ŒR^°”›‚è‚Q
+768 | Demon Army / Miko Agency destroyed | –‚ŒR^›Ş—‹@ŠÖ‰ó–Å
+769 | Demon Army / Takuga destroyed | –‚ŒR^ƒ^ƒNƒK‰ó–Å
+770 | Demon Army / Advice of 3G | –‚ŒR^‚R‚f‚Ì•Œ¾
+771 | Demon Army / Start of attack | –‚ŒR^UŒ‚ŠJn
+772 | Demon Army / Number of troops reduced drastically | –‚ŒR^•º”ŒƒŒ¸
+773 | Demon Army / Demon Entry | –‚ŒR^–‚•¨Q“ü
+774 | Demon Army / Demon General Isun | –‚ŒR^–‚•¨«ŒRƒCƒXƒ“
+775 | Demon Army / Demon General Bepcho | –‚ŒR^–‚•¨«ŒRƒxƒvƒ`ƒ‡
+776 | Demon Army / Demon General Wispin | –‚ŒR^–‚•¨«ŒRƒEƒBƒXƒsƒ“
+777 | Demon Army / Reason not to kill Lance | –‚ŒR^ƒ‰ƒ“ƒX‚ğE‚³‚È‚¢–ó
+778 | Fujikichiro and Gourd | “¡‹g˜Y‚Æ•Z’\
+779 | Demon Army / Yoshihisa's plan | –‚ŒR^ƒˆƒVƒqƒT‚Ììí
+780 | Demon Army / Yoshihisa's Assault A | –‚ŒR^ƒˆƒVƒqƒT‹­P‚`
+781 | Demon Army / Yoshihisa's Assault B | –‚ŒR^ƒˆƒVƒqƒT‹­P‚a
+782 | Demon Army / Yoshihisa Assault C | –‚ŒR^ƒˆƒVƒqƒT‹­P‚b
+783 | Demon Army / Yoshihisa Assault D | –‚ŒR^ƒˆƒVƒqƒT‹­P‚c
+784 | Demon Army / Toshihisa Defense A | –‚ŒR^ƒgƒVƒqƒT–h‰q‚`
+785 | Demon Army / Toshihisa Defense B | –‚ŒR^ƒgƒVƒqƒT–h‰q‚a
+786 | Demon Army / Yehisa Defense A | –‚ŒR^ƒCƒGƒqƒT–h‰q‚`
+787 | Demon Army / Yehisa Defense B | –‚ŒR^ƒCƒGƒqƒT–h‰q‚a
+788 | Demon Army / Yehisa Defense C | –‚ŒR^ƒCƒGƒqƒT–h‰q‚b
+789 | Demon Army / Kazuhisa's Death | –‚ŒR^ƒJƒYƒqƒT‚Ì€
+790 | Demon Army / Kazuhisa's Advice | –‚ŒR^—é—‚Ì•Œ¾
+791 | Demon Army / Miki's information of runaway | –‚ŒR^”ü÷–\‘–î•ñ
+792 | Demon Army / Miki is the ruler | –‚ŒR^”ü÷‚ªx”zÒ
+793 | Devil King / Beginning of the end | –‚‰¤^I‚í‚è‚Ìn‚Ü‚è
+794 | Demon King / Kentaro scout / Human | –‚‰¤^Œ’‘¾˜YƒXƒJƒEƒg^lŠÔ
+795 | Demon King / Kentaro Scout / Man | –‚‰¤^Œ’‘¾˜YƒXƒJƒEƒg^–‚l
+796 | The Demon King / Letter from Hornet | –‚‰¤^ƒz[ƒlƒbƒg‚©‚ç‚Ìè†
+797 | The Demon King / Letter from Cave Ris | –‚‰¤^ƒPƒCƒuƒŠƒX‚©‚ç‚Ìè†
+798 | The Demon King / Collapse | –‚‰¤^•ö‰ó
+799 | Maria / Attendance | ƒ}ƒŠƒA^Qã
+800 | Maria / Letter from Leah | ƒ}ƒŠƒA^ƒŠƒA‚©‚ç‚Ìè†
+801 | Maria / Enchantment | ƒ}ƒŠƒA^ƒGƒbƒ`
+802 | Maria / Kasumi's participation | ƒ}ƒŠƒA^ƒJƒXƒ~‚ÌQ‰Á
+803 | Maria / Basic Contact | ƒ}ƒŠƒA^Šî–{ÚG
+804 | Maria / Goddess erotica | ƒ}ƒŠƒA^—_ƒGƒ
+805 | Maria / Versatile erotic | ƒ}ƒŠƒA^”Ä—pƒGƒ
+806 | Maria / Omamori | ƒ}ƒŠƒA^‚¨‚Ü‚à‚è
+807 | Maria / Pre-Game / General Purpose | ƒ}ƒŠƒA^‡í‘O^”Ä—p
+808 | Takuga / Independence | ƒ^ƒNƒK^“Æ—§
+809 | Takuga / The land where demons live | ƒ^ƒNƒK^‹S‚ÌZ‚Ş‘å’n
+810 | Takuga / Operation to break through the gate of the dead country | ƒ^ƒNƒK^€‘–å“Ë”jìí
+811 | Takuga / Seizure of the Middle Kingdom | ƒ^ƒNƒK^’†‚Á‘’Dæ
+812 | Takuga / Alliance with Mori | ƒ^ƒNƒK^–Ñ—˜‚Æ“¯–¿
+813 | Takuga / Start of extermination of monsters | ƒ^ƒNƒK^—d‰ö‘Ş¡ŠJn
+814 | Takuga / Extermination of Monsters 1 | ƒ^ƒNƒK^—d‰ö‘Ş¡‚P
+815 | Takuga / Humiliation of Demon | ƒ^ƒNƒK^‹S‚Ì—ËJ
+816 | Takuga / Hope for the Future | ƒ^ƒNƒK^–¢—ˆ‚Ì–]‚İ
+817 | Takuga / Declaration of War | ƒ^ƒNƒK^éí•z
+818 | Takuga / Chugoku Chased Away | ƒ^ƒNƒK^’†‚Á‘‚ğ’Ç‚í‚ê‚é÷
+819 | Takuga / No Yuzuru being chased away | ƒ^ƒNƒK^’†‚Á‘‚ğ’Ç‚í‚ê‚é÷‚È‚µ
+820 | Takuga / Pinch Mine | ƒ^ƒNƒK^ƒsƒ“ƒ`”ü”H
+821 | Takuga / No Pinch Mine | ƒ^ƒNƒK^ƒsƒ“ƒ`”ü”H‚È‚µ
+822 | Takuga / Fall of A Gon | ƒ^ƒNƒK^Š×—‚`ƒSƒ“
+823 | Takuga / No fall A Gon | ƒ^ƒNƒK^Š×—‚`ƒSƒ“‚È‚µ
+824 | Takuga / Fall A common | ƒ^ƒNƒK^Š×—‚`‹¤’Ê
+825 | Takuga / Fallen B | ƒ^ƒNƒK^Š×—‚a
+826 | Takuga / Preparations for the outbreak of war | ƒ^ƒNƒK^ŠJí€”õ
+827 | Takuga / Declaration of war to Oda | ƒ^ƒNƒK^D“c‚Ééí•z
+828 | Takuga / Backstage maneuvering | ƒ^ƒNƒK^— Hì
+829 | Takuga / Blockade of Dead Country Gate A | ƒ^ƒNƒK^€‘–å••½‚`
+830 | Takuga / Blockade of Dead Country Gate B | ƒ^ƒNƒK^€‘–å••½‚a
+831 | Takuga / Blockade of Dead Country Gate C | ƒ^ƒNƒK^€‘–å••½‚b
+832 | Takga / Blockade 1 | ƒ^ƒNƒK^••½’†‚P
+833 | Takuga / Blockade 2 | ƒ^ƒNƒK^••½’†‚Q
+834 | Yoshihisa / Normal | ƒˆƒVƒqƒT^•’Ê
+835 | Yoshihisa / Trust | ƒˆƒVƒqƒT^M—Š
+836 | Yoshihisa / Recruitment success | ƒˆƒVƒqƒT^Š©—U¬Œ÷
+837 | Yoshihisa / Basic contact | ƒˆƒVƒqƒT^Šî–{ÚG
+838 | Yoshihisa / Basic Contact / Hairy | ƒˆƒVƒqƒT^Šî–{ÚG^–Ñ—˜‚Ä‚é
+839 | Yoshihisa / Trust 2 | ƒˆƒVƒqƒT^M—Š‚Q
+840 | Yoshihisa / Before battle / General purpose | ƒˆƒVƒqƒT^‡í‘O^”Ä—p
+841 | Tenshikyo / First | “Vu‹³^‰
+842 | Tenshi-kyo / Catalyst for mooncakes | “Vu‹³^Œ–İ‚ÌG”}
+843 | Kotobira / Visit | Œ¾— ^–K–â
+844 | Tenshikyo / Cleaning up after Hieizan | “Vu‹³^”ä‰bR‚ÌŒãn––
+845 | Tenshikyo / Knowing the Majin | “Vu‹³^–‚l‚ğ’m‚é
+846 | Tenshi-kyo / The Fall of Nobunaga | “Vu‹³^Š×—^M’·
+847 | Tenshikyo / The Fall | “Vu‹³^Š×—
+848 | Tenshi-kyo / Common Fall | “Vu‹³^Š×—‹¤’Ê
+849 | Tenshi-kyo / Surrender acceptance | “Vu‹³^~•šó‚¯“ü‚ê
+850 | Brotherhood / First time | ˆê„^‰‚ß‚Ä
+851 | Putsch / General | ˆê„^”Ä—p
+852 | Putsch / Preliminary suppression | ˆê„^–‘O’Áˆ³
+853 | Brotherhood / Rampage | ˆê„^‘å–\‚ê
+854 | Lance's suppression of Tenshikyo | ƒ‰ƒ“ƒX‚Ì“Vu‹³’eˆ³
+855 | Tenshikyo / Sexual eye injury | “Vu‹³^«Šá‚Ì‰ö‰ä
+856 | Tenshikyo / Sexual eye sortie | “Vu‹³^«Šá‚ÌoŒ‚
+857 | Tenshikyo / Three of Miyoshi | “Vu‹³^OD‚Ì‚Rl
+858 | Tenshikyo / Sexagan vs Purgatory | “Vu‹³^«Šá‚–‚“—ù–
+859 | Lance / Dream | ƒ‰ƒ“ƒX^–²
+860 | Torurin / About the continent | “§—Ô^‘å—¤‚Ì–
+861 | Kosaka / Suzumeonna 1 | ‚â^—é—‚P
+862 | Kosaka / Suzujo 2 | ‚â^—é—‚Q
+863 | Kosaka / Suzujo 3 | ‚â^—é—‚R
+864 | Takeda / Top of the nation | •“c^‘S‘ƒgƒbƒv
+865 | Takeda / National clear | •“c^‘S‘ƒNƒŠƒA
+866 | Honda / Recruitment success | –{‘½^Š©—U¬Œ÷
+867 | Honda / Subordinate Conversation / First | –{‘½^•”‰º‰ï˜b^‰
+868 | Honda / Basic Contact | –{‘½^Šî–{ÚG
+869 | Honda / Trust | –{‘½^M—Š
+870 | Honda / Battle / General | –{‘½^‡í^”Ä—p
+871 | Isoroku / Appearance | ŒÜ\˜Z^“oê
+872 | Isoroku / Lance sniping | ŒÜ\˜Z^ƒ‰ƒ“ƒX‘_Œ‚
+873 | Isoroku / Ashikaga family military discussion | ŒÜ\˜Z^‘«—˜‰Æ‚ÌŒR‹c
+874 | Isoroku / 1st defeat | ŒÜ\˜Z^‚P‰ñ–Ú‚Ì”s‘–
+875 | 56 / Being snubbed by a super god | ŒÜ\˜Z^’´_‚É‚¢‚Ñ‚ç‚ê‚é
+876 | 56 / Succeeded in recruiting | ŒÜ\˜Z^Š©—U¬Œ÷
+877 | Gojuroku / Village of Yamamoto family | ŒÜ\˜Z^R–{‰Æ‚Ì‘º
+878 | 56 / Suitors' row | ŒÜ\˜Z^‹¥Ò‚Ì—ñ
+879 | Gojuroku / Two companions | ŒÜ\˜Z^‚Ql‚Ì’‡ŠÔ
+880 | 56 / Trust | ŒÜ\˜Z^M—Š
+881 | 56 / First time sex | ŒÜ\˜Z^‰ƒGƒbƒ`
+882 | 56 / General-purpose sex | ŒÜ\˜Z^”Ä—pƒGƒbƒ`
+883 | 56 / Pre-Game / Post-Entercourse | ŒÜ\˜Z^‡í‘O^ƒGƒbƒ`Œã
+884 | 56 / Basic Contact / Temples | ŒÜ\˜Z^Šî–{ÚG^‚¨›
+885 | 56 / Basic Contact / Shrine | ŒÜ\˜Z^Šî–{ÚG^_Ğ
+886 | 56 / guardianship | ŒÜ\˜Z^ç‚è†—l
+887 | Lance / Subordinate conversation general | ƒ‰ƒ“ƒX^•”‰º‰ï˜b”Ä—p
+888 | Lance / Reinforcement Request A | ƒ‰ƒ“ƒX^‰‡ŒR—v¿‚`
+889 | Lance / Reinforcement Request B | ƒ‰ƒ“ƒX^‰‡ŒR—v¿‚a
+890 | Lance / Reinforcement Request General | ƒ‰ƒ“ƒX^‰‡ŒR—v¿”Ä—p
+891 | Lance / Inspiration 1 | ƒ‰ƒ“ƒX^‚Ğ‚ç‚ß‚«‚P
+892 | Lance / Inspiration 2 | ƒ‰ƒ“ƒX^‚Ğ‚ç‚ß‚«‚Q
+893 | Lance / Inspiration 3 | ƒ‰ƒ“ƒX^‚Ğ‚ç‚ß‚«‚R
+894 | Lance / Inspiration 4 | ƒ‰ƒ“ƒX^‚Ğ‚ç‚ß‚«‚S
+895 | Lance / generic conversation 2 | ƒ‰ƒ“ƒX^”Ä—p‰ï˜b‚Q
+896 | Lance / Subordinate Conversation Generic 3 | ƒ‰ƒ“ƒX^•”‰º‰ï˜b”Ä—p‚R
+897 | Lance / Soul binding battle situation | ƒ‰ƒ“ƒX^°”›‚è‚Ìí‹µ
+898 | Lance / Command Count | ƒ‰ƒ“ƒX^ƒRƒ}ƒ“ƒh‰ñ”
+899 | Lance Corps becomes elite | ƒ‰ƒ“ƒX‘à‚ª¸‰s‚É
+900 | Lance / Subordinate 1 | ƒ‰ƒ“ƒX^–Tá–³l‚P
+901 | Lance / Respectability 2 | ƒ‰ƒ“ƒX^–Tá–³l‚Q
+902 | Lance / paravalanche 3 | ƒ‰ƒ“ƒX^–Tá–³l‚R
+903 | Temporary collection 1 | —Õ’¥û‚P
+904 | Lance / Kaizuka de uuha 1 | ƒ‰ƒ“ƒX^ŠL’Ë‚Å‚¤‚Í‚¤‚Í‚P
+905 | Lance / Kaizuka de ha ha ha ha 2 | ƒ‰ƒ“ƒX^ŠL’Ë‚Å‚¤‚Í‚¤‚Í‚Q
+906 | Lance / Kaizuka de ha ha ha ha 3 | ƒ‰ƒ“ƒX^ŠL’Ë‚Å‚¤‚Í‚¤‚Í‚R
+907 | Lance / Death in battle / Shiru | ƒ‰ƒ“ƒX^í€^ƒVƒBƒ‹
+908 | Lance / Death in battle / Suzume | ƒ‰ƒ“ƒX^í€^—é—
+909 | Lance / Command times / No shiru | ƒ‰ƒ“ƒX^ƒRƒ}ƒ“ƒh‰ñ”^ƒVƒBƒ‹–³‚µ
+910 | Lance / Assassin 1A after battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚P‚`
+911 | Lance / Assassin 1B after battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚P‚a
+912 | Lance / Assassin 2A after battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚Q‚`
+913 | Lance / Assassin 2B after battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚Q‚a
+914 | Lance / Assassin 3A after battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚R‚`
+915 | Lance / Assassin 3B after the battle | ƒ‰ƒ“ƒX^‡íŒã‚Ìh‹q‚R‚a
+916 | Oda / Nobunaga goes for the emperor | D“c^M’·‚ª’é‚ğ–Úw‚·
+917 | Kenshin / Emperor Sword | ŒªM^’éƒ\[ƒh
+918 | Kenshin / Nobunaga's call A | ŒªM^M’·‚ÌŒÄ‚Ño‚µ‚`
+919 | Kenshin / Nobunaga's call B | ŒªM^M’·‚ÌŒÄ‚Ño‚µ‚a
+920 | Kenshin / troubles to the emperor race | ŒªM^’éƒŒ[ƒX‚Ö‚Ì”Y‚İ
+921 | Nobunaga / Running away | M’·^“¦–S’†
+922 | Nobunaga / The emperor | M’·^’é
+923 | Date / Last Battle Kenshin A | ˆÉ’B^ƒ‰ƒXƒgƒoƒgƒ‹ŒªM‚`
+924 | Date / Last Battle Kenshin B | ˆÉ’B^ƒ‰ƒXƒgƒoƒgƒ‹ŒªM‚a
+925 | Date / Last Battle Kenshin C | ˆÉ’B^ƒ‰ƒXƒgƒoƒgƒ‹ŒªM‚b
+926 | Kenshin / Defeat | ŒªM^”s–k
+927 | Kenshin vs Masamune A | ŒªM‚–‚“­@‚`
+928 | Kenshin vs Masamune B | ŒªM‚–‚“­@‚a
+929 | Kenshin vs Nozomi A | ŒªM‚–‚“‚Ì‚¼‚İ‚`
+930 | Kenshin vs Nozomi B | ŒªM‚–‚“‚Ì‚¼‚İ‚a
+931 | Kenshin vs Yuzuhara A | ŒªM‚–‚“—MŒ´‚`
+932 | Kenshin vs Yuzuhara B | ŒªM‚–‚“—MŒ´‚a
+933 | Mouri / fallen Kenshin A | –Ñ—˜^Š×—ŒªM‚`
+934 | Mouri / fallen Kenshin B | –Ñ—˜^Š×—ŒªM‚a
+935 | Kenshin vs Curse Motonari | ŒªM‚–‚“ô‚¢Œ³A
+936 | Kenshin vs Motonari A | ŒªM‚–‚“Œ³A‚`
+937 | Kenshin vs Motonari B | ŒªM‚–‚“Œ³A‚a
+938 | Kenshin vs Kumano Goro A | ŒªM‚–‚“ŒF–ìŒÜ˜Y‚`
+939 | Kenshin vs Kumano Goro B | ŒªM‚–‚“ŒF–ìŒÜ˜Y‚a
+940 | Kenshin vs Suzutani Musou A | ŒªM‚–‚“—é’J–³‘o‚`
+941 | Kenshin vs Suzutani Musou B | ŒªM‚–‚“—é’J–³‘o‚a
+942 | Kenshin vs Mikuma A | ŒªM‚–‚“‚İ‚­‚Ü‚`
+943 | Kenshin vs Mikuma B | ŒªM‚–‚“‚İ‚­‚Ü‚a
+944 | Kenshin vs Hirazaka Mogami A | ŒªM‚–‚“•½âÅã‚`
+945 | Kenshin vs Hirazaka Mogami B | ŒªM‚–‚“•½âÅã‚a
+946 | Kenshin / Emperor | ŒªM^’é
+947 | Nobunaga / Xavier to  | M’·^ƒUƒrƒGƒ‹‚É
+948 | Xavier's final strategy | ƒUƒrƒGƒ‹‚ÌÅŒã‚Ììí
+949 | Xavier and Orochi | ƒUƒrƒGƒ‹‚ÆƒIƒƒ`
+950 | Nobunaga vs Masamune | M’·‚–‚“­@
+951 | Nobunaga vs Nozomi | M’·‚–‚“‚Ì‚¼‚İ
+952 | Nobunaga vs Baba | M’·‚–‚“”nê
+953 | Nobunaga vs Gon | M’·‚–‚“ƒSƒ“
+954 | Nobunaga vs Gon / Takuga destruction | M’·‚–‚“ƒSƒ“^ƒ^ƒNƒK–Å–S
+955 | Nobunaga vs Yuzuhara | M’·‚–‚“—MŒ´
+956 | Nobunaga vs Motonaga / Cursed | M’·‚–‚“Œ³A^ô‚¢•t‚«
+957 | Nobunaga vs Motonaga / Human | M’·‚–‚“Œ³A^lŠÔ
+958 | Nobunaga vs Kazuhisa | M’·‚–‚“ƒJƒYƒqƒT
+959 | Nobunaga vs Kumano Goro | M’·‚–‚“ŒF–ìŒÜ˜Y
+960 | Nobunaga vs Suzuya Muso | M’·‚–‚“—é’J–³‘o
+961 | Nobunaga vs Mikuma | M’·‚–‚“‚İ‚­‚Ü
+962 | Nobunaga vs Hirasaka Mogami | M’·‚–‚“•½âÅã
+963 | Kenshin vs Baba A | ŒªM‚–‚“”nê‚`
+964 | Kenshin vs Baba B | ŒªM‚–‚“”nê‚a
+965 | Kenshin vs Gon A | ŒªM‚–‚“ƒSƒ“‚`
+966 | Kenshin vs Gon B | ŒªM‚–‚“ƒSƒ“‚a
+967 | Kazuhisa / Running away from Nobunaga | ƒJƒYƒqƒT^M’·‚©‚ç“¦‚°‚é
+968 | Kazuhisa / search 1 | ƒJƒYƒqƒT^’Tõ‚P
+969 | Kenshin vs Kazuhisa A | ŒªM‚–‚“ƒJƒYƒqƒT‚`
+970 | Kenshin vs Kazuhisa B | ŒªM‚–‚“ƒJƒYƒqƒT‚a
+971 | Uesugi / Bonus erotic | ã™^ƒ{[ƒiƒXƒGƒ
+972 | Tilt / Preparation for the emperor's race | ŒX‘^’éƒŒ[ƒX‚Ì€”õ
+973 | Tilt / Battle crafting | ŒX‘^‡íHì
+974 | Nobunaga vs. fake tilt | M’·‚–‚“‹UŒX‘
+975 | Kenshin / Reason not to kill Lance | ŒªM^ƒ‰ƒ“ƒX‚ğE‚³‚È‚¢–ó
+976 | Recommendation of surrender by the authority of the emperor | ’é‚ÌˆĞŒõ‚Å~•šŠ©
+977 | Recommendation of surrender by the authority of the emperor / generic | ’é‚ÌˆĞŒõ‚Å~•šŠ©^”Ä—p
+978 | Recommendation of Surrender by the Authority of the Emperor / Demon Army | ’é‚ÌˆĞŒõ‚Å~•šŠ©^–‚ŒR
+979 | Demon army / seizure of the dominion | –‚ŒR^x”z’n’Dæ
+980 | Humility / drastic decrease in the number of troops | ŒªM^•º”ŒƒŒ¸
+981 | Kenshin / Emperor's note A | ŒªM^’éƒm[ƒg‚`
+982 | Kenshin / Emperor's Note B | ŒªM^’éƒm[ƒg‚a
+983 | Kenshin / Emperor Note C | ŒªM^’éƒm[ƒg‚b
+984 | Kenshin / Imperial Note D | ŒªM^’éƒm[ƒg‚c
+985 | Kenshin / Emperor's Note E | ŒªM^’éƒm[ƒg‚d
+986 | Kenshin / Kahime becomes the Lord of the Land | ŒªM^•P‚ª‘å‚É
+987 | Kenshin / Majin Nobunaga revival information | ŒªM^–‚lM’·•œŠˆî•ñ
+988 | Kenshin / Level drain | ŒªM^ƒŒƒxƒ‹ƒhƒŒƒCƒ“
+989 | Kenshin / special training / first time | ŒªM^“ÁŒP^‰‚ß‚Ä
+990 | Kenshin / Training / General purpose 1 | ŒªM^“ÁŒP^”Ä—p‚P
+991 | Kenshin / Training / Generic 2 | ŒªM^“ÁŒP^”Ä—p‚Q
+992 | Kenshin / Confirmation of love | ŒªM^ˆ¤‚ÌŠm”F
+993 | Kenshin / Report to Naoe | ŒªM^’¼]‚É•ñ
+994 | Kenshin / Level 30 | ŒªM^ƒŒƒxƒ‹‚R‚O
+995 | Kenshin / V1 | ŒªM^‚u‚P
+996 | Kenshin / V2 | ŒªM^‚u‚Q
+997 | Kenshin / V3 | ŒªM^‚u‚R
+998 | Kenshin / V4 | ŒªM^‚u‚S
+999 | Kenshin / Masamune no Matter | ŒªM^­@‚Ì–
+1000 | Kenshin / Matter of Yuzuhara | ŒªM^—MŒ´‚Ì–
+1001 | Kenshin / Matter of Suzutani | ŒªM^—é’J‚Ì–
+1002 | Kenshin / Kumano's Matters | ŒªM^ŒF–ì‚Ì–
+1003 | Kenshin / Mikuma's matter | ŒªM^‚İ‚­‚Ü‚Ì–
+1004 | Kenshin / Matter of Hirasaka | ŒªM^•½â‚Ì–
+1005 | Kenshin / Motonaga | ŒªM^Œ³A‚Ì–
+1006 | Kenshin / Matter of Baba | ŒªM^”nê‚Ì–
+1007 | Kenshin / Matter of Gon | ŒªM^ƒSƒ“‚Ì–
+1008 | Kenshin / Emperor Kenshin and sex | ŒªM^’éŒªM‚ÆƒGƒbƒ`
+1009 | Kenshin / Basic contact with the emperor | ŒªM^Šî–{ÚG^’é
+1010 | Kenshin / Let's go to the big snake hole | ŒªM^‘åÖ‚ÌŒŠ‚Ös‚±‚¤
+1011 | Xavier / Labyrinth of the Serpent 1 | ƒUƒrƒGƒ‹^‘åÖ–À‹{‚P
+1012 | Xavier / Labyrinth of the Serpent 2 | ƒUƒrƒGƒ‹^‘åÖ–À‹{‚Q
+1013 | Xavier / The Serpent's Hole 3 | ƒUƒrƒGƒ‹^‘åÖ–À‹{‚R
+1014 | Kenshin / Last Battle A | ŒªM^ƒ‰ƒXƒgƒoƒgƒ‹‚`
+1015 | Kenshin / Last Battle B | ŒªM^ƒ‰ƒXƒgƒoƒgƒ‹‚a
+1016 | Kenshin / Epilogue | ŒªM^ƒGƒsƒ[ƒO
+1017 | Nobunaga vs 2 points | M’·‚–‚“‚Q“_
+1018 | Kenshin / Baba and still | ŒªM^”nê‚Æ‚Ü‚¾
+1019 | Tilt / Aiming at Kenshin 1 | ŒX‘^ŒªM‚ğ‘_‚¤‚P
+1020 | Leaning Towards Kenshin 2 | ŒX‘^ŒªM‚ğ‘_‚¤‚Q
+1021 | Manmaru / Humiliation | ‚Ü‚ñ‚Ü‚é^—ËJ
+1022 | Manmaru / Humiliation 2 | ‚Ü‚ñ‚Ü‚é^—ËJ‚Q
+1023 | Manmaru / Escape A | ‚Ü‚ñ‚Ü‚é^“¦‚ª‚·‚`
+1024 | Manmaru / Escape B | ‚Ü‚ñ‚Ü‚é^“¦‚ª‚·‚a
+1025 | Manmaruru / Flee C | ‚Ü‚ñ‚Ü‚é^“¦‚ª‚·‚b
+1026 | Kenshin / Servant | ŒªM^dŠ¯
+1027 | Kenshin / approaching Lance | ŒªM^ƒ‰ƒ“ƒX‚É”—‚é
+1028 | Kenshin / Trust | ŒªM^M—Š
+1029 | Kenshin / Before the battle | ŒªM^‡í‘O
+1030 | Kenshin / Love | ŒªM^ˆ¤î
+1031 | Kenshin / Basic Contact | ŒªM^Šî–{ÚG
+1032 | Kenshin / Basic Contact 2 | ŒªM^Šî–{ÚG‚Q
+1033 | Kenshin / General Erotic | ŒªM^”Ä—pƒGƒ
+1034 | Kenshin / Guardian Paper | ŒªM^ç‚è†—l
+1035 | MAZO / Invincible Amulet | ‚l‚`‚y‚n^–³“G‚Ì‚¨ç‚è
+1036 | Shinano / Tange dog | M”Z^’O‰ºŒ¢
+1037 | Yuzuhara / Rumor of a human-faced dog | —MŒ´^l–ÊŒ¢‚Ì‰\
+1038 | Aki / Rumor of a human-faced dog | ˆ¢÷^l–ÊŒ¢‚Ì‰\
+1039 | Kai / Rumor of a human-faced dog | b”ã^l–ÊŒ¢‚Ì‰\
+1040 | Saitama / Rumor of a human-faced dog | ‚³‚¢‚½‚Ü^l–ÊŒ¢‚Ì‰\
+1041 | Texas / Study hole / found | ƒeƒLƒTƒX^‚¨•×‹­ŒŠ^”­Œ©
+1042 | Owari / Button Hunting A | ”ö’£^ƒ{ƒ^ƒ“ë‚è‚`
+1043 | Owari / Button Hunting B | ”ö’£^ƒ{ƒ^ƒ“ë‚è‚a
+1044 | Sado / Button Hunting A | ²“n^ƒ{ƒ^ƒ“ë‚è‚`
+1045 | Sado / Button hunting B | ²“n^ƒ{ƒ^ƒ“ë‚è‚a
+1046 | Saitama / Monkey hunting A | ‚³‚¢‚½‚Ü^‰ë‚è‚`
+1047 | Saitama / Monkey hunting B | ‚³‚¢‚½‚Ü^‰ë‚è‚a
+1048 | Himeji / Monkey hunting A | •P˜H^‰ë‚è‚`
+1049 | Himeji / Monkey hunting B | •P˜H^‰ë‚è‚a
+1050 | Nakagokuni / Panda hunting A | ’†‚Á‘^ƒpƒ“ƒ_ë‚è‚`
+1051 | Nakagokuni / Panda hunting B | ’†‚Á‘^ƒpƒ“ƒ_ë‚è‚a
+1052 | Joso / Panda hunting A | ã‘^ƒpƒ“ƒ_ë‚è‚`
+1053 | Joso / Panda hunting B | ã‘^ƒpƒ“ƒ_ë‚è‚a
+1054 | Mabo hunting A | ‚Ü‚ñ‚Ú‚¤ë‚è‚`
+1055 | Mabo hunting B | ‚Ü‚ñ‚Ú‚¤ë‚è‚a
+1056 | There are a lot of captives | •ß—¸‚ª‚¢‚Á‚Ï‚¢‚Å‚·
+1057 | Picking up a mandarin orange / Hirami lemon | –¨Š¹^ƒqƒ‰ƒ~ƒŒƒ‚ƒ“‚ğE‚¤
+1058 | Before the labyrinth / general purpose | –À‹{‘O^”Ä—p
+1059 | In the labyrinth / escape | –À‹{“à^’Eo
+1060 | Ise / Pearl labyrinth / Discovery | ˆÉ¨^^ì–À‹{^”­Œ©
+1061 | Kyoto / Ryuugujo / Discover | ‹^—³‹{é^”­Œ©
+1062 | Sado / Sado gold mine / Discovery | ²“n^²“n‹àR^”­Œ©
+1063 | MAZO / SM labyrinth / Discovery | ‚l‚`‚y‚n^‚r‚l–À‹{^”­Œ©
+1064 | KAMISO / Satomi Empire / Discovery | ã‘^—¢Œ©’é‘^”­Œ©
+1065 | Edo / Magical City / Discovery | ]ŒË^–‚ŠE“ss^”­Œ©
+1066 | Shell / Shell mound / Discovery | ŠL^ŠL’Ë^”­Œ©
+1067 | Mikawa / Tokugawa buried gold / Discovery | O‰Í^“¿ì–„‘ ‹à^”­Œ©
+1068 | Yamato / Heijo-kyo Capital / Discovery | ‘å˜a^•½é‹^”­Œ©
+1069 | Naniwa / Umeda Underground Mall / Discovery | ‚È‚É‚í^”~“c’n‰ºŠX^”­Œ©
+1070 | Tamba / Tamba Mine / Discovery | ’O”g^’O”gzR^”­Œ©
+1071 | Himeji / Tora no Ana / Discovery | •P˜H^ŒÕ‚ÌŒŠ^”­Œ©
+1072 | Battleship Nagato / Bikini viewing / Discovery | íŠÍ’·–å^ƒrƒLƒjŠÏÜ^”­Œ©
+1073 | Construction of Ninja house | ”EÒ‰®•~‚ÌŒšİ
+1074 | Kosenheizaka / The Emperor's Sword | ‰©ò•½â^’é‚ÌŒ•
+1075 | Crossing Tenma Bridge A | “V–‹´‚ğ“n‚é‚`
+1076 | Crossing Tenmabashi Bridge B | “V–‹´‚ğ“n‚é‚a
+1077 | Crossing Tenmabashi Bridge C | “V–‹´‚ğ“n‚é‚b
+1078 | Crossing Tenmabashi Bridge D | “V–‹´‚ğ“n‚é‚c
+1079 | Sex change 1 | «“]Š·‚P
+1080 | Sex change A | «“]Š·‚`
+1081 | Sex change B1 | «“]Š·‚a‚P
+1082 | Sex change B2 | «“]Š·‚a‚Q
+1083 | Sex change C | «“]Š·‚b
+1084 | Sex change D | «“]Š·‚c
+1085 | Demon extermination 1 | ‹S‘Ş¡‚P
+1086 | Demon extermination 2 | ‹S‘Ş¡‚Q
+1087 | Dragon palace erotic 1 | —³‹{éƒGƒ‚P
+1088 | Dragon palace eroticism 1A | —³‹{éƒGƒ‚P‚`
+1089 | Dragon palace eroticism 2 | —³‹{éƒGƒ‚Q
+1090 | Ryugujo ero 3 | —³‹{éƒGƒ‚R
+1091 | Labyrinth / Misokatsu labyrinth / clear | –À‹{^–¡‘XƒJƒc–À‹{^ƒNƒŠƒA
+1092 | Ise / Pearl labyrinth / clear | ˆÉ¨^^ì–À‹{^ƒNƒŠƒA
+1093 | Texas / Study hole / Clear | ƒeƒLƒTƒX^‚¨•×‹­ŒŠ^ƒNƒŠƒA
+1094 | Akakhel / Akakabe labyrinth / Clear | Ôƒwƒ‹^Ô•Ç–À‹{^ƒNƒŠƒA
+1095 | Mikawa / Tokugawa Buried Treasure / Clear | O‰Í^“¿ì–„‘ ‹à^ƒNƒŠƒA
+1096 | Construction of Yin-Yang School | ‰A—zŠwZ‚ÌŒšİ
+1097 | Tour of Yin-Yang School | ‰A—zŠwZ‚ÌŒ©Šw
+1098 | Tour of gunsmithing factory | “S–C’b–èê‚ÌŒ©Šw
+1099 | Visiting a ninja mansion | ”EÒ‰®•~‚ÌŒ©Šw
+1100 | Construction of Ashigaru mansion | ‘«Œy‰®•~‚ÌŒšİ
+1101 | Observation of Ashigaru Yashiki  | ‘«Œy‰®•~‚ÌŒ©Šw
+1102 | Edo / Golden Bear A | ]ŒË^‰©‹àŒF‚`
+1103 | Edo / Golden bear B | ]ŒË^‰©‹àŒF‚a
+1104 | Oshu / Treasure of Yokai | ‰œB^—d‰ö‚Ì•ó
+1105 | Izumo / Heizumi-Heizaka / Discovery | o‰_^‰©ò•½â^”­Œ©
+1106 | Akakhel / Akakabe Labyrinth / Discovery | Ôƒwƒ‹^Ô•Ç–À‹{^”­Œ©
+1107 | Yamato / Heijo-kyo Capital / First | ‘å˜a^•½é‹^‰
+1108 | Yamato / Heijokyo / Clear | ‘å˜a^•½é‹^ƒNƒŠƒA
+1109 | Six Great Treasures | ‚U‘å”é•ó
+1110 | Tebasaki Ranch 1 | ‚Ä‚Î‚³‚«–qê‚P
+1111 | Tebasaki Ranch 2 | ‚Ä‚Î‚³‚«–qê‚Q
+1112 | Tebasaki Ranch / General | ‚Ä‚Î‚³‚«–qê^”Ä—p
+1113 | Tebasaki Ranch 3 | ‚Ä‚Î‚³‚«–qê‚R
+1114 | Kambara / Declaration of War | _Œ´^éí•z
+1115 | Kambara / Declaration of war / From Kambara | _Œ´^éí•z^_Œ´‚©‚ç‚Ìê‡
+1116 | Kambara / drapery shop | _Œ´^Œà•‰®
+1117 | Kambara / Mochi pickles | _Œ´^–İ’Ğ
+1118 | Kanbara / Dirty day | _Œ´^‰˜‚ê‚Ì“ú
+1119 | Kanbara / Surrender acceptance | _Œ´^~•šó‚¯“ü‚ê
+1120 | Kanbara / Fall A | _Œ´^Š×—‚`
+1121 | Kanbara / falling B | _Œ´^Š×—‚a
+1122 | Kanbara / falling C | _Œ´^Š×—‚b
+1123 | Leila / appearance | ƒŒƒCƒ‰^Qã
+1124 | Leila / Trust | ƒŒƒCƒ‰^M—Š
+1125 | Leila / vs Kenshin | ƒŒƒCƒ‰^‚–‚“ŒªM
+1126 | Leila / Sex | ƒŒƒCƒ‰^ƒGƒbƒ`
+1127 | Leila / Basic contact | ƒŒƒCƒ‰^Šî–{ÚG
+1128 | Leila / Captured | ƒŒƒCƒ‰^•ßŠl‚³‚ê‚é
+1129 | Layla / Humiliation | ƒŒƒCƒ‰^—ËJ
+1130 | Leila / Before the battle / General purpose | ƒŒƒCƒ‰^‡í‘O^”Ä—p
+1131 | Kahime / Missing | •P^s•û•s–¾
+1132 | Princess Kahime / Rescue | •P^•‚¯‚é
+1133 | Princess Shang / Missing / General | •P^s•û•s–¾^”Ä—p
+1134 | Princess Kahime / Follow-up of rape | •P^ƒŒƒCƒv‚ÌƒtƒHƒ[
+1135 | Princess Kahime / Nobunaga's worry General | •P^M’·‚ÌS”z”Ä—p
+1136 | Attack on Princess Kahime | •P‚ğP‚¤
+1137 | Oda / Plan to eliminate Nobunaga / General | D“c^M’·–•EŒv‰æ^”Ä—p
+1138 | Princess Kohime / Because he is the general | •P^‘‘å«‚Å‚·‚©‚ç
+1139 | Princess Kohime / searching for a son-in-law | •P^–¹‘{‚µ
+1140 | Princess Kohime / Brother Lance | •P^ŒZƒ‰ƒ“ƒX
+1141 | Princess Shang / Nobunaga appears at the main camp | •P^–{w‚ÉŒ»‚ê‚½M’·
+1142 | Princess Kohime / Collapse | •P^“|‚ê‚é
+1143 | Princess Kohime / Magic and  | •P^ƒ}ƒWƒbƒN‚Æ
+1144 | Princess Kohime / Not going back home | •P^s‚©‚¸Œã‰Æ
+1145 | Princess Shang / Nobunaga's worry 2 general | •P^M’·‚ÌS”z‚Q”Ä—p
+1146 | Princess Shang / Nobunaga's worry 3 general-purpose | •P^M’·‚ÌS”z‚R”Ä—p
+1147 | Kahime / Nobunaga's Worry 4 General | •P^M’·‚ÌS”z‚S”Ä—p
+1148 | Princess Kohime / Miki is out of control | •P^”ü÷–\‘–’†
+1149 | Princess Kahime / Walking in the territory | •P^—Ì“à‚ÌU•à
+1150 | Princess Kohime / Nobunaga's allowance | •P^M’·‚Ì¬Œ­‚¢
+1151 | Princess Kohime / Chapter 2 General | •P^‚QÍ”Ä—p
+1152 | Princess Kohime / Growth 1 | •P^¬’·‚P
+1153 | Princess Kohime / Growth 2 | •P^¬’·‚Q
+1154 | Princess Shang / Chapter 2, part 1 | •P^‚QÍ‚»‚Ì‚P
+1155 | Princess Shang / Chapter 2, Part 2 | •P^‚QÍ‚»‚Ì‚Q
+1156 | Princess Shang / Chapter 2, Part 3 | •P^‚QÍ‚»‚Ì‚R
+1157 | Princess Shang / Chapter 2, Part 4 | •P^‚QÍ‚»‚Ì‚S
+1158 | Princess Shang / Daily Conversation General | •P^“úí‰ï˜b”Ä—p
+1159 | Princess Shang / Missing / Time Running Out | •P^s•û•s–¾^ŠÔØ‚ê
+1160 | Princess Shang / Departure | •P^ow
+1161 | Princess Shang / Lance's mutation 1 | •P^ƒ‰ƒ“ƒX‚ÌˆÙ•Ï‚P
+1162 | Princess Shang / Lance's mutation 2 | •P^ƒ‰ƒ“ƒX‚ÌˆÙ•Ï‚Q
+1163 | Princess Shang / Party | •P^ƒp[ƒeƒB
+1164 | Princess Shang / Sleeping tired A | •P^”æ‚ê‚ÄQ‚Ä‚¢‚é‚`
+1165 | Princess Shang / Sleeping tired B | •P^”æ‚ê‚ÄQ‚Ä‚¢‚é‚a
+1166 | Princess Shang / Sleeping tired C | •P^”æ‚ê‚ÄQ‚Ä‚¢‚é‚b
+1167 | Princess Kohime / Bathing | •P^‚¨•—˜C
+1168 | Princess Kohime / General-purpose before Honnoji | •P^–{”\›‘O”Ä—p
+1169 | Princess Kohime / Chapter 3A general-purpose | •P^‚RÍ‚`”Ä—p
+1170 | Princess Kohime / Chapter 3B General Purpose | •P^‚RÍ‚a”Ä—p
+1171 | Princess Kohime / Death in battle | •P^í€
+1172 | Princess Kohime / Late time elapsed | •P^Œã”¼ŠÔŒo‰ß
+1173 | Princess Kohime / After icing / General Purpose | •P^•X’Ğ‚¯Œã^”Ä—p
+1174 | Princess Shang / Operation Permit Cancelled | •P^ìí‹–‰Â‘’†~
+1175 | Princess Kohime / Guardian paper-sama | •P^ç‚è†—l
+1176 | Akashi / Boy's country | –¾Î^­”N‚Ì‘
+1177 | Akashi / Declaration of war | –¾Î^éí•z
+1178 | Akashi / Death of Heizo Abe | –¾Î^ˆÀ•”•½O‚Ì€
+1179 | Akashi / Death of Asahina Momonan | –¾Î^’©”ä“Ş•S–œ‚Ì€
+1180 | Akashi / Start of Nuhe | –¾Î^‚Ê‚Ön“®
+1181 | Akashi / Battle of Ikuno | –¾Î^¶–ì‚Ìí‚¢
+1182 | Akashi / Battle of Nawatori | –¾Î^“êæ‚Ìí‚¢
+1183 | Akashi / everyday life at dinner | –¾Î^—[éM‚Ì“úí
+1184 | Akashi / Battle at dinner | –¾Î^—[éM‚Ìí‚¢
+1185 | Akashi / Flee the brazier | –¾Î^‰Î”«‚ğ“¦‚ª‚·
+1186 | Akashi / acceptance of surrender | –¾Î^~•šó‚¯“ü‚ê
+1187 | Akashi / plundering gourds | –¾Î^•Z’\—ª’D
+1188 | Akashi / Declaration of war to Oda | –¾Î^D“c‚Öéí•z
+1189 | Akashi / Bonus porn | –¾Î^ƒ{[ƒiƒXƒGƒ
+1190 | Akashi / Falling | –¾Î^Š×—
+1191 | Akashi / Fall B | –¾Î^Š×—‚a
+1192 | Akashi / Fall C | –¾Î^Š×—‚b
+1193 | Akashi / Falling D | –¾Î^Š×—‚c
+1194 | Akashi / Prepare for war | –¾Î^ŠJí€”õ
+1195 | Akashi / Subterfuge | –¾Î^— Hì
+1196 | Akashi / Declaration of war to Oda 2 | –¾Î^D“c‚Öéí•z‚Q
+1197 | Date / Start | ˆÉ’B^ŠJn
+1198 | Date / Hear about the Youkai Empire | ˆÉ’B^—d‰ö’é‘‚É‚Â‚¢‚Ä•·‚­
+1199 | Tamuramaro Sakagami / encounter | âã“c‘º–ƒ˜C^‘˜‹ö
+1200 | Tamuramaro Sakagami / Defeat | âã“c‘º–ƒ˜C^Œ‚”j
+1201 | Date / Declaration of war | ˆÉ’B^éí•z
+1202 | Date / Stalemate Agreement | ˆÉ’B^’âí‹¦’è
+1203 | Date / Daily Life 1 | ˆÉ’B^“úí‚P
+1204 | Date / Everyday Life 2 | ˆÉ’B^“úí‚Q
+1205 | Date / Everyday Life 3 | ˆÉ’B^“úí‚R
+1206 | Date / Weakness of Masamune | ˆÉ’B^­@‚Ìã“_
+1207 | Date / Last Battle A | ˆÉ’B^ƒ‰ƒXƒgƒoƒgƒ‹‚`
+1208 | Date / Last Battle B | ˆÉ’B^ƒ‰ƒXƒgƒoƒgƒ‹‚a
+1209 | Date / First Appearance | ˆÉ‰ê^‰“oê
+1210 | Iga / Information on Nobunaga | ˆÉ‰ê^M’·‚Ìî•ñ
+1211 | Iga / Civil war suppressed | ˆÉ‰ê^“à—’Áˆ³
+1212 | Iga / Declaration of war | ˆÉ‰ê^éí•z
+1213 | Iga / Assassin of the battlefield | ˆÉ‰ê^íê‚Ìh‹q
+1214 | Iga / Appearance of Ninja Five | ˆÉ‰ê^”EÒƒtƒ@ƒCƒu“oê
+1215 | Iga / The fall of Suzume | ˆÉ‰ê^Š×—^—é—
+1216 | Iga / The Fall | ˆÉ‰ê^Š×—
+1217 | Iga / Revival | ˆÉ‰ê^•œŠˆ
+1218 | Iga / Looting of gourd | ˆÉ‰ê^•Z’\—ª’D
+1219 | Iga / Declaration of war against Oda | ˆÉ‰ê^D“c‚Ééí•z
+1220 | Iga / Zesu reinforcements | ˆÉ‰ê^ƒ[ƒX‰‡ŒR
+1221 | Iga / After Suzume | ˆÉ‰ê^—é—‚Ì‚»‚ÌŒã
+1222 | Iga / Acceptance of surrender | ˆÉ‰ê^~•šó‚¯“ü‚ê
+1223 | Iga / Gourd offering | ˆÉ‰ê^•Z’\Œ£ã
+1224 | Iga / Wan Wan Trap | ˆÉ‰ê^‚í‚ñ‚í‚ñƒgƒ‰ƒbƒv
+1225 | Yamato / Kunoichi school discovery | ‘å˜a^‚­‚Ì‚¢‚¿ŠwZ”­Œ©
+1226 | Rattanokichiro / Kill | âÙ‹g˜Y^E‚·
+1227 | Monkey Killer / Clear | ‰E‚µ^ƒNƒŠƒA
+1228 | Shiru / Subordinate conversation generic | ƒVƒBƒ‹^•”‰º‰ï˜b”Ä—p
+1229 | Shiru / Ooku 1 | ƒVƒBƒ‹^‘å‰œ‚P
+1230 | Shiru / Ooku 2 | ƒVƒBƒ‹^‘å‰œ‚Q
+1231 | Shiru / Outermost Depth 3 | ƒVƒBƒ‹^‘å‰œ‚R
+1232 | Syrl / Ohoku 4 | ƒVƒBƒ‹^‘å‰œ‚S
+1233 | Syrl / Outermost depth 0 | ƒVƒBƒ‹^‘å‰œ‚O
+1234 | Shil / General conversation 2 | ƒVƒBƒ‹^”Ä—p‰ï˜b‚Q
+1235 | Shil / Basic contact | ƒVƒBƒ‹^Šî–{ÚG
+1236 | Shil / Daily life 1 | ƒVƒBƒ‹^“úí‚P
+1237 | Shil / Everyday life 2 | ƒVƒBƒ‹^“úí‚Q
+1238 | Shil / Everyday life 3 | ƒVƒBƒ‹^“úí‚R
+1239 | Syr / Everyday 4 | ƒVƒBƒ‹^“úí‚S
+1240 | Syil / Birthday | ƒVƒBƒ‹^’a¶“ú
+1241 | Shil / Hot Spring | ƒVƒBƒ‹^‰·ò
+1242 | Syil / Sailor Clothes Erotic | ƒVƒBƒ‹^ƒZ[ƒ‰•ƒGƒ
+1243 | Syil / Ice 1A | ƒVƒBƒ‹^•X‚P‚`
+1244 | Syrle / Ice 1B | ƒVƒBƒ‹^•X‚P‚a
+1245 | Syrle / Ice 1C | ƒVƒBƒ‹^•X‚P‚b
+1246 | Syrle / Ice 1D | ƒVƒBƒ‹^•X‚P‚c
+1247 | Syrle / Ice 1E | ƒVƒBƒ‹^•X‚P‚d
+1248 | Syrle / Ice 1F | ƒVƒBƒ‹^•X‚P‚e
+1249 | Syrle / Ice 2A | ƒVƒBƒ‹^•X‚Q‚`
+1250 | Syrle / Ice 2B | ƒVƒBƒ‹^•X‚Q‚a
+1251 | Syrl / Ice 2C | ƒVƒBƒ‹^•X‚Q‚b
+1252 | Sheil / Ice 3 | ƒVƒBƒ‹^•X‚R
+1253 | Shil / Basic Contact / Ice | ƒVƒBƒ‹^Šî–{ÚG^•X
+1254 | Urza / Visit | ƒEƒ‹ƒU^Qã
+1255 | Urza / Trust | ƒEƒ‹ƒU^M—Š
+1256 | Urza / Magic Phone | ƒEƒ‹ƒU^–‚–@“d˜b
+1257 | Urza / Fireworks | ƒEƒ‹ƒU^‰Ô‰Î‘å‰ï
+1258 | Urza / Basic Contact | ƒEƒ‹ƒU^Šî–{ÚG
+1259 | Urza / Blue rape | ƒEƒ‹ƒU^ÂŠ­
+1260 | Urza / Before battle / General purpose | ƒEƒ‹ƒU^‡í‘O^”Ä—p
+1261 | Masamune / Officer | ­@^dŠ¯
+1262 | Masamune / Basic contact | ­@^Šî–{ÚG
+1263 | Masamune / Subordinate conversation / First | ­@^•”‰º‰ï˜b^‰
+1264 | Masamune / Trust | ­@^M—Š
+1265 | Masamune / Battle / General | ­@^‡í^”Ä—p
+1266 | Masamune / Killing stone | ­@^E¶Î
+1267 | Masamune / Revival of Omachi | ­@^‚¨’¬•œŠˆ
+1268 | Ii / Recruiting success | ˆäˆÉ^Š©—U¬Œ÷
+1269 | Ii / Subordinate conversation / First | ˆäˆÉ^•”‰º‰ï˜b^‰
+1270 | Ii / Basic contact | ˆäˆÉ^Šî–{ÚG
+1271 | Ii / Trust | ˆäˆÉ^M—Š
+1272 | Ii / Battle / General | ˆäˆÉ^‡í^”Ä—p
+1273 | Time Lapse | ŠÔŒo‰ß
+1274 | Ranmaru / Trust | —ŠÛ^M—Š
+1275 | Ranmaru / Basic Contact | —ŠÛ^Šî–{ÚG
+1276 | Ranmaru / Lance seduce 1 | —ŠÛ^ƒ‰ƒ“ƒXŒûà‚­‚P
+1277 | Ranmaru / Katsuie and the battlefield | —ŠÛ^Ÿ‰Æ‚Æíê
+1278 | Ranmaru / Lance makes a move on me 2 | —ŠÛ^ƒ‰ƒ“ƒX‚ªŒûà‚­‚Q
+1279 | Ranmaru / Changing clothes | —ŠÛ^’…‘Ö‚¦
+1280 | Ranmaru / Determination to get married | —ŠÛ^Œ‹¥‚ÌŒˆˆÓ
+1281 | Ranmaru / Katsuke get | —ŠÛ^Ÿ‰ÆƒQƒbƒg
+1282 | Ranmaru / Basic contact / Katsuie | —ŠÛ^Šî–{ÚG^Ÿ‰Æ
+1283 | Ranmaru / Before the battle / General | —ŠÛ^‡í‘O^”Ä—p
+1284 | Kazuhisa / Normal | ƒJƒYƒqƒT^•’Ê
+1285 | Kazuhisa / Trust | ƒJƒYƒqƒT^M—Š
+1286 | Kazuhisa / Recruitment success | ƒJƒYƒqƒT^Š©—U¬Œ÷
+1287 | Kazuhisa / Basic contact | ƒJƒYƒqƒT^Šî–{ÚG
+1288 | Kazuhisa / Basic Contact / Naoe Ai | ƒJƒYƒqƒT^Šî–{ÚG^’¼]ˆ¤
+1289 | Kazuhisa / Trust 2 | ƒJƒYƒqƒT^M—Š‚Q
+1290 | Kazuhisa / Before the battle / General purpose | ƒJƒYƒqƒT^‡í‘O^”Ä—p
+1291 | Shin-Sen-Gumi and Fawn | Vï‘g‚Æq­
+1292 | Shin-Sen-Gumi and Takuga 1 | Vï‘g‚Æƒ^ƒNƒK‚P
+1293 | Shin-Sen-Gumi and Takuga 2 | Vï‘g‚Æƒ^ƒNƒK‚Q
+1294 | Shinsengumi Support A | Vï‘gx‰‡‚`
+1295 | Shinsengumi Support B | Vï‘gx‰‡‚a
+1296 | Shinsengumi Support C | Vï‘gx‰‡‚b
+1297 | Shinsengumi Terrorist 1 | Vï‘gƒeƒƒŠƒXƒg‚P
+1298 | Shinsengumi Terrorist 2 | Vï‘gƒeƒƒŠƒXƒg‚Q
+1299 | Uesugi / First appearance | ã™^‰“oê
+1300 | Uesugi / First Reinforcements for Other Countries | ã™^‘¼‘‰‡ŒR‰
+1301 | Uesugi / General Reinforcements for Other Countries | ã™^‘¼‘‰‡ŒR”Ä—p
+1302 | Uesugi / Declaration of war | ã™^éí•z
+1303 | Uesugi / Lance vs Kenshin | ã™^ƒ‰ƒ“ƒX‚–‚“ŒªM
+1304 | Uesugi / Lance vs Kenshin  | ã™^ƒ‰ƒ“ƒX‚–‚“ŒªM”Ä—p
+1305 | Uesugi / Kenshin's love at first sight | ã™^ŒªM‚Ìˆê–Ú›‚ê
+1306 | Uesugi / Kenshin's marriage | ã™^ŒªM‚ÌŒ‹¥‘Šè
+1307 | Uesugi / Kenshin's determination | ã™^ŒªM‚ÌŒˆˆÓ
+1308 | Uesugi / Night attack | ã™^–éP
+1309 | Uesugi / Rebellion outbreak A | ã™^”½—ŒR”­¶‚`
+1310 | Uesugi / Rebel outbreak B | ã™^”½—ŒR”­¶‚a
+1311 | Uesugi / Rebel outbreak C | ã™^”½—ŒR”­¶‚b
+1312 | Uesugi / Rebel outbreak A | ã™^”½—ŒR‚»‚ÌŒã
+1313 | Uesugi / Fall / No Kenshin | ã™^Š×—^ŒªM–³‚µ
+1314 | Uesugi / Fall | ã™^Š×—
+1315 | Uesugi / Gourd looting | ã™^•Z’\—ª’D
+1316 | Uesugi / Gourd looting / Under Takeda's control | ã™^•Z’\—ª’D^•“cx”z‰º
+1317 | Uesugi / Declaration of war to Oda | ã™^D“c‚Öéí•z
+1318 | Uesugi / Oda reinforcements first | ã™^D“c‰‡ŒR‰
+1319 | Uesugi / Oda reinforcements general | ã™^D“c‰‡ŒR”Ä—p
+1320 | Prefectural administration / POW Kenshin / General-purpose | Œ§­^•ß—¸ŒªM^”Ä—p
+1321 | Prefecture administration / POW Kenshin love / General-purpose | Œ§­^•ß—¸ŒªMˆ¤^”Ä—p
+1322 | Uesugi / Rebel progress | ã™^”½—ŒRŒo‰ß
+1323 | Hatsujin Corozan / Discovery A | ”­‹Ö‘ÂR^”­Œ©‚`
+1324 | Prohibited Mt. Fallen / Discovery B | ”­‹Ö‘ÂR^”­Œ©‚a
+1325 | Prohibited Mt. Fall / Discovery C | ”­‹Ö‘ÂR^”­Œ©‚b
+1326 | Prohibited Mt. Corozan / Subordinate conversation / First  | ”­‹Ö‘ÂR^•”‰º‰ï˜b^‰
+1327 | Prohibited Mt. Fallujan / Basic contact | ”­‹Ö‘ÂR^Šî–{ÚG
+1328 | Forbidden Mt. Fallen / Trust  | ”­‹Ö‘ÂR^M—Š
+1329 | Prohibited Mt. Fallen / Battle / General  | ”­‹Ö‘ÂR^‡í^”Ä—p
+1330 | Magic / Appearance | –‚“±^“oê
+1331 | Magic / Appearance / Subordinate | –‚“±^“oê^•”‰º
+1332 | Leading / Appearance / Prisoner of war | –‚“±^“oê^•ß—¸
+1333 | Leading / Back then 1 | –‚“±^‚»‚Ì ‚P
+1334 | Leading / Those days 2 | –‚“±^‚»‚Ì ‚Q
+1335 | Mage / Sortie | –‚“±^oŒ‚
+1336 | Mage / Last Battle A | –‚“±^ƒ‰ƒXƒgƒoƒgƒ‹‚`
+1337 | Magic / Last Battle AA | –‚“±^ƒ‰ƒXƒgƒoƒgƒ‹‚`‚`
+1338 | Magic / Last Battle B | –‚“±^ƒ‰ƒXƒgƒoƒgƒ‹‚a
+1339 | Soul Binding Sealing Common | °”›‚è••ˆó‹¤’Ê
+1340 | Tanegashima / Surrender Acceptance | íq“‡^~•šó‚¯“ü‚ê
+1341 | Naniwa / Umeda Underground Mall / Clear | ‚È‚É‚í^”~“c’n‰ºŠX^ƒNƒŠƒA
+1342 | Sado / Sado gold mine / Clear | ²“n^²“n‹àR^ƒNƒŠƒA
+1343 | MAZO / SM labyrinth / Clear | ‚l‚`‚y‚n^‚r‚l–À‹{^ƒNƒŠƒA
+1344 | KAMISO / Satomi Empire / Clear | ã‘^—¢Œ©’é‘^ƒNƒŠƒA
+1345 | Edo / Makai City / Clear | ]ŒË^–‚ŠE“ss^ƒNƒŠƒA
+1346 | Tamba / Tamba Mine / Clear | ’O”g^’O”gzR^ƒNƒŠƒA
+1347 | Battleship Nagato / Bikini Viewing / Clear | íŠÍ’·–å^ƒrƒLƒjŠÏÜ^ƒNƒŠƒA
+1348 | Kumquat / Kumquat Farm / Clear | –¨Š¹^–¨Š¹”_‰€^ƒNƒŠƒA
+1349 | Mino / Mamushi oil field / Clear | ”ü”Z^‚Ü‚Ş‚µ–û“c^ƒNƒŠƒA
+1350 | Himeji / Tora no Ana / Clear | •P˜H^ŒÕ‚ÌŒŠ^ƒNƒŠƒA
+1351 | Izumo / Kizumi-Heizaka / Clear | o‰_^‰©ò•½â^ƒNƒŠƒA
+1352 | Inclined country / Defeat Kenshin | ŒX‘^ŒªM‚ğ“|‚·
+1353 | Gojuroku / Basic contact / Before Ashikaga's destruction | ŒÜ\˜Z^Šî–{ÚG^‘«—˜–Å–S‘O
+1354 | Tenshi-kyo / Proposal for peace A | “Vu‹³^˜a–r‚Ì’ñˆÄ‚`
+1355 | Tenshi-kyo / Proposal C of the peace | “Vu‹³^˜a–r‚Ì’ñˆÄ‚b
+1356 | Tenshi-kyo / Proposal for peace B | “Vu‹³^˜a–r‚Ì’ñˆÄ‚a
+1357 | Shell / Shell mound / Clear | ŠL^ŠL’Ë^ƒNƒŠƒA
+1358 | Takeda / Declaration of war to Oda / Gojuroku route | •“c^D“c‚Ééí•z^ŒÜ\˜Zƒ‹[ƒg
+1359 | Mouri / Declaration of war to Oda / Gojuroku route | –Ñ—˜^D“c‚Ééí•z^ŒÜ\˜Zƒ‹[ƒg
+1360 | Suzume / Seeding / Gojuroku route | —é—^í•t‚¯^ŒÜ\˜Zƒ‹[ƒg
+1361 | Ran / Seeding / Gojuroku route | —–^í•t‚¯^ŒÜ\˜Zƒ‹[ƒg
+1362 | Kenshin / Seeding / Route 56 | ŒªM^í•t‚¯^ŒÜ\˜Zƒ‹[ƒg
+1363 | Kawanoe Mine / Before the battle / General 2 | ì”V]”ü”H^‡í‘O^”Ä—p‚Q
+1364 | Magic / Appearance / Exception | –‚“±^“oê^—áŠO
+1365 | Gigantic wreckage / Appearance / Exception | ‹YŠ[^“oê^—áŠO
+1366 | Yoshikage Asakura / Successful recruitment | ’©‘q‹`Œi^Š©—U¬Œ÷
+1367 | Yoshikage Asakura / Warlord first | ’©‘q‹`Œi^•«‰
+1368 | Yoshikage Asakura / Normal | ’©‘q‹`Œi^•’Ê
+1369 | Yoshikage Asakura / Trust | ’©‘q‹`Œi^M—Š
+1370 | Yoshikage Asakura / Basic Contact | ’©‘q‹`Œi^Šî–{ÚG
+1371 | Yoshikage Asakura / Basic Contact / Trust | ’©‘q‹`Œi^Šî–{ÚG^M—Š
+1372 | Yoshikage Asakura / Before the battle / General | ’©‘q‹`Œi^‡í‘O^”Ä—p
+1373 | Tanegashima / First time | íq“‡^‰‚ß‚Ä
+1374 | Tanegashima / Sold to Mori | íq“‡^–Ñ—˜‚É”Ì”„
+1375 | Tanegashima / Sold to Shimazu | íq“‡^“‡’Ã‚É”Ì”„
+1376 | Tanegashima / Sold to Oda | íq“‡^D“c‚É”Ì”„
+1377 | Tanegashima / Sold to Oda | íq“‡^D“c‚É”Ì”„”Ä—p
+1378 | Sold to Tanegashima / Oda / Buy | íq“‡^D“c‚É”Ì”„^”ƒ‚¤
+1379 | Tanegashima / sold to Oda / not bought | íq“‡^D“c‚É”Ì”„^”ƒ‚í‚È‚¢
+1380 | Tanegashima / Declaration of war | íq“‡^éí•z
+1381 | Tanegashima / Shigehiko's recrimination 1 | íq“‡^d•F‚Ì‹t¦‚İ‚P
+1382 | Tanegashima / Shigehiko's resentment 2 | íq“‡^d•F‚Ì‹t¦‚İ‚Q
+1383 | Tanegashima / Fall of Tanegashima | íq“‡^Š×—
+1384 | Yuzuhara / Departure | —MŒ´^ow
+1385 | Tanegashima / Chaos erotica | íq“‡^ƒJƒIƒXƒGƒ
+1386 | Aki / Subordinate Conversation / First | ˆ¢÷^•”‰º‰ï˜b^‰
+1387 | Aki / Subordinate Conversation / Towards Normal | ˆ¢÷^•”‰º‰ï˜b^•’Ê‚Ö
+1388 | Aju / Subordinate Conversation / To Trust | ˆ¢÷^•”‰º‰ï˜b^M—Š‚Ö
+1389 | Aki / Subordinate sex 1 | ˆ¢÷^•”‰ºƒGƒbƒ`‚P
+1390 | Aki / Slave O-okubo 1st | ˆ¢÷^“z—ê‘å‰œ‚P‰ñ–Ú
+1391 | Aki / Slave sex 2 | ˆ¢÷^“z—ê‘å‰œ‚Q‰ñ–Ú
+1392 | Aki / Slave's 3rd sexual intercourse | ˆ¢÷^“z—ê‘å‰œ‚R‰ñ–Ú
+1393 | Aki / Slave Mutsu4th | ˆ¢÷^“z—ê‘å‰œ‚S‰ñ–Ú
+1394 | Aki / Affectionate | ˆ¢÷^ˆ¤î‚É
+1395 | Aki / Basic contact | ˆ¢÷^Šî–{ÚG
+1396 | Aju / Basic contact / affection | ˆ¢÷^Šî–{ÚG^ˆ¤î
+1397 | Aju / Before the battle / General purpose | ˆ¢÷^‡í‘O^”Ä—p
+1398 | Mouri / Akashi attack | –Ñ—˜^–¾ÎUŒ‚
+1399 | Mouri / Motonaga and his three sisters | –Ñ—˜^Œ³A‚ÆOo–…
+1400 | Mouri / Everyday Life 1 | –Ñ—˜^“úí‚P
+1401 | Mouri / Everyday Life 2 | –Ñ—˜^“úí‚Q
+1402 | Mouri / Everyday Life 3 | –Ñ—˜^“úí‚R
+1403 | Mouri / Losing a daughter | –Ñ—˜^–º‚ğ¸‚Á‚Ä
+1404 | Mouri / Fall / Cursed A | –Ñ—˜^Š×—^ô‚¢•t‚«‚`
+1405 | Mouri / Fall / Cursed B | –Ñ—˜^Š×—^ô‚¢•t‚«‚a
+1406 | Mouri / Curse of Motonari is lifted | –Ñ—˜^Œ³A‚Ìô‚¢‚ª‰ğ‚¯‚é
+1407 | Mouri / Fall A | –Ñ—˜^Š×—‚`
+1408 | Mouri / Fall B | –Ñ—˜^Š×—‚a
+1409 | Mouri / Declaration of war | –Ñ—˜^éí•z
+1410 | Mouri / Gourd looting | –Ñ—˜^•Z’\—ª’D
+1411 | Mouri Sisters 4P | –Ñ—˜o–…‚S‚o
+1412 | Mouri / Occupation of Tanegashima | –Ñ—˜^íq“‡è—Ì
+1413 | Mouri / Preparations for war | –Ñ—˜^ŠJí€”õ
+1414 | Mouri / Subterfuge | –Ñ—˜^— Hì
+1415 | Mori / Declaration of war to Oda | –Ñ—˜^D“c‚Ééí•z
+1416 | Mouri / Preparation for the Great Battle | –Ñ—˜^‘åŒˆí€”õ
+1417 | Mori / General purpose of the great battle | –Ñ—˜^‘åŒˆí”Ä—p
+1418 | Mori / Great Battle NO | –Ñ—˜^‘åŒˆí‚m‚n
+1419 | Mori / Grand Battle A | –Ñ—˜^‘åŒˆí‚`
+1420 | Mouri / Grand Battle B | –Ñ—˜^‘åŒˆí‚a
+1421 | Mouri / Grand Battle C | –Ñ—˜^‘åŒˆí‚b
+1422 | Mouri / Devil's Army Information | –Ñ—˜^–‚ŒRî•ñ
+1423 | Mouri / Akashi Occupation | –Ñ—˜^–¾Îè—Ì
+1424 | Kentaro / Appearance | Œ’‘¾˜Y^“oê
+1425 | Kentaro / Before the battle | Œ’‘¾˜Y^‡í‘O
+1426 | Kentaro / Fugitive | Œ’‘¾˜Y^“¦–S
+1427 | Kentaro / Ronin | Œ’‘¾˜Y^˜Ql
+1428 | Kentaro / Meeting at a teahouse | Œ’‘¾˜Y^’ƒ‰®‚Å‚Ìo‰ï‚¢
+1429 | Kentaro / Servant | Œ’‘¾˜Y^dŠ¯
+1430 | Kentaro's story before the battle | Œ’‘¾˜Y^‡í‘O‚Ì–‚‰¤˜b
+1431 | Kentaro / acquired a special move | Œ’‘¾˜Y^•KE‹Zæ“¾
+1432 | Kentaro / Immortality | Œ’‘¾˜Y^•s€
+1433 | Kentaro / Lance aims at Miki A | Œ’‘¾˜Y^ƒ‰ƒ“ƒX‚ª”ü÷‚ğ‘_‚¤‚`
+1434 | Kentaro / Lance aims at Miki B | Œ’‘¾˜Y^ƒ‰ƒ“ƒX‚ª”ü÷‚ğ‘_‚¤‚a
+1435 | Kentaro / Lance aims at Miki C | Œ’‘¾˜Y^ƒ‰ƒ“ƒX‚ª”ü÷‚ğ‘_‚¤‚b
+1436 | Kentaro / Trust | Œ’‘¾˜Y^M—Š
+1437 | Kentaro / Miki and chaos | Œ’‘¾˜Y^”ü÷‚ÆƒJƒIƒX
+1438 | Kentaro / Miki after Hirami case | Œ’‘¾˜Y^”ü÷ƒqƒ‰ƒ~–Œ‚ÌŒã
+1439 | Kentaro / Basic contact | Œ’‘¾˜Y^Šî–{ÚG
+1440 | Kentaro / Basic Contact / Majin | Œ’‘¾˜Y^Šî–{ÚG^–‚l
+1441 | Kentaro / Great Adventure / Dead Country | Œ’‘¾˜Y^‘å–`Œ¯^€‘
+1442 | Kentaro / Great Adventure / MAZO | Œ’‘¾˜Y^‘å–`Œ¯^‚l‚`‚y‚n
+1443 | Kentaro / Great Adventure / Iga | Œ’‘¾˜Y^‘å–`Œ¯^ˆÉ‰ê
+1444 | Kentaro / Great Adventure / Kairo | Œ’‘¾˜Y^‘å–`Œ¯^ƒJƒCƒ
+1445 | Kentaro / Before the battle / General-purpose | Œ’‘¾˜Y^‡í‘O^”Ä—p
+1446 | Kentaro / Majin | Œ’‘¾˜Y^–‚l
+1447 | Kentaro / Miki suffer / General | Œ’‘¾˜Y^”ü÷‹ê‚µ‚Ş^”Ä—p
+1448 | Kentaro / Miki runaway / General | Œ’‘¾˜Y^”ü÷–\‘–”Ä—p
+1449 | Rest / Recruitment success | ˆê‹x^Š©—U¬Œ÷
+1450 | Rest / Subordinate conversation / First | ˆê‹x^•”‰º‰ï˜b^‰
+1451 | Rest / Basic contact | ˆê‹x^Šî–{ÚG
+1452 | Rest / Trust | ˆê‹x^M—Š
+1453 | Ikkyu / Battle / General | ˆê‹x^‡í^”Ä—p
+1454 | Oda / Arrow in 3G | D“c^‚R‚f‚É–î
+1455 | Oda / 3G and rice cake | D“c^‚R‚f‚Æ–İ
+1456 | Ranmaru / Before battle / General purpose 2 | —ŠÛ^‡í‘O^”Ä—p‚Q
+1457 | Kawanoe Yuzuru / Before Battle / General Purpose 2 | ì”V]÷^‡í‘O^”Ä—p‚Q
+1458 | Masaji Kambara / Successful recruitment | _Œ´¹¦^Š©—U¬Œ÷
+1459 | Isoroku / Taro's death 1 | ŒÜ\˜Z^‘¾˜Y‚Ì€‚P
+1460 | Gojuroku / Taro's death 2 | ŒÜ\˜Z^‘¾˜Y‚Ì€‚Q
+1461 | Oda / Bon dance / first | D“c^–~—x‚è^‰
+1462 | Oda / Bon dance / General-purpose | D“c^–~—x‚è^”Ä—p
+1463 | Oda / Bon dance / Shiru | D“c^–~—x‚è^ƒVƒBƒ‹
+1464 | Oda / Bon dance / Kaoru | D“c^–~—x‚è^
+1465 | Oda / Bon dance / Isozuki | D“c^–~—x‚è^ŒÜ\˜Z
+1466 | Oda / Bon dance / Kenshin | D“c^–~—x‚è^ŒªM
+1467 | Oda / Bon dance / Orchidori | D“c^–~—x‚è^—–
+1468 | Oda / Bon Dance / Akane | D“c^–~—x‚è^²‰Š
+1469 | Oda / Bon dance / 3G | D“c^–~—x‚è^‚R‚f
+1470 | Oda / Bon dance / Bon dance / Bon dance / Bon dance / Bon dance / Bon dance / Bon dance | D“c^–~—x‚è^—é—
+1471 | Oda / Takuga all | D“c^ƒ^ƒNƒK‘Sˆõ
+1472 | Oda / All of Uesugi | D“c^ã™‘Sˆõ
+1473 | Oda / Ashikaga all | D“c^‘«—˜‘Sˆõ
+1474 | Oda / AA all | D“c^‚`‚`‘Sˆõ
+1475 | Oda / Tanegashima all | D“c^íq“‡‘Sˆõ
+1476 | Oda / Tenshikyo all  | D“c^“Vu‹³‘Sˆõ
+1477 | Oda / Mouri all  | D“c^–Ñ—˜‘Sˆõ
+1478 | Oda / Tokugawa all  | D“c^“ÆŠá—¬‘Sˆõ
+1479 | Oda / Tokugawa all  | D“c^“¿ì‘Sˆõ
+1480 | Oda / Takeda all  | D“c^•“c‘Sˆõ
+1481 | Oda / Shimadzu all  | D“c^“‡’Ã‘Sˆõ
+1482 | Oda / Zes all  | D“c^ƒ[ƒX‘Sˆõ
+1483 | Oda / Leasus all  | D“c^ƒŠ[ƒUƒX‘Sˆõ
+1484 | Oda / Yuki  | ”­‹Ö‘ÂR^á
+1485 | Hayakumo / Erotic Education | ‘‰_^ƒGƒ‹³ˆç
+1486 | Kotobura / Servant | Œ¾— ^dŠ¯
+1487 | Kotobura / Best friends 1 | Œ¾— ^’‡—Ç‚µ‚P
+1488 | Kotobura / Buddy 2 | Œ¾— ^’‡—Ç‚µ‚Q
+1489 | Kotobuki-Basic Contact | Œ¾— ^Šî–{ÚG
+1490 | Words / Trust | Œ¾— ^M—Š
+1491 | Kotobukuro / Pre-Gasshuku / General Purpose | Œ¾— ^‡í‘O^”Ä—p
+1492 | Rizuna / Visit | ƒŠƒYƒi^Qã
+1493 | Rizuna / Medicine to suppress lewdness | ƒŠƒYƒi^ˆú—~‚ğ‰Ÿ‚³‚¦‚é–ò
+1494 | Lizuna / Picking up the medicine | ƒŠƒYƒi^–ò‚ğ‚Ï‚­‚é
+1495 | Lizuna / Lack of medicine | ƒŠƒYƒi^–ò‚ª–³‚­‚Ä¢‚é
+1496 | Rizuna / Sex | ƒŠƒYƒi^ƒGƒbƒ`
+1497 | Rizuna / Basic Contact | ƒŠƒYƒi^Šî–{ÚG
+1498 | Lizuna / Basic contact 2 | ƒŠƒYƒi^Šî–{ÚG‚Q
+1499 | Lizuna / sex 2 | ƒŠƒYƒi^ƒGƒbƒ`‚Q
+1500 | Rizuna / Pre-Game / generic | ƒŠƒYƒi^‡í‘O^”Ä—p
+1501 | Gigakure / Appearance / Oda | ‹YŠ[^“oê^D“c
+1502 | Gigakure / Sortie | ‹YŠ[^oŒ‚
+1503 | Gigantor / challenge | ‹YŠ[^’§í
+1504 | Gigatelle / challenge / generic | ‹YŠ[^’§í^”Ä—p
+1505 | Gigantes / vs. general-purpose characters | ‹YŠ[^‚–‚“”Ä—pƒLƒƒƒ‰
+1506 | Caricature / vs. Majin Kentaro | ‹YŠ[^‚–‚“–‚lŒ’‘¾˜Y
+1507 | Caricature / vs Lance / no information | ‹YŠ[^‚–‚“ƒ‰ƒ“ƒX^î•ñ–³‚µ
+1508 | Caricature / vs Lance A | ‹YŠ[^‚–‚“ƒ‰ƒ“ƒX‚`
+1509 | Caricature / vs Lance B | ‹YŠ[^‚–‚“ƒ‰ƒ“ƒX‚a
+1510 | Gigantor / Countermeasure Plan | ‹YŠ[^‘Îôƒvƒ‰ƒ“
+1511 | Gigantes / vs. Hayakumo | ‹YŠ[^‚–‚“‘‰_
+1512 | Playwreckage / vs Lance Get | ‹YŠ[^ƒ‰ƒ“ƒXƒQƒbƒg
+1513 | Prologue A | ƒvƒƒ[ƒO‚`
+1514 | Prologue B | ƒvƒƒ[ƒO‚a
+1515 | Miko / Rumors of miko agency | ›Ş—^›Ş—‹@ŠÖ‚Ì‰\
+1516 | Miko / Visit for the first time | ›Ş—^‰–K–â
+1517 | Miko / Visit second | ›Ş—^–K–â‚Q“x–Ú
+1518 | Miko / visit general | ›Ş—^–K–â”Ä—p
+1519 | Miko / Declaration of war | ›Ş—^éí•z
+1520 | Miko / Fall | ›Ş—^Š×—
+1521 | Miko / Oda's shrine / Shiru | ›Ş—^D“c‚Ì_Ğ^ƒVƒBƒ‹
+1522 | Miko / Story of Orochi | ›Ş—^ƒIƒƒ`‚Ì˜b
+1523 | Miko / Earthquake | ›Ş—^’nk
+1524 | Miko / Two priestesses | ›Ş—^‚Ql‚Ì›Ş—
+1525 | Miko / Last reinforcement | ›Ş—^ÅŒã‚Ì‰‡ŒR
+1526 | Miko / Oda's shrine / generic | ›Ş—^D“c‚Ì_Ğ^”Ä—p
+1527 | Magic / Coming | ƒ}ƒWƒbƒN^Qã
+1528 | Magic / First time warlord | ƒ}ƒWƒbƒN^•«‰
+1529 | Magic / invitation | ƒ}ƒWƒbƒN^—U‚¢
+1530 | Magic / Night Crawl | ƒ}ƒWƒbƒN^–é”‡‚¢
+1531 | Magic / Lance's love | ƒ}ƒWƒbƒN^ƒ‰ƒ“ƒX‚Ìˆ¤
+1532 | Magic / Basic Contact | ƒ}ƒWƒbƒN^Šî–{ÚG
+1533 | Magic / Basic contact 2 | ƒ}ƒWƒbƒN^Šî–{ÚG‚Q
+1534 | Magic / Second erotic | ƒ}ƒWƒbƒN^‚Q“x–Ú‚ÌƒGƒ
+1535 | Magic / Before the battle / General purpose | ƒ}ƒWƒbƒN^‡í‘O^”Ä—p
+1536 | Tokugawa / First time | “¿ì^‰‚ß‚Ä
+1537 | Tokugawa / Everyday life 1 | “¿ì^“úí‚P
+1538 | Tokugawa / Everyday Life 2 | “¿ì^“úí‚Q
+1539 | Tokugawa / Everyday life 3 | “¿ì^“úí‚R
+1540 | Tokugawa / Declaration of war | “¿ì^éí•z
+1541 | Tokugawa / Reinforcement for Imagawa family | “¿ì^¡ì‰Æ‚É‰‡ŒR‚ğ
+1542 | Tokugawa / Ninja army | “¿ì^”EÒŒR’c
+1543 | Tokugawa / Fall A common | “¿ì^Š×—‚`‹¤’Ê
+1544 | Tokugawa / Fall B | “¿ì^Š×—‚a
+1545 | Tokugawa / Anti-Banner / Child Raccoons | “¿ì^”½Šø^q’K
+1546 | Tokugawa / Anti-flag / Human | “¿ì^”½Šø^l
+1547 | Tokugawa / Surrender Accepted | “¿ì^~•šó‚¯“ü‚ê
+1548 | Tokugawa / Controlling1 | “¿ì^x”z‰º‚P
+1549 | Tokugawa / Domination 2 | “¿ì^x”z‰º‚Q
+1550 | Tokugawa / Ruler 3 | “¿ì^x”z‰º‚R
+1551 | Tokugawa / Under control 4 | “¿ì^x”z‰º‚S
+1552 | Tokugawa / Under control 5 | “¿ì^x”z‰º‚T
+1553 | Tokugawa / Declaration of war against Oda / Child raccoon | “¿ì^D“c‚Ééí•z^q’K
+1554 | Tokugawa / Declare war on Oda / Human | “¿ì^D“c‚Ééí•z^l
+1555 | Tokugawa / Deployment | “¿ì^ow
+1556 | Tokugawa / To Date's subordinates | “¿ì^ˆÉ’B”z‰º‚É
+1557 | Tokugawa / Information of Ieyasu | “¿ì^‰ÆN‚Ìî•ñ
+1558 | Tokugawa / Fall A2 | “¿ì^Š×—‚`‚Q
+1559 | Tokugawa / Fall C | “¿ì^Š×—‚b
+1560 | Toshihisa / Normal | ƒgƒVƒqƒT^•’Ê
+1561 | Toshihisa / Trust | ƒgƒVƒqƒT^M—Š
+1562 | Toshihisa / Recruitment success | ƒgƒVƒqƒT^Š©—U¬Œ÷
+1563 | Toshihisa / Basic contact | ƒgƒVƒqƒT^Šî–{ÚG
+1564 | Toshihisa / Basic contact / Komatsu Daidoji | ƒgƒVƒqƒT^Šî–{ÚG^‘å“¹›¬¼
+1565 | Toshihisa / Trust 2 | ƒgƒVƒqƒT^M—Š‚Q
+1566 | Toshihisa / Before Battle / General Purpose | ƒgƒVƒqƒT^‡í‘O^”Ä—p
+1567 | Yukihime / Escape | á•P^’Eo
+1568 | Yukihime / Go to the other National Elder | á•P^‘¼‘‰Æ˜V‚ÌŒ³‚Ö
+1569 | Yukihime / He is embraced by the other elder | á•P^‘¼‘‰Æ˜V‚É•ø‚©‚ê‚é
+1570 | Princess Yuki / Killing the Elder of another state | á•P^‘¼‘‰Æ˜V‚ğE‚·
+1571 | Princess Snow / Afterwards | á•P^‚»‚ÌŒã
+1572 | Princess Snow / Servant | á•P^dŠ¯
+1573 | Princess Snow / First military commander | á•P^•«‰
+1574 | Princess Snow / Ordinary A | á•P^•’Ê‚`
+1575 | Princess Snow / Ordinary B | á•P^•’Ê‚a
+1576 | Princess Yuki / Ordinary C | á•P^•’Ê‚b
+1577 | Princess Snow / Trust | á•P^M—Š
+1578 | Princess Snow / Affection | á•P^ˆ¤î
+1579 | Princess Snow / Basic Contact | á•P^Šî–{ÚG
+1580 | Snow Princess / Basic Contact / Trust | á•P^Šî–{ÚG^M—Š
+1581 | Snow Princess / Basic Contact / Affection | á•P^Šî–{ÚG^ˆ¤î
+1582 | Snow Princess / Before Battle / General Purpose | á•P^‡í‘O^”Ä—p
+1583 | Hojo / Appearance | –kğ^“oê
+1584 | Hojo / Demon extermination | –kğ^‹S‘Ş¡
+1585 | Hojo / Reason not to aim for heaven | –kğ^“V‰º‚ğ–Úw‚³‚È‚¢——R
+1586 | Hojo / Soun and Ran | –kğ^‘‰_‚Æ—–
+1587 | Hojo / Sakumo's fatigue | –kğ^‘‰_‚Ì”æ˜J
+1588 | Ran / Encounter with Shikibu | —–^®•”‚Æ‘˜‹ö
+1589 | Ran / Accidental death | —–^–ŒÌ€
+1590 | Ran / Shujaku's summons | —–^é¢ŠÒ
+1591 | Orchid / Hayakumo examines Suzaku in common | —–^‘‰_‚ªé‚ğ’²‚×‚é‹¤’Ê
+1592 | Orchid / Hayakumo examine Suzaku / resurrected | —–^‘‰_‚ªé‚ğ’²‚×‚é^•œŠˆ‚µ‚½
+1593 | Orchid / Sayun examine Suzaku / not yet resurrected | —–^‘‰_‚ªé‚ğ’²‚×‚é^•œŠˆ‚Ü‚¾
+1594 | Hojo / Declaration of war on Oda | –kğ^D“c‚Ééí•z
+1595 | Hojo / Declaration of war | –kğ^éí•z
+1596 | Ran / After the battle of Suzaku | —–^é‡íŒã
+1597 | Orchid / Stop of Hayakumo | —–^‘‰_‚ÌƒXƒgƒbƒv
+1598 | Hojo / Sorrow of Hayakumo | –kğ^‘‰_‚Ì”ß‚µ‚İ
+1599 | Hojojo / Minamoto outbreak | –kğ^ƒ~ƒiƒ‚ƒg”­¶
+1600 | Hojo / fall / Ran alive and well | –kğ^Š×—^—–Œ’İ
+1601 | Hojo / fall / Soun alive and well | –kğ^Š×—^‘‰_Œ’İ
+1602 | Hojo / Fall | –kğ^Š×—
+1603 | Hojo / Bonus ero | –kğ^ƒ{[ƒiƒXƒGƒ
+1604 | Hojojo / Gourd looting | –kğ^•Z’\—ª’D
+1605 | Hojo / Gourd looting / under Takeda rule | –kğ^•Z’\—ª’D^•“cx”z‰º
+1606 | Hojojo / Peace negotiation A | –kğ^˜a–rŒğÂ‚`
+1607 | Hojo / Peace negotiations B | –kğ^˜a–rŒğÂ‚a
+1608 | Hojo / Peace negotiations C | –kğ^˜a–rŒğÂ‚b
+1609 | Hojo / Extermination of ogres in Owari A | –kğ^”ö’£‚Ì‹S‘Ş¡‚`
+1610 | Hojo / Owari Demon Extermination B | –kğ^”ö’£‚Ì‹S‘Ş¡‚a
+1611 | Hojo / Owari Demon Extermination C | –kğ^”ö’£‚Ì‹S‘Ş¡‚b
+1612 | Hojo / Takeda information | –kğ^•“cî•ñ
+1613 | Uesugi / gourd offering | ã™^•Z’\Œ£ã
+1614 | Ashikaga / gourd offering | ‘«—˜^•Z’\Œ£ã
+1615 | Akashi / gourd offering | –¾Î^•Z’\Œ£ã
+1616 | Ishiya / Miki is missing | Î–ê^”ü÷‚ªŒ©‚Â‚©‚ç‚È‚¢‚Ì‚Å
+1617 | Shimazu / first appearance | “‡’Ã^‰“oê
+1618 | Yoshihisa / Departure | ƒˆƒVƒqƒT^ow
+1619 | Kazuhisa / Departure | ƒJƒYƒqƒT^ow
+1620 | Toshihisa / Departure | ƒgƒVƒqƒT^ow
+1621 | Yehisa / Deployment | ƒCƒGƒqƒT^ow
+1622 | Shimazu / Aiming for heaven | “‡’Ã^“V‰º‚ğ–Úw‚·
+1623 | Shimazu / first time in battle | “‡’Ã^‡í‰‚ß‚Ä
+1624 | Shimazu / Those days 1 | “‡’Ã^‚»‚Ì ‚P
+1625 | Shimazu / Those days 2 | “‡’Ã^‚»‚Ì ‚Q
+1626 | Shimazu / Those days 3 | “‡’Ã^‚»‚Ì ‚R
+1627 | Shimazu / Mouri merger | “‡’Ã^–Ñ—˜‡•¹
+1628 | Shimazu / Takuga merger | “‡’Ã^ƒ^ƒNƒK‡•¹
+1629 | Shimazu / Tanegashima merger | “‡’Ã^íq“‡‡•¹
+1630 | Shimazu / Kahime Kadokawakashi | “‡’Ã^•P‚©‚Ç‚í‚©‚µ
+1631 | Suzume / Attention to Shimazu | —é—^“‡’Ã‚Ö‚Ì’ˆÓ
+1632 | Shimazu / Pulling out | “‡’Ã^ˆø‚«”²‚«
+1633 | Shimazu / 4 siblings surrender | “‡’Ã^‚SŒZ–…‚Ì~Q
+1634 | Shimazu / 4 siblings come | “‡’Ã^‚SŒZ’í—ˆ‚é
+1635 | Shimazu / Fall A | “‡’Ã^Š×—‚`
+1636 | Shimazu / falling B | “‡’Ã^Š×—‚a
+1637 | Shimazu / Fall C | “‡’Ã^Š×—‚b
+1638 | Shimazu / Adjacent to Oda | “‡’Ã^D“c—×Ú
+1639 | Kahime / Death | •P^€–S
+1640 | Nobunaga / Assassination A | M’·^ˆÃE‚`
+1641 | Nobunaga / Assassination B | M’·^ˆÃE‚a
+1642 | Lance battle start | ƒ‰ƒ“ƒX‘ˆ’DíƒXƒ^[ƒg
+1643 | Lance / Seeding erotic | ƒ‰ƒ“ƒX^í•t‚¯ƒGƒ
+1644 | Lance / Seeding erotic generic | ƒ‰ƒ“ƒX^í‚Â‚¯ƒGƒ”Ä—p
+1645 | 56 / general purpose at seeding | ŒÜ\˜Z^í•t‚¯”Ä—p
+1646 | 56 / Basic contact | ŒÜ\˜Z^Šî–{ÚG
+1647 | 56 / Basic Contact / After Erotic | ŒÜ\˜Z^Šî–{ÚG^ƒGƒŒã
+1648 | 56 / Basic Contact / Pregnancy | ŒÜ\˜Z^Šî–{ÚG^”DP
+1649 | 56 / Hoping for seeding | ŒÜ\˜Z^í•t‚¯Šó–]
+1650 | 56 / seeding desire general | ŒÜ\˜Z^í•t‚¯Šó–]”Ä—p
+1651 | 56 / Seeding Settling | ŒÜ\˜Z^í•t‚¯’¾Ã
+1652 | 56 / Inclination Jirashi | ŒÜ\˜Z^ŒX‘‚Ì‚¶‚ç‚µ
+1653 | 56 / inclination jirashi / generic | ŒÜ\˜Z^ŒX‘‚Ì‚¶‚ç‚µ^”Ä—p
+1654 | 56 / Seeding of leaning country | ŒÜ\˜Z^ŒX‘‚Ìí•t‚¯
+1655 | fifty-six / tilt sowing / general purpose | ŒÜ\˜Z^ŒX‘‚Ìí•t‚¯^”Ä—p
+1656 | 56 / Leaning country's bosom pregnancy | ŒÜ\˜Z^ŒX‘‚Ì‰ù”D
+1657 | 56 / Heartbroken inclination inclination | ŒÜ\˜Z^• ƒ{ƒeŒX‘
+1658 | 56 / leaning country pregnant / generic | ŒÜ\˜Z^ŒX‘”DP’†”Ä—p
+1659 | 56 / Majin Nobunaga resurrection information | ŒÜ\˜Z^–‚lM’·•œŠˆî•ñ
+1660 | Leaning Country / Pregnant 1 | ŒX‘^”DP’†‚P
+1661 | Pregnant 2 | ŒX‘^”DP’†‚Q
+1662 | Leaning Country / Pregnant 3 | ŒX‘^”DP’†‚R
+1663 | Leaning Country / Pregnant / Hirami Lemon | ŒX‘^”DP’†^ƒqƒ‰ƒ~ƒŒƒ‚ƒ“
+1664 | Gojuroku / Birth of Nipponmaru | ŒÜ\˜Z^“ú–{ŠÛ’a¶
+1665 | Tilting country / General purpose with child | ŒX‘^q‹Ÿ•t‚«”Ä—p
+1666 | 56 / Oda's powerhouse 1 | ŒÜ\˜Z^D“c‚ÌŒ —ÍÒ‚P
+1667 | 56 / Oda's Powers That Be 2 | ŒÜ\˜Z^D“c‚ÌŒ —ÍÒ‚Q
+1668 | 56 / Powerful men of inclination 3 | ŒÜ\˜Z^ŒX‘‚ÌŒ —ÍÒ‚R
+1669 | 56 / Powerful men of inclination 4 | ŒÜ\˜Z^ŒX‘‚ÌŒ —ÍÒ‚S
+1670 | Gojuroku / The Power Persons of the Tipping Point 5 | ŒÜ\˜Z^ŒX‘‚ÌŒ —ÍÒ‚T
+1671 | Gojuroku / Gojuroku's birthday celebration | ŒÜ\˜Z^ŒÜ\˜Z‚ÌoYj‚¢
+1672 | Isoroku / No Seeds for Porgy | ŒÜ\˜Z^‚Û‚Â‚èí‚È‚µ
+1673 | Gojuroku / Milk of the leaning country | ŒÜ\˜Z^ŒX‘‚Ì‹“û
+1674 | Gojuroku / Exile in a leaning country | ŒÜ\˜Z^ŒX‘’Ç•ú
+1675 | Gojuroku / After the expulsion of leaning country A | ŒÜ\˜Z^ŒX‘’Ç•úŒã‚`
+1676 | Gojuroku / After the expulsion of leaning country B | ŒÜ\˜Z^ŒX‘’Ç•úŒã‚a
+1677 | 56 / After banishment from a leaning country C | ŒÜ\˜Z^ŒX‘’Ç•úŒã‚b
+1678 | 56 / After exile in a leaning country D | ŒÜ\˜Z^ŒX‘’Ç•úŒã‚c
+1679 | 56 / After banishment from the country of inclination E | ŒÜ\˜Z^ŒX‘’Ç•úŒã‚d
+1680 | 56 / Pregnancy erotic | ŒÜ\˜Z^”DPƒGƒ
+1681 | 56 / Pregnancy Erotic General Purpose | ŒÜ\˜Z^”DPƒGƒ”Ä—p
+1682 | Shiru / ear piercing | ƒVƒBƒ‹^¨‚©‚«
+1683 | 56 / Pregnancy | ŒÜ\˜Z^‰ù”D
+1684 | 56 / Pregnancy General | ŒÜ\˜Z^”DP’†”Ä—p
+1685 | 56 / Miki protection | ŒÜ\˜Z^”ü÷•ÛŒì
+1686 | Soul binding / releasing | °”›‚è^‰ğ•ú
+1687 | 56 / Xavier leaving | ŒÜ\˜Z^ƒUƒrƒGƒ‹o‚é
+1688 | 56 / Last Battle A | ŒÜ\˜Z^ƒ‰ƒXƒgƒoƒgƒ‹‚`
+1689 | 56 / Last Battle B | ŒÜ\˜Z^ƒ‰ƒXƒgƒoƒgƒ‹‚a
+1690 | 56 / Last Battle C | ŒÜ\˜Z^ƒ‰ƒXƒgƒoƒgƒ‹‚b
+1691 | 56 / Epilogue | ŒÜ\˜Z^ƒGƒsƒ[ƒO
+1692 | Inukai / Timed Battle A | Œ¢”^ƒ^ƒCƒ}ƒ“Ÿ•‰‚`
+1693 | Inukai / Timed Battle B | Œ¢”^ƒ^ƒCƒ}ƒ“Ÿ•‰‚a
+1694 | Inukai / Warlord's first | Œ¢”^•«‰
+1695 | Inukai / Trust | Œ¢”^M—Š
+1696 | Inukai and Suzume | Œ¢”‚Æ—é—
+1697 | Inukai and Nami | Œ¢”‚Æ‚©‚È‚İ
+1698 | Inukai / Appearance of Spider Danjo | Œ¢”^’wå’e³“oê
+1699 | Inukai / Before the battle / Spider Danjo | Œ¢”^‡í‘O^’wå’e³
+1700 | Inukai / After the battle / Kumodanjo | Œ¢”^‡íŒã^’wå’e³
+1701 | Inukai / Ginmeikyo | Œ¢”^‹â–Ú‹³
+1702 | Inukai / Basic contact | Œ¢”^Šî–{ÚG
+1703 | Inukai / Before battle / General purpose | Œ¢”^‡í‘O^”Ä—p
+1704 | Hibachi / Extra sex by order of Lance | ‰Î”«^ƒ‰ƒ“ƒX‚Ì–½—ß‚ÅƒGƒbƒ`
+1705 | Hibachi / Capture and have sex | ‰Î”«^•ß‚Ü‚¦‚ÄƒGƒbƒ`
+1706 | Hibachi / Capture and sex 2 | ‰Î”«^•ß‚Ü‚¦‚ÄƒGƒbƒ`‚Q
+1707 | Katsuke / Trust | Ÿ‰Æ^M—Š
+1708 | Katsuke / Basic contact | Ÿ‰Æ^Šî–{ÚG
+1709 | Katsuke / Injury healed | Ÿ‰Æ^‰ö‰ä¡‚é
+1710 | Katsuie / Friend 1A | Ÿ‰Æ^—F’B‚P‚`
+1711 | Katsuie / Friend 1B | Ÿ‰Æ^—F’B‚P‚a
+1712 | Katsuke / Friend 1C | Ÿ‰Æ^—F’B‚P‚b
+1713 | Katsuke / Friend 2A | Ÿ‰Æ^—F’B‚Q‚`
+1714 | Katsuie / Friend 2B | Ÿ‰Æ^—F’B‚Q‚a
+1715 | Katsuie / Friend 2C | Ÿ‰Æ^—F’B‚Q‚b
+1716 | Katsuie and Kahime A | Ÿ‰Æ‚Æ•P‚`
+1717 | Katsuie and Kahime B | Ÿ‰Æ‚Æ•P‚a
+1718 | Katsuie and Kahime C | Ÿ‰Æ‚Æ•P‚b
+1719 | Katsuie / Basic contact / Kahime | Ÿ‰Æ^Šî–{ÚG^•P
+1720 | Katsuie / Basic contact / Ranmaru | Ÿ‰Æ^Šî–{ÚG^—ŠÛ
+1721 | Katsuie / Pre-battle / general | Ÿ‰Æ^‡í‘O^”Ä—p
+1722 | Naoe / Capture Kenshin | ’¼]^ŒªM’DŠÒ
+1723 | Naoe / Capture in hiding | ’¼]^ö•š’†‚ğ•ßŠl‚·‚é
+1724 | Naoe / Servant | ’¼]^dŠ¯
+1725 | Naoe / Normal | ’¼]^•’Ê
+1726 | Naoe / Trust | ’¼]^M—Š
+1727 | Naoe / Basic Contact | ’¼]^Šî–{ÚG
+1728 | Naoe / Kenshin Recovery Plan | ’¼]^ŒªM’DŠÒŒv‰æ
+1729 | Naoe / Affection | ’¼]^ˆ¤î
+1730 | Naoe / Basic contact / Affection | ’¼]^Šî–{ÚG^ˆ¤î
+1731 | Naoe / Before the battle / General Purpose | ’¼]^‡í‘O^”Ä—p
+1732 | Sanada / Recruitment success | ^“c^Š©—U¬Œ÷
+1733 | Sanada / Subordinate conversation / First | ^“c^•”‰º‰ï˜b^‰
+1734 | Sanada / Trust | ^“c^M—Š
+1735 | Sanada / Before battle / General | ^“c^‡í‘O^”Ä—p
+1736 | Sanada / Basic contact | ^“c^Šî–{ÚG
+1737 | AA / First time | ‚`‚`^‰‚ß‚Ä
+1738 | AA / Daily life 1 | ‚`‚`^“úí‚P
+1739 | AA / Daily Life 2 | ‚`‚`^“úí‚Q
+1740 | AA / Daily life 3 | ‚`‚`^“úí‚R
+1741 | AA / Declaration of war | ‚`‚`^éí•z
+1742 | AA / Upset of Yoshikage | ‚`‚`^‹`Œi‚Ì“®—h
+1743 | AA / Acceptance of surrender | ‚`‚`^~•šó‚¯“ü‚ê
+1744 | AA / appearance of forbidden Falling Mountain | ‚`‚`^”­‹Ö‘ÂR“oê
+1745 | AA / Panda attack | ‚`‚`^ƒpƒ“ƒ_PŒ‚
+1746 | AA / Panda attack general-purpose | ‚`‚`^ƒpƒ“ƒ_PŒ‚”Ä—p
+1747 | AA / Inhibited Falling Mountain and Princess Yuki | ‚`‚`^”­‹Ö‘ÂR‚Æá•P
+1748 | AA / Wish of Princess Yuki | ‚`‚`^á•P‚ÌŠè‚¢
+1749 | AA / The fall | ‚`‚`^Š×—
+1750 | AA / Declaration of war to Oda | ‚`‚`^D“c‚Öéí•z
+1751 | AA / The Texas Earthquake | ‚`‚`^ƒeƒLƒTƒX‘å’nk
+1752 | AA / Take advantage of the great earthquake | ‚`‚`^‘å’nk‚É•t‚¯‚Ş
+1753 | AA / Negotiation contact A | ‚`‚`^ŒğÂÚG‚`
+1754 | AA / Negotiation contact B | ‚`‚`^ŒğÂÚG‚a
+1755 | AA / Negotiation contact C | ‚`‚`^ŒğÂÚG‚b
+1756 | Shigehiko / Successful Solicitation | d•F^Š©—U¬Œ÷
+1757 | Shigehiko / Subordinate conversation / Normal | d•F^•”‰º‰ï˜b^•’Ê‚É
+1758 | Shigehiko / Subordinate Conversation / Trust | d•F^•”‰º‰ï˜b^M—Š‚É
+1759 | Shigehiko / Construction of gunsmithing shop 1 | d•F^“S–C’b–èê‚ÌŒšİ‚P
+1760 | Shigehiko / Construction of gunsmithing shop 2 | d•F^“S–C’b–èê‚ÌŒšİ‚Q
+1761 | Shigehiko / Please introduce Maria | d•F^ƒ}ƒŠƒA‚ğĞ‰î‚µ‚Ä‚Ù‚µ‚¢
+1762 | Shigehiko / Before the battle / General purpose | d•F^‡í‘O^”Ä—p
+1763 | Shigehiko / Basic contact | d•F^Šî–{ÚG
